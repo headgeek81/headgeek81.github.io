@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T18:57:03Z",
+ "generated_at": "2026-10-14T19:04:48Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 25,
+  "waiting": 20,
   "next": [
-   "WHAT ARE THOSE",
-   "It's eating my face!!",
-   "Ew Gross",
-   "Not the bootyhole lady \ud83d\ude2b",
-   "Phasmophobia With some friends Join and  Chat"
+   "Phasmophobia With some friends Join and  Chat",
+   "Why you naked?",
+   "Get outta my bedroom!",
+   "Sunglasses at Night",
+   "He was just sitting there in the dark?!"
   ]
  },
  "clips": [
@@ -29,7 +29,7 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": "5",
+     "views": "3",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -94,7 +94,7 @@
      "id": "18102328904027705",
      "url": "https://www.instagram.com/reel/Dee5ES0F_99/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -167,7 +167,7 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "26",
+     "views": "28",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -491,6 +491,211 @@
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
    },
    "tiktok": {}
+  },
+  {
+   "id": "DreamyDeadReubenPanicVis-WXrH_CLnh3H-QiTy",
+   "title": "WHAT ARE THOSE",
+   "game": "SILENT HILL \u0192",
+   "at": "2026-10-15T16:00:00Z",
+   "slot": "2026-10-15T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "13uV13xqxRc",
+     "url": "https://youtu.be/13uV13xqxRc",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1421229316105809",
+     "url": "https://facebook.com/reel/1421229316105809/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "WHAT ARE THOSE | SILENT HILL \u0192 #Shorts",
+    "fb": "WHAT ARE THOSE (SILENT HILL \u0192)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "WHAT ARE THOSE (SILENT HILL \u0192)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "WHAT ARE THOSE (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/DreamyDeadReubenPanicVis-WXrH_CLnh3H-QiTy.mp4"
+   }
+  },
+  {
+   "id": "LaconicThankfulHerdANELE-h53OU-GhWTk9VVgi",
+   "title": "Ew Gross",
+   "game": "Still Wakes the Deep",
+   "at": "2026-10-16T16:00:00Z",
+   "slot": "2026-10-16T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "Ikr7gBkadc0",
+     "url": "https://youtu.be/Ikr7gBkadc0",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1806963300639765",
+     "url": "https://facebook.com/reel/1806963300639765/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Ew Gross | Still Wakes the Deep #Shorts",
+    "fb": "Ew Gross (Still Wakes the Deep)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Ew Gross (Still Wakes the Deep)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Ew Gross (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/LaconicThankfulHerdANELE-h53OU-GhWTk9VVgi.mp4"
+   }
+  },
+  {
+   "id": "IcyLazyBubbleteaDAESuppy-_YDyJgpZSX9MkwdC",
+   "title": "It's eating my face!!",
+   "game": "SILENT HILL \u0192",
+   "at": "2026-10-17T16:00:00Z",
+   "slot": "2026-10-17T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "3-S984I4Q_M",
+     "url": "https://youtu.be/3-S984I4Q_M",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1574188551186663",
+     "url": "https://facebook.com/reel/1574188551186663/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "It's eating my face!! | SILENT HILL \u0192 #Shorts",
+    "fb": "It's eating my face!! (SILENT HILL \u0192)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "It's eating my face!! (SILENT HILL \u0192)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "It's eating my face!! (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/IcyLazyBubbleteaDAESuppy-_YDyJgpZSX9MkwdC.mp4"
+   }
+  },
+  {
+   "id": "KnottyExuberantPelicanBCWarrior-NZlh7G1Tf_6k2bgd",
+   "title": "Not the bootyhole lady \ud83d\ude2b",
+   "game": "SILENT HILL \u0192",
+   "at": "2026-10-18T16:00:00Z",
+   "slot": "2026-10-18T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "mapxnsE91gY",
+     "url": "https://youtu.be/mapxnsE91gY",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1546650550560332",
+     "url": "https://facebook.com/reel/1546650550560332/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Not the bootyhole lady \ud83d\ude2b | SILENT HILL \u0192 #Shorts",
+    "fb": "Not the bootyhole lady \ud83d\ude2b (SILENT HILL \u0192)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Not the bootyhole lady \ud83d\ude2b (SILENT HILL \u0192)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Not the bootyhole lady \ud83d\ude2b (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/KnottyExuberantPelicanBCWarrior-NZlh7G1Tf_6k2bgd.mp4"
+   }
+  },
+  {
+   "id": "ClumsyCrackyKiwiArsonNoSexy-WfgynYP32qO0YMaR",
+   "title": "I DIE",
+   "game": "Phasmophobia",
+   "at": "2026-10-19T16:00:00Z",
+   "slot": "2026-10-19T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "3ZOPGBMa5yA",
+     "url": "https://youtu.be/3ZOPGBMa5yA",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "2362007354609395",
+     "url": "https://facebook.com/reel/2362007354609395/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "I DIE | Phasmophobia #Shorts",
+    "fb": "I DIE (Phasmophobia)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Phasmophobia #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "I DIE (Phasmophobia)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Phasmophobia #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "I DIE (Phasmophobia)\n#Phasmophobia #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Phasmophobia #HorrorGaming #HorrorGames"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/ClumsyCrackyKiwiArsonNoSexy-WfgynYP32qO0YMaR.mp4"
+   }
   }
  ],
  "runs": [
@@ -614,6 +819,73 @@
      "platform": "download",
      "title": "Really",
      "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    }
+   ]
+  },
+  {
+   "at": "2026-10-14T19:04:41Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38619904568",
+   "events": [
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "WHAT ARE THOSE",
+     "detail": "for Oct 15, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "WHAT ARE THOSE",
+     "detail": "for Oct 15, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Ew Gross",
+     "detail": "for Oct 16, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Ew Gross",
+     "detail": "for Oct 16, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "It's eating my face!!",
+     "detail": "for Oct 17, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "It's eating my face!!",
+     "detail": "for Oct 17, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Not the bootyhole lady \ud83d\ude2b",
+     "detail": "for Oct 18, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Not the bootyhole lady \ud83d\ude2b",
+     "detail": "for Oct 18, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "I DIE",
+     "detail": "for Oct 19, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "I DIE",
+     "detail": "for Oct 19, 12:00 PM ET"
     }
    ]
   }
