@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T16:43:00Z",
+ "generated_at": "2026-10-14T17:14:33Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 32,
+  "waiting": 30,
   "next": [
-   "Gimme the key",
-   "Might need new underwear now",
    "Hello??",
    "BY THE POWER OF GRAYSKULL",
-   "HOW RUDE"
+   "HOW RUDE",
+   "He's just standing there, menacingly!",
+   "Really"
   ]
  },
  "clips": [
@@ -90,16 +90,21 @@
      "privacy": ""
     },
     "instagram": {
-     "status": "failed",
-     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+     "status": "posted",
+     "id": "18102328904027705",
+     "url": "https://www.instagram.com/reel/Dee5ES0F_99/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
-    "yt_title": "",
-    "fb": "",
-    "ig": "",
-    "tt": "",
-    "tt_comment": ""
+    "yt_title": "THE BEACONS HAVE BEEN LIT | Still Wakes the Deep #Shorts",
+    "fb": "THE BEACONS HAVE BEEN LIT (Still Wakes the Deep)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "THE BEACONS HAVE BEEN LIT (Still Wakes the Deep)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "THE BEACONS HAVE BEEN LIT (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
    },
    "tiktok": {
     "video_url": ""
@@ -116,7 +121,7 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "929",
+     "views": "925",
      "likes": "9",
      "comments": "1",
      "privacy": "public"
@@ -131,16 +136,21 @@
      "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18436150477194573",
+     "url": "https://www.instagram.com/reel/Dee4xhbnSOL/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
-    "yt_title": "",
-    "fb": "",
-    "ig": "",
-    "tt": "",
-    "tt_comment": ""
+    "yt_title": "Watch Yo Profanity | Marvel Rivals #Shorts",
+    "fb": "Watch Yo Profanity (Marvel Rivals)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#MarvelRivals #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Watch Yo Profanity (Marvel Rivals)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#MarvelRivals #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Watch Yo Profanity (Marvel Rivals)\n#MarvelRivals #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #MarvelRivals #GamingCommunity #GameplayClips"
    },
    "tiktok": {
     "video_url": ""
@@ -157,7 +167,7 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "10",
+     "views": "15",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -166,22 +176,27 @@
      "status": "posted",
      "id": "1679355667135012",
      "url": "https://facebook.com/reel/1679355667135012/",
-     "views": 1,
+     "views": 2,
      "likes": 0,
      "comments": 0,
      "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18145662406589880",
+     "url": "https://www.instagram.com/reel/Dee47-8Dx9j/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
-    "yt_title": "",
-    "fb": "",
-    "ig": "",
-    "tt": "",
-    "tt_comment": ""
+    "yt_title": "Spawn campers! | Marvel Rivals #Shorts",
+    "fb": "Spawn campers! (Marvel Rivals)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#MarvelRivals #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Spawn campers! (Marvel Rivals)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#MarvelRivals #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Spawn campers! (Marvel Rivals)\n#MarvelRivals #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #MarvelRivals #GamingCommunity #GameplayClips"
    },
    "tiktok": {
     "video_url": ""
@@ -309,14 +324,146 @@
    "tiktok": {
     "video_url": ""
    }
+  },
+  {
+   "id": "ViscousAwkwardCroquetteYee-gDc2l9ZTIBsF5Kpi",
+   "title": "Gimme the key",
+   "game": "Still Wakes the Deep",
+   "at": "2026-10-18T16:00:00Z",
+   "slot": "2026-10-18T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "1-UlWyE8V7I",
+     "url": "https://youtu.be/1-UlWyE8V7I",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "39203024116009174",
+     "url": "https://facebook.com/reel/39203024116009174/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Gimme the key | Still Wakes the Deep #Shorts",
+    "fb": "Gimme the key (Still Wakes the Deep)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Gimme the key (Still Wakes the Deep)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Gimme the key (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/ViscousAwkwardCroquetteYee-gDc2l9ZTIBsF5Kpi.mp4"
+   }
+  },
+  {
+   "id": "PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2",
+   "title": "Might need new underwear now",
+   "game": "SILENT HILL \u0192",
+   "at": "2026-10-19T16:00:00Z",
+   "slot": "2026-10-19T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "Bnc1wwPwvT8",
+     "url": "https://youtu.be/Bnc1wwPwvT8",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "2051709545455449",
+     "url": "https://facebook.com/reel/2051709545455449/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Might need new underwear now | SILENT HILL \u0192 #Shorts",
+    "fb": "Might need new underwear now (SILENT HILL \u0192)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Might need new underwear now (SILENT HILL \u0192)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Might need new underwear now (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2.mp4"
+   }
   }
  ],
- "runs": [],
+ "runs": [
+  {
+   "at": "2026-10-14T17:14:24Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38604070413",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Watch Yo Profanity",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Spawn campers!",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram",
+     "title": "THE BEACONS HAVE BEEN LIT",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Gimme the key",
+     "detail": "for Oct 18, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Gimme the key",
+     "detail": "for Oct 18, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Might need new underwear now",
+     "detail": "for Oct 19, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Might need new underwear now",
+     "detail": "for Oct 19, 12:00 PM ET"
+    }
+   ]
+  }
+ ],
  "history": [
   {
    "date": "2026-10-14",
-   "youtube": 941,
-   "facebook": 18,
+   "youtube": 942,
+   "facebook": 19,
    "instagram": null
   }
  ]
