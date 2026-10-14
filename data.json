@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T16:35:06Z",
+ "generated_at": "2026-10-14T16:43:00Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -29,7 +29,7 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": "2",
+     "views": "1",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -116,7 +116,7 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "901",
+     "views": "929",
      "likes": "9",
      "comments": "1",
      "privacy": "public"
@@ -157,7 +157,7 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "8",
+     "views": "10",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -315,7 +315,7 @@
  "history": [
   {
    "date": "2026-10-14",
-   "youtube": 912,
+   "youtube": 941,
    "facebook": 18,
    "instagram": null
   }
