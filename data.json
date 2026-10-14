@@ -1,0 +1,323 @@
+{
+ "generated_at": "2026-10-14T16:35:06Z",
+ "sample": false,
+ "settings": {
+  "post_hour_et": 12,
+  "schedule_days": 5,
+  "caption_style": "plain",
+  "vertical_mode": "stack"
+ },
+ "queue": {
+  "waiting": 32,
+  "next": [
+   "Gimme the key",
+   "Might need new underwear now",
+   "Hello??",
+   "BY THE POWER OF GRAYSKULL",
+   "HOW RUDE"
+  ]
+ },
+ "clips": [
+  {
+   "id": "PlacidTardyManateeSmoocherZ-Yrtwpl4vV8LXnqfZ",
+   "title": "Kick My Ass",
+   "game": "",
+   "at": "",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "posted",
+     "id": "evVTu6q9PkI",
+     "url": "https://youtu.be/evVTu6q9PkI",
+     "views": "2",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
+    },
+    "facebook": {
+     "status": "posted",
+     "id": "2011657112873766",
+     "url": "https://www.facebook.com/watch/?v=2011657112873766",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "posted",
+     "id": "18147008587491861",
+     "url": "https://www.instagram.com/reel/DeaFr4oDcOk/",
+     "views": "n/a",
+     "likes": 1,
+     "comments": 0,
+     "privacy": ""
+    }
+   },
+   "captions": {
+    "yt_title": "",
+    "fb": "",
+    "ig": "",
+    "tt": "",
+    "tt_comment": ""
+   },
+   "tiktok": {
+    "video_url": ""
+   }
+  },
+  {
+   "id": "OddBlitheButterSaltBae-6HVof_6KVWSWkDx7",
+   "title": "THE BEACONS HAVE BEEN LIT",
+   "game": "Still Wakes the Deep",
+   "at": "2026-10-13T13:30:48Z",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "posted",
+     "id": "Cy7Ci0gtsf8",
+     "url": "https://youtu.be/Cy7Ci0gtsf8",
+     "views": "1",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
+    },
+    "facebook": {
+     "status": "posted",
+     "id": "1086610550928072",
+     "url": "https://facebook.com/reel/1086610550928072/",
+     "views": 13,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "failed",
+     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+    }
+   },
+   "captions": {
+    "yt_title": "",
+    "fb": "",
+    "ig": "",
+    "tt": "",
+    "tt_comment": ""
+   },
+   "tiktok": {
+    "video_url": ""
+   }
+  },
+  {
+   "id": "RichFantasticStarDoubleRainbow-PhskSrchwGMWFXLS",
+   "title": "Watch Yo Profanity",
+   "game": "Marvel Rivals",
+   "at": "2026-10-13T16:00:00Z",
+   "slot": "2026-10-13T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "posted",
+     "id": "__L47-MwAUY",
+     "url": "https://youtu.be/__L47-MwAUY",
+     "views": "901",
+     "likes": "9",
+     "comments": "1",
+     "privacy": "public"
+    },
+    "facebook": {
+     "status": "posted",
+     "id": "2144449476152562",
+     "url": "https://facebook.com/reel/2144449476152562/",
+     "views": 4,
+     "likes": 1,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "",
+    "fb": "",
+    "ig": "",
+    "tt": "",
+    "tt_comment": ""
+   },
+   "tiktok": {
+    "video_url": ""
+   }
+  },
+  {
+   "id": "SarcasticThoughtfulMoonEagleEye-iPn9iuOO0MzxJaN3",
+   "title": "Spawn campers!",
+   "game": "Marvel Rivals",
+   "at": "2026-10-14T16:00:00Z",
+   "slot": "2026-10-14T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "posted",
+     "id": "ozZp7H1ly_w",
+     "url": "https://youtu.be/ozZp7H1ly_w",
+     "views": "8",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
+    },
+    "facebook": {
+     "status": "posted",
+     "id": "1679355667135012",
+     "url": "https://facebook.com/reel/1679355667135012/",
+     "views": 1,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "",
+    "fb": "",
+    "ig": "",
+    "tt": "",
+    "tt_comment": ""
+   },
+   "tiktok": {
+    "video_url": ""
+   }
+  },
+  {
+   "id": "AnnoyingBlitheSkunkRiPepperonis-FLYmOpQlbgwrlPPg",
+   "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+   "game": "Fatal Frame: Maiden of Black Water",
+   "at": "2026-10-15T16:00:00Z",
+   "slot": "2026-10-15T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "aIMbmRxdHqI",
+     "url": "https://youtu.be/aIMbmRxdHqI",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1644519590540915",
+     "url": "https://facebook.com/reel/1644519590540915/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "",
+    "fb": "",
+    "ig": "",
+    "tt": "",
+    "tt_comment": ""
+   },
+   "tiktok": {
+    "video_url": ""
+   }
+  },
+  {
+   "id": "BlatantShyButterPastaThat-x9RdnX2d2c_8S5sv",
+   "title": "WTF",
+   "game": "FINIS ACTUS",
+   "at": "2026-10-16T16:00:00Z",
+   "slot": "2026-10-16T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "joqelNfiomM",
+     "url": "https://youtu.be/joqelNfiomM",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1843912033551340",
+     "url": "https://facebook.com/reel/1843912033551340/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "",
+    "fb": "",
+    "ig": "",
+    "tt": "",
+    "tt_comment": ""
+   },
+   "tiktok": {
+    "video_url": ""
+   }
+  },
+  {
+   "id": "StrangeGlamorousMushroomVoteYea-iTeKxIFOKszUixhQ",
+   "title": "My boss is a monster (literally)",
+   "game": "Still Wakes the Deep",
+   "at": "2026-10-17T16:00:00Z",
+   "slot": "2026-10-17T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "VdZOJNl5ADA",
+     "url": "https://youtu.be/VdZOJNl5ADA",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "2146871522854924",
+     "url": "https://facebook.com/reel/2146871522854924/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "",
+    "fb": "",
+    "ig": "",
+    "tt": "",
+    "tt_comment": ""
+   },
+   "tiktok": {
+    "video_url": ""
+   }
+  }
+ ],
+ "runs": [],
+ "history": [
+  {
+   "date": "2026-10-14",
+   "youtube": 912,
+   "facebook": 18,
+   "instagram": null
+  }
+ ]
+}
