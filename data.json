@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T18:18:30Z",
+ "generated_at": "2026-10-14T18:45:56Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 30,
+  "waiting": 25,
   "next": [
-   "Hello??",
-   "BY THE POWER OF GRAYSKULL",
-   "HOW RUDE",
-   "He's just standing there, menacingly!",
-   "Really"
+   "WHAT ARE THOSE",
+   "It's eating my face!!",
+   "Ew Gross",
+   "Not the bootyhole lady \ud83d\ude2b",
+   "I DIE"
   ]
  },
  "clips": [
@@ -29,7 +29,7 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": "3",
+     "views": "1",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -121,7 +121,7 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "929",
+     "views": "1013",
      "likes": "9",
      "comments": "1",
      "privacy": "public"
@@ -176,7 +176,7 @@
      "status": "posted",
      "id": "1679355667135012",
      "url": "https://facebook.com/reel/1679355667135012/",
-     "views": 3,
+     "views": 6,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -346,6 +346,151 @@
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
    },
    "tiktok": {}
+  },
+  {
+   "id": "DifficultGentleCheeseHumbleLife-1hpHN5mADbtuodOF",
+   "title": "Hello??",
+   "game": "Delirium",
+   "at": "",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "facebook": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Hello?? | Delirium #Shorts",
+    "fb": "Hello?? (Delirium)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Delirium #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Hello?? (Delirium)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Delirium #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Hello?? (Delirium)\n#Delirium #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Delirium #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {}
+  },
+  {
+   "id": "ObliqueUninterestedBananaSMOrc-LhcYIl5orH8nBS-0",
+   "title": "BY THE POWER OF GRAYSKULL",
+   "game": "SILENT HILL \u0192",
+   "at": "",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "facebook": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "BY THE POWER OF GRAYSKULL | SILENT HILL \u0192 #Shorts",
+    "fb": "BY THE POWER OF GRAYSKULL (SILENT HILL \u0192)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "BY THE POWER OF GRAYSKULL (SILENT HILL \u0192)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "BY THE POWER OF GRAYSKULL (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
+   },
+   "tiktok": {}
+  },
+  {
+   "id": "WonderfulEnjoyableWeb4Head-3SAolewKfnzkIoDC",
+   "title": "HOW RUDE",
+   "game": "Still Wakes the Deep",
+   "at": "",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "facebook": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "HOW RUDE | Still Wakes the Deep #Shorts",
+    "fb": "HOW RUDE (Still Wakes the Deep)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "HOW RUDE (Still Wakes the Deep)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "HOW RUDE (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {}
+  },
+  {
+   "id": "CourageousEnergeticHareCclamChamp-YWkn7s7CV5LUV7No",
+   "title": "He's just standing there, menacingly!",
+   "game": "Night Clerk",
+   "at": "",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "facebook": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "He's just standing there, menacingly! | Night Clerk #Shorts",
+    "fb": "He's just standing there, menacingly! (Night Clerk)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#NightClerk #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "He's just standing there, menacingly! (Night Clerk)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#NightClerk #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "He's just standing there, menacingly! (Night Clerk)\n#NightClerk #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #NightClerk #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {}
+  },
+  {
+   "id": "TawdrySpotlessBeanMingLee-7LIibtqc7z8kwhkX",
+   "title": "Really",
+   "game": "SILENT HILL \u0192",
+   "at": "",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "facebook": {
+     "status": "failed",
+     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Really | SILENT HILL \u0192 #Shorts",
+    "fb": "Really (SILENT HILL \u0192)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Really (SILENT HILL \u0192)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Really (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
+   },
+   "tiktok": {}
   }
  ],
  "runs": [
@@ -434,13 +579,50 @@
      "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     }
    ]
+  },
+  {
+   "at": "2026-10-14T18:35:13Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38615479704",
+   "events": [
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Hello??",
+     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "BY THE POWER OF GRAYSKULL",
+     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "HOW RUDE",
+     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "He's just standing there, menacingly!",
+     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Really",
+     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+    }
+   ]
   }
  ],
  "history": [
   {
    "date": "2026-10-14",
-   "youtube": 961,
-   "facebook": 20,
+   "youtube": 1043,
+   "facebook": 23,
    "instagram": null
   }
  ]
