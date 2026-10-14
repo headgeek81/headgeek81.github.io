@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:14:33Z",
+ "generated_at": "2026-10-14T18:18:30Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -20,7 +20,7 @@
  "clips": [
   {
    "id": "PlacidTardyManateeSmoocherZ-Yrtwpl4vV8LXnqfZ",
-   "title": "Kick My Ass",
+   "title": "Kick My A**",
    "game": "",
    "at": "",
    "slot": "",
@@ -29,7 +29,7 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": "1",
+     "views": "3",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -94,7 +94,7 @@
      "id": "18102328904027705",
      "url": "https://www.instagram.com/reel/Dee5ES0F_99/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -121,7 +121,7 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "925",
+     "views": "929",
      "likes": "9",
      "comments": "1",
      "privacy": "public"
@@ -140,7 +140,7 @@
      "id": "18436150477194573",
      "url": "https://www.instagram.com/reel/Dee4xhbnSOL/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -167,7 +167,7 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "15",
+     "views": "28",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -176,7 +176,7 @@
      "status": "posted",
      "id": "1679355667135012",
      "url": "https://facebook.com/reel/1679355667135012/",
-     "views": 2,
+     "views": 3,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -186,7 +186,7 @@
      "id": "18145662406589880",
      "url": "https://www.instagram.com/reel/Dee47-8Dx9j/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -206,26 +206,16 @@
    "id": "AnnoyingBlitheSkunkRiPepperonis-FLYmOpQlbgwrlPPg",
    "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
    "game": "Fatal Frame: Maiden of Black Water",
-   "at": "2026-10-15T16:00:00Z",
-   "slot": "2026-10-15T16:00:00Z",
+   "at": "",
+   "slot": "",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
-     "id": "aIMbmRxdHqI",
-     "url": "https://youtu.be/aIMbmRxdHqI",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "facebook": {
-     "status": "scheduled",
-     "id": "1644519590540915",
-     "url": "https://facebook.com/reel/1644519590540915/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": ""
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "instagram": {
      "status": "waiting",
@@ -233,40 +223,28 @@
     }
    },
    "captions": {
-    "yt_title": "",
-    "fb": "",
-    "ig": "",
-    "tt": "",
-    "tt_comment": ""
+    "yt_title": "Drawing near the end HOPEFULLY come watch me freak out!!! | Fatal Frame: Maiden of Black W #Shorts",
+    "fb": "Drawing near the end HOPEFULLY come watch me freak out!!! (Fatal Frame: Maiden of Black Water)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#FatalFrameMaidenofBlackWater #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Drawing near the end HOPEFULLY come watch me freak out!!! (Fatal Frame: Maiden of Black Water)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#FatalFrameMaidenofBlackWater #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Drawing near the end HOPEFULLY come watch me freak out!!! (Fatal Frame: Maiden of Black Water)\n#FatalFrameMaidenofBlackWater #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #FatalFrameMaidenofBlackWater #HorrorGaming #HorrorGames"
    },
-   "tiktok": {
-    "video_url": ""
-   }
+   "tiktok": {}
   },
   {
    "id": "BlatantShyButterPastaThat-x9RdnX2d2c_8S5sv",
    "title": "WTF",
    "game": "FINIS ACTUS",
-   "at": "2026-10-16T16:00:00Z",
-   "slot": "2026-10-16T16:00:00Z",
+   "at": "",
+   "slot": "",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
-     "id": "joqelNfiomM",
-     "url": "https://youtu.be/joqelNfiomM",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "facebook": {
-     "status": "scheduled",
-     "id": "1843912033551340",
-     "url": "https://facebook.com/reel/1843912033551340/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": ""
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "instagram": {
      "status": "waiting",
@@ -274,40 +252,28 @@
     }
    },
    "captions": {
-    "yt_title": "",
-    "fb": "",
-    "ig": "",
-    "tt": "",
-    "tt_comment": ""
+    "yt_title": "WTF | FINIS ACTUS #Shorts",
+    "fb": "WTF (FINIS ACTUS)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#FINISACTUS #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "WTF (FINIS ACTUS)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#FINISACTUS #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "WTF (FINIS ACTUS)\n#FINISACTUS #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #FINISACTUS #GamingCommunity #GameplayClips"
    },
-   "tiktok": {
-    "video_url": ""
-   }
+   "tiktok": {}
   },
   {
    "id": "StrangeGlamorousMushroomVoteYea-iTeKxIFOKszUixhQ",
    "title": "My boss is a monster (literally)",
    "game": "Still Wakes the Deep",
-   "at": "2026-10-17T16:00:00Z",
-   "slot": "2026-10-17T16:00:00Z",
+   "at": "",
+   "slot": "",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
-     "id": "VdZOJNl5ADA",
-     "url": "https://youtu.be/VdZOJNl5ADA",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "facebook": {
-     "status": "scheduled",
-     "id": "2146871522854924",
-     "url": "https://facebook.com/reel/2146871522854924/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": ""
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "instagram": {
      "status": "waiting",
@@ -315,40 +281,28 @@
     }
    },
    "captions": {
-    "yt_title": "",
-    "fb": "",
-    "ig": "",
-    "tt": "",
-    "tt_comment": ""
+    "yt_title": "My boss is a monster (literally) | Still Wakes the Deep #Shorts",
+    "fb": "My boss is a monster (literally) (Still Wakes the Deep)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "My boss is a monster (literally) (Still Wakes the Deep)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "My boss is a monster (literally) (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
    },
-   "tiktok": {
-    "video_url": ""
-   }
+   "tiktok": {}
   },
   {
    "id": "ViscousAwkwardCroquetteYee-gDc2l9ZTIBsF5Kpi",
    "title": "Gimme the key",
    "game": "Still Wakes the Deep",
-   "at": "2026-10-18T16:00:00Z",
-   "slot": "2026-10-18T16:00:00Z",
+   "at": "",
+   "slot": "",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
-     "id": "1-UlWyE8V7I",
-     "url": "https://youtu.be/1-UlWyE8V7I",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "facebook": {
-     "status": "scheduled",
-     "id": "39203024116009174",
-     "url": "https://facebook.com/reel/39203024116009174/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": ""
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "instagram": {
      "status": "waiting",
@@ -362,34 +316,22 @@
     "tt": "Gimme the key (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
    },
-   "tiktok": {
-    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/ViscousAwkwardCroquetteYee-gDc2l9ZTIBsF5Kpi.mp4"
-   }
+   "tiktok": {}
   },
   {
    "id": "PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2",
    "title": "Might need new underwear now",
    "game": "SILENT HILL \u0192",
-   "at": "2026-10-19T16:00:00Z",
-   "slot": "2026-10-19T16:00:00Z",
+   "at": "",
+   "slot": "",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
-     "id": "Bnc1wwPwvT8",
-     "url": "https://youtu.be/Bnc1wwPwvT8",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "facebook": {
-     "status": "scheduled",
-     "id": "2051709545455449",
-     "url": "https://facebook.com/reel/2051709545455449/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": ""
+     "status": "failed",
+     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
     },
     "instagram": {
      "status": "waiting",
@@ -403,9 +345,7 @@
     "tt": "Might need new underwear now (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
    },
-   "tiktok": {
-    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2.mp4"
-   }
+   "tiktok": {}
   }
  ],
  "runs": [
@@ -457,13 +397,50 @@
      "detail": "for Oct 19, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-14T18:18:22Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38613852965",
+   "events": [
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "WTF",
+     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "My boss is a monster (literally)",
+     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Gimme the key",
+     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Might need new underwear now",
+     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+    }
+   ]
   }
  ],
  "history": [
   {
    "date": "2026-10-14",
-   "youtube": 942,
-   "facebook": 19,
+   "youtube": 961,
+   "facebook": 20,
    "instagram": null
   }
  ]
