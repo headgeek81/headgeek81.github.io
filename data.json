@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:53:35Z",
+ "generated_at": "2026-10-15T19:30:25Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -167,7 +167,7 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "155",
+     "views": "167",
      "likes": "3",
      "comments": "0",
      "privacy": "public"
@@ -211,11 +211,11 @@
    "platforms": {
     "youtube": {
      "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "error": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
     },
     "facebook": {
      "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "error": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
     },
     "instagram": {
      "status": "waiting",
@@ -512,14 +512,19 @@
      "status": "posted",
      "id": "1421229316105809",
      "url": "https://facebook.com/reel/1421229316105809/",
-     "views": 6,
+     "views": 12,
      "likes": 0,
      "comments": 0,
      "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18039521738837279",
+     "url": "https://www.instagram.com/reel/DehtMxYFxKJ/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -888,6 +893,37 @@
      "detail": "for Oct 19, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-15T19:30:19Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38793643224",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "WHAT ARE THOSE",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "WHAT ARE THOSE",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "WHAT ARE THOSE",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+    }
+   ]
   }
  ],
  "history": [
@@ -899,8 +935,8 @@
   },
   {
    "date": "2026-10-15",
-   "youtube": 1340,
-   "facebook": 46,
+   "youtube": 1352,
+   "facebook": 52,
    "instagram": null
   }
  ]
