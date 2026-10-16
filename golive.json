@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T21:17:26Z",
+ "generated_at": "2026-10-16T23:44:26Z",
  "checks": [
   {
    "at": "2026-10-16T20:48:46Z",
@@ -16,6 +16,10 @@
    "game": "Dagon",
    "facebook": "posted",
    "instagram": "posted"
+  },
+  {
+   "at": "2026-10-16T23:44:26Z",
+   "live": false
   }
  ]
 }
