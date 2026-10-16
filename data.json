@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T19:30:25Z",
+ "generated_at": "2026-10-16T16:59:02Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -48,7 +48,7 @@
      "id": "18147008587491861",
      "url": "https://www.instagram.com/reel/DeaFr4oDcOk/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -94,7 +94,7 @@
      "id": "18102328904027705",
      "url": "https://www.instagram.com/reel/Dee5ES0F_99/",
      "views": "n/a",
-     "likes": 8,
+     "likes": 9,
      "comments": 0,
      "privacy": ""
     }
@@ -121,7 +121,7 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "1177",
+     "views": "1180",
      "likes": "10",
      "comments": "1",
      "privacy": "public"
@@ -140,7 +140,7 @@
      "id": "18436150477194573",
      "url": "https://www.instagram.com/reel/Dee4xhbnSOL/",
      "views": "n/a",
-     "likes": 2,
+     "likes": 3,
      "comments": 3,
      "privacy": ""
     }
@@ -167,8 +167,8 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "167",
-     "likes": "3",
+     "views": "231",
+     "likes": "4",
      "comments": "0",
      "privacy": "public"
     },
@@ -186,7 +186,7 @@
      "id": "18145662406589880",
      "url": "https://www.instagram.com/reel/Dee47-8Dx9j/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -235,16 +235,26 @@
    "id": "BlatantShyButterPastaThat-x9RdnX2d2c_8S5sv",
    "title": "WTF",
    "game": "FINIS ACTUS",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-21T16:00:00Z",
+   "slot": "2026-10-21T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "rGwJHTTvRGE",
+     "url": "https://youtu.be/rGwJHTTvRGE",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "3097102160681469",
+     "url": "https://facebook.com/reel/3097102160681469/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -258,7 +268,9 @@
     "tt": "WTF (FINIS ACTUS)\n#FINISACTUS #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #FINISACTUS #GamingCommunity #GameplayClips"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/BlatantShyButterPastaThat-x9RdnX2d2c_8S5sv.mp4"
+   }
   },
   {
    "id": "StrangeGlamorousMushroomVoteYea-iTeKxIFOKszUixhQ",
@@ -503,7 +515,7 @@
      "status": "posted",
      "id": "13uV13xqxRc",
      "url": "https://youtu.be/13uV13xqxRc",
-     "views": "0",
+     "views": "2",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -512,7 +524,7 @@
      "status": "posted",
      "id": "1421229316105809",
      "url": "https://facebook.com/reel/1421229316105809/",
-     "views": 12,
+     "views": 22,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -520,10 +532,10 @@
     "instagram": {
      "status": "posted",
      "id": "18039521738837279",
-     "url": "https://www.instagram.com/reel/DehtMxYFxKJ/",
-     "views": "n/a",
-     "likes": 0,
-     "comments": 0,
+     "url": "",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     }
    },
@@ -546,16 +558,16 @@
    "slot": "2026-10-16T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "0",
-     "likes": "0",
+     "views": "6",
+     "likes": "1",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1806963300639765",
      "url": "https://facebook.com/reel/1806963300639765/",
      "views": 0,
@@ -564,8 +576,8 @@
      "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "failed",
+     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
     }
    },
    "captions": {
@@ -602,7 +614,7 @@
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": ""
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -643,7 +655,7 @@
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": ""
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -684,7 +696,7 @@
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": ""
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -924,6 +936,43 @@
      "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
     }
    ]
+  },
+  {
+   "at": "2026-10-16T16:58:55Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38935064354",
+   "events": [
+    {
+     "kind": "failed",
+     "platform": "instagram",
+     "title": "Ew Gross",
+     "detail": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Ew Gross",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "WTF",
+     "detail": "for Oct 21, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "WTF",
+     "detail": "for Oct 21, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -937,6 +986,12 @@
    "date": "2026-10-15",
    "youtube": 1352,
    "facebook": 52,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-16",
+   "youtube": 1427,
+   "facebook": 62,
    "instagram": null
   }
  ]
