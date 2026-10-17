@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:59:02Z",
+ "generated_at": "2026-10-17T16:58:50Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 20,
+  "waiting": 29,
   "next": [
-   "Phasmophobia With some friends Join and  Chat",
-   "Why you naked?",
-   "Get outta my bedroom!",
-   "Sunglasses at Night",
-   "He was just sitting there in the dark?!"
+   "Attack of the NOPE",
+   "Avengers (and X-Men) Assemble!",
+   "Double Kill!",
+   "Double Pew Pew",
+   "Girl Power"
   ]
  },
  "clips": [
@@ -121,7 +121,7 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "1180",
+     "views": "1184",
      "likes": "10",
      "comments": "1",
      "privacy": "public"
@@ -167,7 +167,7 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "231",
+     "views": "233",
      "likes": "4",
      "comments": "0",
      "privacy": "public"
@@ -276,16 +276,26 @@
    "id": "StrangeGlamorousMushroomVoteYea-iTeKxIFOKszUixhQ",
    "title": "My boss is a monster (literally)",
    "game": "Still Wakes the Deep",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-22T16:00:00Z",
+   "slot": "2026-10-22T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "OsEUG11EXHQ",
+     "url": "https://youtu.be/OsEUG11EXHQ",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "1634754118025436",
+     "url": "https://facebook.com/reel/1634754118025436/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -299,7 +309,9 @@
     "tt": "My boss is a monster (literally) (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/StrangeGlamorousMushroomVoteYea-iTeKxIFOKszUixhQ.mp4"
+   }
   },
   {
    "id": "ViscousAwkwardCroquetteYee-gDc2l9ZTIBsF5Kpi",
@@ -561,8 +573,8 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "6",
-     "likes": "1",
+     "views": "1187",
+     "likes": "18",
      "comments": "0",
      "privacy": "public"
     },
@@ -570,14 +582,19 @@
      "status": "posted",
      "id": "1806963300639765",
      "url": "https://facebook.com/reel/1806963300639765/",
-     "views": 0,
-     "likes": 0,
+     "views": 1,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
     "instagram": {
-     "status": "failed",
-     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+     "status": "posted",
+     "id": "17886671187687857",
+     "url": "https://www.instagram.com/reel/Demk-p2jvYl/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -599,26 +616,31 @@
    "slot": "2026-10-17T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "3-S984I4Q_M",
      "url": "https://youtu.be/3-S984I4Q_M",
-     "views": "0",
-     "likes": "0",
+     "views": "100",
+     "likes": "2",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1574188551186663",
      "url": "https://facebook.com/reel/1574188551186663/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18287719105288266",
+     "url": "https://www.instagram.com/reel/DemlgUfjvgl/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -973,6 +995,61 @@
      "detail": "for Oct 21, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-17T16:58:43Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39050805122",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Ew Gross",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Ew Gross",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "It's eating my face!!",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "It's eating my face!!",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "It's eating my face!!",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "My boss is a monster (literally)",
+     "detail": "for Oct 22, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "My boss is a monster (literally)",
+     "detail": "for Oct 22, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -992,6 +1069,12 @@
    "date": "2026-10-16",
    "youtube": 1427,
    "facebook": 62,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-17",
+   "youtube": 2714,
+   "facebook": 63,
    "instagram": null
   }
  ]
