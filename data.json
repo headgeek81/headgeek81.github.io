@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T16:58:50Z",
+ "generated_at": "2026-10-18T16:55:53Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -317,16 +317,26 @@
    "id": "ViscousAwkwardCroquetteYee-gDc2l9ZTIBsF5Kpi",
    "title": "Gimme the key",
    "game": "Still Wakes the Deep",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-23T16:00:00Z",
+   "slot": "2026-10-23T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "IgVuaM197yg",
+     "url": "https://youtu.be/IgVuaM197yg",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "1081354064892212",
+     "url": "https://facebook.com/reel/1081354064892212/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -340,7 +350,9 @@
     "tt": "Gimme the key (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/ViscousAwkwardCroquetteYee-gDc2l9ZTIBsF5Kpi.mp4"
+   }
   },
   {
    "id": "PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2",
@@ -573,7 +585,7 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "1187",
+     "views": "1350",
      "likes": "18",
      "comments": "0",
      "privacy": "public"
@@ -592,7 +604,7 @@
      "id": "17886671187687857",
      "url": "https://www.instagram.com/reel/Demk-p2jvYl/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 6,
      "comments": 0,
      "privacy": ""
     }
@@ -619,8 +631,8 @@
      "status": "posted",
      "id": "3-S984I4Q_M",
      "url": "https://youtu.be/3-S984I4Q_M",
-     "views": "100",
-     "likes": "2",
+     "views": "1184",
+     "likes": "23",
      "comments": "0",
      "privacy": "public"
     },
@@ -628,7 +640,7 @@
      "status": "posted",
      "id": "1574188551186663",
      "url": "https://facebook.com/reel/1574188551186663/",
-     "views": 0,
+     "views": 18,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -638,7 +650,7 @@
      "id": "18287719105288266",
      "url": "https://www.instagram.com/reel/DemlgUfjvgl/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 6,
      "comments": 0,
      "privacy": ""
     }
@@ -662,26 +674,31 @@
    "slot": "2026-10-18T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "mapxnsE91gY",
      "url": "https://youtu.be/mapxnsE91gY",
      "views": "0",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1546650550560332",
      "url": "https://facebook.com/reel/1546650550560332/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18096752387439504",
+     "url": "https://www.instagram.com/reel/DepJgo5EWf-/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -1050,6 +1067,49 @@
      "detail": "for Oct 22, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-18T16:55:05Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39146517255",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Not the bootyhole lady \ud83d\ude2b",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Not the bootyhole lady \ud83d\ude2b",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Not the bootyhole lady \ud83d\ude2b",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Gimme the key",
+     "detail": "for Oct 23, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Gimme the key",
+     "detail": "for Oct 23, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1075,6 +1135,12 @@
    "date": "2026-10-17",
    "youtube": 2714,
    "facebook": 63,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-18",
+   "youtube": 3961,
+   "facebook": 81,
    "instagram": null
   }
  ]
