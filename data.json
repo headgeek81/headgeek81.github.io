@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T16:55:53Z",
+ "generated_at": "2026-10-19T17:00:31Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -206,16 +206,26 @@
    "id": "AnnoyingBlitheSkunkRiPepperonis-FLYmOpQlbgwrlPPg",
    "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
    "game": "Fatal Frame: Maiden of Black Water",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-20T16:00:00Z",
+   "slot": "2026-10-20T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+     "status": "scheduled",
+     "id": "ipkZFMFiV7M",
+     "url": "https://youtu.be/ipkZFMFiV7M",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
-     "status": "failed",
-     "error": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+     "status": "scheduled",
+     "id": "960109867153578",
+     "url": "https://facebook.com/reel/960109867153578/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -229,7 +239,9 @@
     "tt": "Drawing near the end HOPEFULLY come watch me freak out!!! (Fatal Frame: Maiden of Black Water)\n#FatalFrameMaidenofBlackWater #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #FatalFrameMaidenofBlackWater #HorrorGaming #HorrorGames"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/AnnoyingBlitheSkunkRiPepperonis-FLYmOpQlbgwrlPPg.mp4"
+   }
   },
   {
    "id": "BlatantShyButterPastaThat-x9RdnX2d2c_8S5sv",
@@ -358,16 +370,26 @@
    "id": "PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2",
    "title": "Might need new underwear now",
    "game": "SILENT HILL \u0192",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-24T16:00:00Z",
+   "slot": "2026-10-24T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "-t8j3XqrZS8",
+     "url": "https://youtu.be/-t8j3XqrZS8",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
-     "status": "failed",
-     "error": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
+     "status": "scheduled",
+     "id": "1479043740759691",
+     "url": "https://facebook.com/reel/1479043740759691/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -381,7 +403,9 @@
     "tt": "Might need new underwear now (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2.mp4"
+   }
   },
   {
    "id": "DifficultGentleCheeseHumbleLife-1hpHN5mADbtuodOF",
@@ -585,7 +609,7 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "1350",
+     "views": "1362",
      "likes": "18",
      "comments": "0",
      "privacy": "public"
@@ -631,7 +655,7 @@
      "status": "posted",
      "id": "3-S984I4Q_M",
      "url": "https://youtu.be/3-S984I4Q_M",
-     "views": "1184",
+     "views": "1211",
      "likes": "23",
      "comments": "0",
      "privacy": "public"
@@ -677,7 +701,7 @@
      "status": "posted",
      "id": "mapxnsE91gY",
      "url": "https://youtu.be/mapxnsE91gY",
-     "views": "0",
+     "views": "13",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -686,7 +710,7 @@
      "status": "posted",
      "id": "1546650550560332",
      "url": "https://facebook.com/reel/1546650550560332/",
-     "views": 0,
+     "views": 7,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -696,7 +720,7 @@
      "id": "18096752387439504",
      "url": "https://www.instagram.com/reel/DepJgo5EWf-/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 4,
      "comments": 0,
      "privacy": ""
     }
@@ -720,7 +744,7 @@
    "slot": "2026-10-19T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "3ZOPGBMa5yA",
      "url": "https://youtu.be/3ZOPGBMa5yA",
      "views": null,
@@ -729,17 +753,22 @@
      "privacy": ""
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "2362007354609395",
      "url": "https://facebook.com/reel/2362007354609395/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18289013674295277",
+     "url": "https://www.instagram.com/reel/DervDhkkUFk/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -1110,6 +1139,55 @@
      "detail": "for Oct 23, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-19T17:00:17Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39289330116",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "I DIE",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "I DIE",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "I DIE",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "for Oct 20, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "for Oct 20, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Might need new underwear now",
+     "detail": "for Oct 24, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Might need new underwear now",
+     "detail": "for Oct 24, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1141,6 +1219,12 @@
    "date": "2026-10-18",
    "youtube": 3961,
    "facebook": 81,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-19",
+   "youtube": 4013,
+   "facebook": 88,
    "instagram": null
   }
  ]
