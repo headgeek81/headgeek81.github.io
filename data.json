@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:00:31Z",
+ "generated_at": "2026-10-20T16:52:47Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -29,10 +29,10 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": "7",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
@@ -75,10 +75,10 @@
      "status": "posted",
      "id": "Cy7Ci0gtsf8",
      "url": "https://youtu.be/Cy7Ci0gtsf8",
-     "views": "1",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
@@ -121,10 +121,10 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "1184",
-     "likes": "10",
-     "comments": "1",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
@@ -167,10 +167,10 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "233",
-     "likes": "4",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
@@ -210,26 +210,26 @@
    "slot": "2026-10-20T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "ipkZFMFiV7M",
      "url": "https://youtu.be/ipkZFMFiV7M",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "960109867153578",
      "url": "https://facebook.com/reel/960109867153578/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "failed",
+     "error": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
     }
    },
    "captions": {
@@ -254,10 +254,10 @@
      "status": "scheduled",
      "id": "rGwJHTTvRGE",
      "url": "https://youtu.be/rGwJHTTvRGE",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "scheduled",
@@ -295,10 +295,10 @@
      "status": "scheduled",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "scheduled",
@@ -336,10 +336,10 @@
      "status": "scheduled",
      "id": "IgVuaM197yg",
      "url": "https://youtu.be/IgVuaM197yg",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "scheduled",
@@ -377,10 +377,10 @@
      "status": "scheduled",
      "id": "-t8j3XqrZS8",
      "url": "https://youtu.be/-t8j3XqrZS8",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "scheduled",
@@ -411,16 +411,21 @@
    "id": "DifficultGentleCheeseHumbleLife-1hpHN5mADbtuodOF",
    "title": "Hello??",
    "game": "Delirium",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-25T16:00:00Z",
+   "slot": "2026-10-25T16:00:00Z",
    "platforms": {
     "youtube": {
      "status": "failed",
-     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+     "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
     },
     "facebook": {
-     "status": "failed",
-     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+     "status": "scheduled",
+     "id": "1004071426069112",
+     "url": "https://facebook.com/reel/1004071426069112/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -434,7 +439,9 @@
     "tt": "Hello?? (Delirium)\n#Delirium #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Delirium #GamingCommunity #GameplayClips"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/DifficultGentleCheeseHumbleLife-1hpHN5mADbtuodOF.mp4"
+   }
   },
   {
    "id": "ObliqueUninterestedBananaSMOrc-LhcYIl5orH8nBS-0",
@@ -563,10 +570,10 @@
      "status": "posted",
      "id": "13uV13xqxRc",
      "url": "https://youtu.be/13uV13xqxRc",
-     "views": "2",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
@@ -609,10 +616,10 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "1362",
-     "likes": "18",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
@@ -655,10 +662,10 @@
      "status": "posted",
      "id": "3-S984I4Q_M",
      "url": "https://youtu.be/3-S984I4Q_M",
-     "views": "1211",
-     "likes": "23",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
@@ -701,16 +708,16 @@
      "status": "posted",
      "id": "mapxnsE91gY",
      "url": "https://youtu.be/mapxnsE91gY",
-     "views": "13",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
      "id": "1546650550560332",
      "url": "https://facebook.com/reel/1546650550560332/",
-     "views": 7,
+     "views": 8,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -756,7 +763,7 @@
      "status": "posted",
      "id": "2362007354609395",
      "url": "https://facebook.com/reel/2362007354609395/",
-     "views": 0,
+     "views": 2,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1188,6 +1195,31 @@
      "detail": "for Oct 24, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-20T16:52:35Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39460911602",
+   "events": [
+    {
+     "kind": "failed",
+     "platform": "download",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "Hello??",
+     "detail": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been ex"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Hello??",
+     "detail": "for Oct 25, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1225,6 +1257,12 @@
    "date": "2026-10-19",
    "youtube": 4013,
    "facebook": 88,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-20",
+   "youtube": null,
+   "facebook": 91,
    "instagram": null
   }
  ]
