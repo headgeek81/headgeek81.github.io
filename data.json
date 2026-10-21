@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T16:52:47Z",
+ "generated_at": "2026-10-21T16:59:49Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -222,14 +222,19 @@
      "status": "posted",
      "id": "960109867153578",
      "url": "https://facebook.com/reel/960109867153578/",
-     "views": 0,
-     "likes": 0,
+     "views": 10,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
     "instagram": {
-     "status": "failed",
-     "error": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+     "status": "posted",
+     "id": "18097465388416746",
+     "url": "https://www.instagram.com/reel/Dew4fIjjHVh/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -251,7 +256,7 @@
    "slot": "2026-10-21T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "rGwJHTTvRGE",
      "url": "https://youtu.be/rGwJHTTvRGE",
      "views": null,
@@ -260,17 +265,22 @@
      "privacy": ""
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "3097102160681469",
      "url": "https://facebook.com/reel/3097102160681469/",
-     "views": 0,
+     "views": 3,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18109261814340363",
+     "url": "https://www.instagram.com/reel/Dew42IsDLVu/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -447,16 +457,21 @@
    "id": "ObliqueUninterestedBananaSMOrc-LhcYIl5orH8nBS-0",
    "title": "BY THE POWER OF GRAYSKULL",
    "game": "SILENT HILL \u0192",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-26T16:00:00Z",
+   "slot": "2026-10-26T16:00:00Z",
    "platforms": {
     "youtube": {
      "status": "failed",
-     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+     "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
     },
     "facebook": {
-     "status": "failed",
-     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+     "status": "scheduled",
+     "id": "1414692884196227",
+     "url": "https://facebook.com/reel/1414692884196227/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -470,7 +485,9 @@
     "tt": "BY THE POWER OF GRAYSKULL (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/ObliqueUninterestedBananaSMOrc-LhcYIl5orH8nBS-0.mp4"
+   }
   },
   {
    "id": "WonderfulEnjoyableWeb4Head-3SAolewKfnzkIoDC",
@@ -773,7 +790,7 @@
      "id": "18289013674295277",
      "url": "https://www.instagram.com/reel/DervDhkkUFk/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -1220,6 +1237,61 @@
      "detail": "for Oct 25, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-21T16:59:33Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39638555588",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "WTF",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "WTF",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "WTF",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "BY THE POWER OF GRAYSKULL",
+     "detail": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been ex"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "BY THE POWER OF GRAYSKULL",
+     "detail": "for Oct 26, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1263,6 +1335,12 @@
    "date": "2026-10-20",
    "youtube": null,
    "facebook": 91,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-21",
+   "youtube": null,
+   "facebook": 104,
    "instagram": null
   }
  ]
