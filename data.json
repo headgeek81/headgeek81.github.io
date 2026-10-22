@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T16:59:49Z",
+ "generated_at": "2026-10-22T16:56:47Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -232,7 +232,7 @@
      "id": "18097465388416746",
      "url": "https://www.instagram.com/reel/Dew4fIjjHVh/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 7,
      "comments": 0,
      "privacy": ""
     }
@@ -268,7 +268,7 @@
      "status": "posted",
      "id": "3097102160681469",
      "url": "https://facebook.com/reel/3097102160681469/",
-     "views": 3,
+     "views": 30,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -302,7 +302,7 @@
    "slot": "2026-10-22T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
      "views": null,
@@ -311,17 +311,22 @@
      "privacy": ""
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1634754118025436",
      "url": "https://facebook.com/reel/1634754118025436/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18105541085636834",
+     "url": "https://www.instagram.com/reel/DezdT6XALWW/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -493,16 +498,21 @@
    "id": "WonderfulEnjoyableWeb4Head-3SAolewKfnzkIoDC",
    "title": "HOW RUDE",
    "game": "Still Wakes the Deep",
-   "at": "",
-   "slot": "",
+   "at": "2026-10-27T16:00:00Z",
+   "slot": "2026-10-27T16:00:00Z",
    "platforms": {
     "youtube": {
      "status": "failed",
-     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+     "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
     },
     "facebook": {
-     "status": "failed",
-     "error": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
+     "status": "scheduled",
+     "id": "1919225262397365",
+     "url": "https://facebook.com/reel/1919225262397365/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
     },
     "instagram": {
      "status": "waiting",
@@ -516,7 +526,9 @@
     "tt": "HOW RUDE (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
    },
-   "tiktok": {}
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/WonderfulEnjoyableWeb4Head-3SAolewKfnzkIoDC.mp4"
+   }
   },
   {
    "id": "CourageousEnergeticHareCclamChamp-YWkn7s7CV5LUV7No",
@@ -1292,6 +1304,43 @@
      "detail": "for Oct 26, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-22T16:56:33Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39817669058",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "My boss is a monster (literally)",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "My boss is a monster (literally)",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "My boss is a monster (literally)",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "HOW RUDE",
+     "detail": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been ex"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "HOW RUDE",
+     "detail": "for Oct 27, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1341,6 +1390,12 @@
    "date": "2026-10-21",
    "youtube": null,
    "facebook": 104,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-22",
+   "youtube": null,
+   "facebook": 131,
    "instagram": null
   }
  ]
