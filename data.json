@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T16:56:47Z",
+ "generated_at": "2026-10-23T17:09:07Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 29,
+  "waiting": 25,
   "next": [
-   "Attack of the NOPE",
-   "Avengers (and X-Men) Assemble!",
-   "Double Kill!",
-   "Double Pew Pew",
-   "Girl Power"
+   "Girl Power",
+   "Hiding Behind My Jell-O",
+   "We are Venom (apparently)",
+   "Why You Being So Weird",
+   "Phasmophobia With some friends Join and  Chat"
   ]
  },
  "clips": [
@@ -29,10 +29,10 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "7",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -75,10 +75,10 @@
      "status": "posted",
      "id": "Cy7Ci0gtsf8",
      "url": "https://youtu.be/Cy7Ci0gtsf8",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "1",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -121,10 +121,10 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "1184",
+     "likes": "10",
+     "comments": "1",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -167,10 +167,10 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "233",
+     "likes": "4",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -213,10 +213,10 @@
      "status": "posted",
      "id": "ipkZFMFiV7M",
      "url": "https://youtu.be/ipkZFMFiV7M",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "195",
+     "likes": "3",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -232,7 +232,7 @@
      "id": "18097465388416746",
      "url": "https://www.instagram.com/reel/Dew4fIjjHVh/",
      "views": "n/a",
-     "likes": 7,
+     "likes": 9,
      "comments": 0,
      "privacy": ""
     }
@@ -259,10 +259,10 @@
      "status": "posted",
      "id": "rGwJHTTvRGE",
      "url": "https://youtu.be/rGwJHTTvRGE",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "71",
+     "likes": "2",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -278,7 +278,7 @@
      "id": "18109261814340363",
      "url": "https://www.instagram.com/reel/Dew42IsDLVu/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -305,16 +305,16 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "349",
+     "likes": "8",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
      "id": "1634754118025436",
      "url": "https://facebook.com/reel/1634754118025436/",
-     "views": 0,
+     "views": 21,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -324,7 +324,7 @@
      "id": "18105541085636834",
      "url": "https://www.instagram.com/reel/DezdT6XALWW/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -348,26 +348,26 @@
    "slot": "2026-10-23T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "IgVuaM197yg",
      "url": "https://youtu.be/IgVuaM197yg",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "2",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1081354064892212",
      "url": "https://facebook.com/reel/1081354064892212/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "failed",
+     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
     }
    },
    "captions": {
@@ -420,114 +420,6 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/PeacefulConfidentConsoleChocolateRain-INOQvm3yDWU19Ll2.mp4"
-   }
-  },
-  {
-   "id": "DifficultGentleCheeseHumbleLife-1hpHN5mADbtuodOF",
-   "title": "Hello??",
-   "game": "Delirium",
-   "at": "2026-10-25T16:00:00Z",
-   "slot": "2026-10-25T16:00:00Z",
-   "platforms": {
-    "youtube": {
-     "status": "failed",
-     "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
-    },
-    "facebook": {
-     "status": "scheduled",
-     "id": "1004071426069112",
-     "url": "https://facebook.com/reel/1004071426069112/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
-    },
-    "instagram": {
-     "status": "waiting",
-     "error": ""
-    }
-   },
-   "captions": {
-    "yt_title": "Hello?? | Delirium #Shorts",
-    "fb": "Hello?? (Delirium)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Delirium #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Hello?? (Delirium)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Delirium #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Hello?? (Delirium)\n#Delirium #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
-    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Delirium #GamingCommunity #GameplayClips"
-   },
-   "tiktok": {
-    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/DifficultGentleCheeseHumbleLife-1hpHN5mADbtuodOF.mp4"
-   }
-  },
-  {
-   "id": "ObliqueUninterestedBananaSMOrc-LhcYIl5orH8nBS-0",
-   "title": "BY THE POWER OF GRAYSKULL",
-   "game": "SILENT HILL \u0192",
-   "at": "2026-10-26T16:00:00Z",
-   "slot": "2026-10-26T16:00:00Z",
-   "platforms": {
-    "youtube": {
-     "status": "failed",
-     "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
-    },
-    "facebook": {
-     "status": "scheduled",
-     "id": "1414692884196227",
-     "url": "https://facebook.com/reel/1414692884196227/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
-    },
-    "instagram": {
-     "status": "waiting",
-     "error": ""
-    }
-   },
-   "captions": {
-    "yt_title": "BY THE POWER OF GRAYSKULL | SILENT HILL \u0192 #Shorts",
-    "fb": "BY THE POWER OF GRAYSKULL (SILENT HILL \u0192)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "BY THE POWER OF GRAYSKULL (SILENT HILL \u0192)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "BY THE POWER OF GRAYSKULL (SILENT HILL \u0192)\n#SILENTHILL\u0192 #HorrorGaming #HorrorGames #ScaryGames #JumpScare #HorrorClips #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
-    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #SILENTHILL\u0192 #HorrorGaming #HorrorGames"
-   },
-   "tiktok": {
-    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/ObliqueUninterestedBananaSMOrc-LhcYIl5orH8nBS-0.mp4"
-   }
-  },
-  {
-   "id": "WonderfulEnjoyableWeb4Head-3SAolewKfnzkIoDC",
-   "title": "HOW RUDE",
-   "game": "Still Wakes the Deep",
-   "at": "2026-10-27T16:00:00Z",
-   "slot": "2026-10-27T16:00:00Z",
-   "platforms": {
-    "youtube": {
-     "status": "failed",
-     "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
-    },
-    "facebook": {
-     "status": "scheduled",
-     "id": "1919225262397365",
-     "url": "https://facebook.com/reel/1919225262397365/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
-    },
-    "instagram": {
-     "status": "waiting",
-     "error": ""
-    }
-   },
-   "captions": {
-    "yt_title": "HOW RUDE | Still Wakes the Deep #Shorts",
-    "fb": "HOW RUDE (Still Wakes the Deep)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "HOW RUDE (Still Wakes the Deep)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "HOW RUDE (Still Wakes the Deep)\n#StillWakestheDeep #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
-    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
-   },
-   "tiktok": {
-    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/WonderfulEnjoyableWeb4Head-3SAolewKfnzkIoDC.mp4"
    }
   },
   {
@@ -599,10 +491,10 @@
      "status": "posted",
      "id": "13uV13xqxRc",
      "url": "https://youtu.be/13uV13xqxRc",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "2",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -645,10 +537,10 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "1385",
+     "likes": "19",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -691,10 +583,10 @@
      "status": "posted",
      "id": "3-S984I4Q_M",
      "url": "https://youtu.be/3-S984I4Q_M",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "1307",
+     "likes": "23",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -737,10 +629,10 @@
      "status": "posted",
      "id": "mapxnsE91gY",
      "url": "https://youtu.be/mapxnsE91gY",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "11",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
@@ -802,7 +694,7 @@
      "id": "18289013674295277",
      "url": "https://www.instagram.com/reel/DervDhkkUFk/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -816,6 +708,150 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/ClumsyCrackyKiwiArsonNoSexy-WfgynYP32qO0YMaR.mp4"
+   }
+  },
+  {
+   "id": "up_9aad167efb",
+   "title": "Attack of the NOPE",
+   "game": "Gaming",
+   "at": "2026-10-25T16:00:00Z",
+   "slot": "2026-10-25T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1595551665112648",
+     "url": "https://facebook.com/reel/1595551665112648/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Attack of the NOPE | Gaming #Shorts",
+    "fb": "Attack of the NOPE (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Attack of the NOPE (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Attack of the NOPE (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_9aad167efb.mp4"
+   }
+  },
+  {
+   "id": "up_6838c55f3a",
+   "title": "Avengers (and X-Men) Assemble!",
+   "game": "Gaming",
+   "at": "2026-10-26T16:00:00Z",
+   "slot": "2026-10-26T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "29152298687789572",
+     "url": "https://facebook.com/reel/29152298687789572/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Avengers (and X-Men) Assemble! | Gaming #Shorts",
+    "fb": "Avengers (and X-Men) Assemble! (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Avengers (and X-Men) Assemble! (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Avengers (and X-Men) Assemble! (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_6838c55f3a.mp4"
+   }
+  },
+  {
+   "id": "up_2d24e6dbd6",
+   "title": "Double Kill!",
+   "game": "Gaming",
+   "at": "2026-10-27T16:00:00Z",
+   "slot": "2026-10-27T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1390150872884544",
+     "url": "https://facebook.com/reel/1390150872884544/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Double Kill! | Gaming #Shorts",
+    "fb": "Double Kill! (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Double Kill! (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Double Kill! (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_2d24e6dbd6.mp4"
+   }
+  },
+  {
+   "id": "up_a5aad05675",
+   "title": "Double Pew Pew",
+   "game": "Gaming",
+   "at": "2026-10-28T16:00:00Z",
+   "slot": "2026-10-28T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "failed",
+     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "2332955314105857",
+     "url": "https://facebook.com/reel/2332955314105857/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Double Pew Pew | Gaming #Shorts",
+    "fb": "Double Pew Pew (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Double Pew Pew (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Double Pew Pew (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_a5aad05675.mp4"
    }
   }
  ],
@@ -1341,6 +1377,97 @@
      "detail": "for Oct 27, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-23T17:08:46Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39990457312",
+   "events": [
+    {
+     "kind": "failed",
+     "platform": "instagram",
+     "title": "Gimme the key",
+     "detail": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Gimme the key",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "Might need new underwear now",
+     "detail": "could not remove it to reschedule; YouTube login needs the full permission"
+    },
+    {
+     "kind": "moved",
+     "platform": "schedule",
+     "title": "Hello??",
+     "detail": "moved to make room for a newer clip"
+    },
+    {
+     "kind": "moved",
+     "platform": "schedule",
+     "title": "BY THE POWER OF GRAYSKULL",
+     "detail": "moved to make room for a newer clip"
+    },
+    {
+     "kind": "moved",
+     "platform": "schedule",
+     "title": "HOW RUDE",
+     "detail": "moved to make room for a newer clip"
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "Attack of the NOPE",
+     "detail": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.h"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Attack of the NOPE",
+     "detail": "for Oct 25, 12:00 PM ET"
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "Avengers (and X-Men) Assemble!",
+     "detail": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.h"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Avengers (and X-Men) Assemble!",
+     "detail": "for Oct 26, 12:00 PM ET"
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "Double Kill!",
+     "detail": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.h"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Double Kill!",
+     "detail": "for Oct 27, 12:00 PM ET"
+    },
+    {
+     "kind": "failed",
+     "platform": "youtube",
+     "title": "Double Pew Pew",
+     "detail": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.h"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Double Pew Pew",
+     "detail": "for Oct 28, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1396,6 +1523,12 @@
    "date": "2026-10-22",
    "youtube": null,
    "facebook": 131,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-23",
+   "youtube": 4747,
+   "facebook": 152,
    "instagram": null
   }
  ]
