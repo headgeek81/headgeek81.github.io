@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:09:07Z",
+ "generated_at": "2026-10-24T17:08:19Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 25,
+  "waiting": 27,
   "next": [
-   "Girl Power",
    "Hiding Behind My Jell-O",
    "We are Venom (apparently)",
    "Why You Being So Weird",
-   "Phasmophobia With some friends Join and  Chat"
+   "She's hacking it!",
+   "What the heck was that"
   ]
  },
  "clips": [
@@ -259,7 +259,7 @@
      "status": "posted",
      "id": "rGwJHTTvRGE",
      "url": "https://youtu.be/rGwJHTTvRGE",
-     "views": "71",
+     "views": "72",
      "likes": "2",
      "comments": "0",
      "privacy": "public"
@@ -305,8 +305,8 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "349",
-     "likes": "8",
+     "views": "600",
+     "likes": "10",
      "comments": "0",
      "privacy": "public"
     },
@@ -351,8 +351,8 @@
      "status": "posted",
      "id": "IgVuaM197yg",
      "url": "https://youtu.be/IgVuaM197yg",
-     "views": "2",
-     "likes": "0",
+     "views": "59",
+     "likes": "1",
      "comments": "0",
      "privacy": "public"
     },
@@ -360,7 +360,7 @@
      "status": "posted",
      "id": "1081354064892212",
      "url": "https://facebook.com/reel/1081354064892212/",
-     "views": 0,
+     "views": 15,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -389,26 +389,31 @@
    "slot": "2026-10-24T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "-t8j3XqrZS8",
      "url": "https://youtu.be/-t8j3XqrZS8",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "privacy": ""
+     "views": "53",
+     "likes": "3",
+     "comments": "0",
+     "privacy": "public"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1479043740759691",
      "url": "https://facebook.com/reel/1479043740759691/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18131517403703354",
+     "url": "https://www.instagram.com/reel/De4m3oQjEEd/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -537,7 +542,7 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "1385",
+     "views": "1384",
      "likes": "19",
      "comments": "0",
      "privacy": "public"
@@ -718,8 +723,13 @@
    "slot": "2026-10-25T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+     "status": "scheduled",
+     "id": "a5eUymyL_ls",
+     "url": "https://youtu.be/a5eUymyL_ls",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
      "status": "scheduled",
@@ -754,8 +764,13 @@
    "slot": "2026-10-26T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+     "status": "scheduled",
+     "id": "mpi8_ByPgbc",
+     "url": "https://youtu.be/mpi8_ByPgbc",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
      "status": "scheduled",
@@ -790,8 +805,13 @@
    "slot": "2026-10-27T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+     "status": "scheduled",
+     "id": "WDJR3nA5qII",
+     "url": "https://youtu.be/WDJR3nA5qII",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
      "status": "scheduled",
@@ -826,8 +846,13 @@
    "slot": "2026-10-28T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "failed",
-     "error": "<HttpError 401 when requesting None returned \"Unauthorized\". Details: \"[{'message': 'Unauthorized', 'domain': 'youtube.header', 'reason': 'youtubeSignupRequired', 'location': 'Authorization', 'locationType': 'header'}]\">"
+     "status": "scheduled",
+     "id": "uumJB7SETsA",
+     "url": "https://youtu.be/uumJB7SETsA",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
     },
     "facebook": {
      "status": "scheduled",
@@ -852,6 +877,47 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_a5aad05675.mp4"
+   }
+  },
+  {
+   "id": "up_ce2ee8959e",
+   "title": "Girl Power",
+   "game": "Gaming",
+   "at": "2026-10-29T16:00:00Z",
+   "slot": "2026-10-29T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "Aak1Ts6OK1g",
+     "url": "https://youtu.be/Aak1Ts6OK1g",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "4863752810521763",
+     "url": "https://facebook.com/reel/4863752810521763/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Girl Power | Gaming #Shorts",
+    "fb": "Girl Power (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Girl Power (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Girl Power (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_ce2ee8959e.mp4"
    }
   }
  ],
@@ -1468,6 +1534,73 @@
      "detail": "for Oct 28, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-24T17:08:03Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/40113216336",
+   "events": [
+    {
+     "kind": "failed",
+     "platform": "instagram",
+     "title": "Gimme the key",
+     "detail": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Might need new underwear now",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Might need new underwear now",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Might need new underwear now",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Attack of the NOPE",
+     "detail": "for Oct 25, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Avengers (and X-Men) Assemble!",
+     "detail": "for Oct 26, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Double Kill!",
+     "detail": "for Oct 27, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Double Pew Pew",
+     "detail": "for Oct 28, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Girl Power",
+     "detail": "for Oct 29, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Girl Power",
+     "detail": "for Oct 29, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1529,6 +1662,12 @@
    "date": "2026-10-23",
    "youtube": 4747,
    "facebook": 152,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-24",
+   "youtube": 5108,
+   "facebook": 167,
    "instagram": null
   }
  ]
