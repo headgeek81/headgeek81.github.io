@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T17:08:19Z",
+ "generated_at": "2026-10-25T17:01:18Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 27,
+  "waiting": 26,
   "next": [
-   "Hiding Behind My Jell-O",
    "We are Venom (apparently)",
    "Why You Being So Weird",
    "She's hacking it!",
-   "What the heck was that"
+   "What the heck was that",
+   "That'll do"
   ]
  },
  "clips": [
@@ -167,7 +167,7 @@
      "status": "posted",
      "id": "ozZp7H1ly_w",
      "url": "https://youtu.be/ozZp7H1ly_w",
-     "views": "233",
+     "views": "234",
      "likes": "4",
      "comments": "0",
      "privacy": "public"
@@ -259,7 +259,7 @@
      "status": "posted",
      "id": "rGwJHTTvRGE",
      "url": "https://youtu.be/rGwJHTTvRGE",
-     "views": "72",
+     "views": "73",
      "likes": "2",
      "comments": "0",
      "privacy": "public"
@@ -305,7 +305,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "600",
+     "views": "617",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -351,7 +351,7 @@
      "status": "posted",
      "id": "IgVuaM197yg",
      "url": "https://youtu.be/IgVuaM197yg",
-     "views": "59",
+     "views": "93",
      "likes": "1",
      "comments": "0",
      "privacy": "public"
@@ -360,7 +360,7 @@
      "status": "posted",
      "id": "1081354064892212",
      "url": "https://facebook.com/reel/1081354064892212/",
-     "views": 15,
+     "views": 16,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -392,16 +392,16 @@
      "status": "posted",
      "id": "-t8j3XqrZS8",
      "url": "https://youtu.be/-t8j3XqrZS8",
-     "views": "53",
-     "likes": "3",
-     "comments": "0",
+     "views": "1121",
+     "likes": "23",
+     "comments": "3",
      "privacy": "public"
     },
     "facebook": {
      "status": "posted",
      "id": "1479043740759691",
      "url": "https://facebook.com/reel/1479043740759691/",
-     "views": 0,
+     "views": 18,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -411,7 +411,7 @@
      "id": "18131517403703354",
      "url": "https://www.instagram.com/reel/De4m3oQjEEd/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 3,
      "comments": 0,
      "privacy": ""
     }
@@ -588,7 +588,7 @@
      "status": "posted",
      "id": "3-S984I4Q_M",
      "url": "https://youtu.be/3-S984I4Q_M",
-     "views": "1307",
+     "views": "1308",
      "likes": "23",
      "comments": "0",
      "privacy": "public"
@@ -723,26 +723,26 @@
    "slot": "2026-10-25T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "a5eUymyL_ls",
      "url": "https://youtu.be/a5eUymyL_ls",
-     "views": "0",
+     "views": "1",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1595551665112648",
      "url": "https://facebook.com/reel/1595551665112648/",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "failed",
+     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
     }
    },
    "captions": {
@@ -918,6 +918,47 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_ce2ee8959e.mp4"
+   }
+  },
+  {
+   "id": "up_960f50d5eb",
+   "title": "Hiding Behind My Jell-O",
+   "game": "Gaming",
+   "at": "2026-10-30T16:00:00Z",
+   "slot": "2026-10-30T16:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "8OwwqL29Kjo",
+     "url": "https://youtu.be/8OwwqL29Kjo",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "scheduled",
+     "id": "1340055748081698",
+     "url": "https://facebook.com/reel/1340055748081698/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": "NOT live on Facebook yet (still unpublished)"
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Hiding Behind My Jell-O | Gaming #Shorts",
+    "fb": "Hiding Behind My Jell-O (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Hiding Behind My Jell-O (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Hiding Behind My Jell-O (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_960f50d5eb.mp4"
    }
   }
  ],
@@ -1601,6 +1642,43 @@
      "detail": "for Oct 29, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-25T17:00:56Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/40213437128",
+   "events": [
+    {
+     "kind": "failed",
+     "platform": "instagram",
+     "title": "Gimme the key",
+     "detail": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+    },
+    {
+     "kind": "failed",
+     "platform": "instagram",
+     "title": "Attack of the NOPE",
+     "detail": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Attack of the NOPE",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Hiding Behind My Jell-O",
+     "detail": "for Oct 30, 12:00 PM ET"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "facebook",
+     "title": "Hiding Behind My Jell-O",
+     "detail": "for Oct 30, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1668,6 +1746,12 @@
    "date": "2026-10-24",
    "youtube": 5108,
    "facebook": 167,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-25",
+   "youtube": 6231,
+   "facebook": 187,
    "instagram": null
   }
  ]
