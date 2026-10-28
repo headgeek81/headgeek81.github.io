@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T17:27:06Z",
+ "generated_at": "2026-10-28T17:16:30Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 25,
+  "waiting": 24,
   "next": [
    "She's hacking it!",
-   "What the heck was that",
    "WTF",
    "That'll do",
-   "Phasmophobia With some friends Join and  Chat"
+   "Phasmophobia With some friends Join and  Chat",
+   "Why you naked?"
   ]
  },
  "clips": [
@@ -29,7 +29,7 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": "7",
+     "views": "8",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -351,7 +351,7 @@
      "status": "posted",
      "id": "IgVuaM197yg",
      "url": "https://youtu.be/IgVuaM197yg",
-     "views": "110",
+     "views": "111",
      "likes": "1",
      "comments": "0",
      "privacy": "public"
@@ -370,7 +370,7 @@
      "id": "17972611758075726",
      "url": "https://www.instagram.com/reel/DfAWQPijDct/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -397,7 +397,7 @@
      "status": "posted",
      "id": "-t8j3XqrZS8",
      "url": "https://youtu.be/-t8j3XqrZS8",
-     "views": "1189",
+     "views": "1188",
      "likes": "26",
      "comments": "3",
      "privacy": "public"
@@ -406,7 +406,7 @@
      "status": "posted",
      "id": "1479043740759691",
      "url": "https://facebook.com/reel/1479043740759691/",
-     "views": 18,
+     "views": 19,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -731,7 +731,7 @@
      "status": "posted",
      "id": "a5eUymyL_ls",
      "url": "https://youtu.be/a5eUymyL_ls",
-     "views": "210",
+     "views": "215",
      "likes": "1",
      "comments": "0",
      "privacy": "public"
@@ -740,14 +740,19 @@
      "status": "posted",
      "id": "1595551665112648",
      "url": "https://facebook.com/reel/1595551665112648/",
-     "views": 21,
-     "likes": 0,
+     "views": 22,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
     "instagram": {
-     "status": "failed",
-     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+     "status": "posted",
+     "id": "17942940006364320",
+     "url": "https://www.instagram.com/reel/DfC6ZM6jk4b/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -772,7 +777,7 @@
      "status": "posted",
      "id": "mpi8_ByPgbc",
      "url": "https://youtu.be/mpi8_ByPgbc",
-     "views": "447",
+     "views": "510",
      "likes": "11",
      "comments": "0",
      "privacy": "public"
@@ -781,14 +786,19 @@
      "status": "posted",
      "id": "29152298687789572",
      "url": "https://facebook.com/reel/29152298687789572/",
-     "views": 14,
-     "likes": 0,
+     "views": 15,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
     "instagram": {
-     "status": "failed",
-     "error": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+     "status": "posted",
+     "id": "18128693260885141",
+     "url": "https://www.instagram.com/reel/DfC7sPKFRUM/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -813,8 +823,8 @@
      "status": "posted",
      "id": "WDJR3nA5qII",
      "url": "https://youtu.be/WDJR3nA5qII",
-     "views": "25",
-     "likes": "0",
+     "views": "110",
+     "likes": "2",
      "comments": "0",
      "privacy": "public"
     },
@@ -822,7 +832,7 @@
      "status": "posted",
      "id": "1390150872884544",
      "url": "https://facebook.com/reel/1390150872884544/",
-     "views": 3,
+     "views": 23,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -832,7 +842,7 @@
      "id": "18174583336460237",
      "url": "https://www.instagram.com/reel/DfAYSnYlZob/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 4,
      "comments": 0,
      "privacy": ""
     }
@@ -856,26 +866,31 @@
    "slot": "2026-10-28T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "uumJB7SETsA",
      "url": "https://youtu.be/uumJB7SETsA",
-     "views": "0",
+     "views": "90",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "2332955314105857",
      "url": "https://facebook.com/reel/2332955314105857/",
-     "views": 0,
-     "likes": 0,
+     "views": 1,
+     "likes": 1,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "17915782644544218",
+     "url": "https://www.instagram.com/reel/DfC8OrRihpx/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -906,7 +921,7 @@
      "privacy": "private"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "4863752810521763",
      "url": "https://facebook.com/reel/4863752810521763/",
      "views": 0,
@@ -947,7 +962,7 @@
      "privacy": "private"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1340055748081698",
      "url": "https://facebook.com/reel/1340055748081698/",
      "views": 0,
@@ -988,7 +1003,7 @@
      "privacy": "private"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "2163659187869380",
      "url": "https://facebook.com/reel/2163659187869380/",
      "views": 0,
@@ -1029,7 +1044,7 @@
      "privacy": "private"
     },
     "facebook": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "1798785168120423",
      "url": "https://facebook.com/reel/1798785168120423/",
      "views": 0,
@@ -1051,6 +1066,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_2a9fab5e8f.mp4"
+   }
+  },
+  {
+   "id": "WiseTalentedApeEleGiggle-fdLm9cFRZ8XvW_om",
+   "title": "What the heck was that",
+   "game": "PRAGMATA",
+   "at": "2026-11-02T17:00:00Z",
+   "slot": "2026-11-02T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "H78M3Yzb2Pk",
+     "url": "https://youtu.be/H78M3Yzb2Pk",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "What the heck was that | PRAGMATA #Shorts",
+    "fb": "What the heck was that (PRAGMATA)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "What the heck was that (PRAGMATA)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "What the heck was that (PRAGMATA)\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #PRAGMATA #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/WiseTalentedApeEleGiggle-fdLm9cFRZ8XvW_om.mp4"
    }
   }
  ],
@@ -1850,6 +1901,61 @@
      "detail": "for Nov 01, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-28T17:16:08Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/40729866730",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Attack of the NOPE",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Attack of the NOPE",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Avengers (and X-Men) Assemble!",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "instagram story",
+     "title": "Avengers (and X-Men) Assemble!",
+     "detail": "Instagram could not process the story: {'id': '18108695852523426', 'status_code': 'ERROR'}"
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Double Pew Pew",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Double Pew Pew",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Double Pew Pew",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "What the heck was that",
+     "detail": "for Nov 02, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -1929,6 +2035,12 @@
    "date": "2026-10-27",
    "youtube": 6997,
    "facebook": 224,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-28",
+   "youtube": 7241,
+   "facebook": 248,
    "instagram": null
   }
  ]
