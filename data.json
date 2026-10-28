@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:05:56Z",
+ "generated_at": "2026-10-28T18:13:09Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -305,7 +305,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "617",
+     "views": "618",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -796,7 +796,7 @@
      "id": "18128693260885141",
      "url": "https://www.instagram.com/reel/DfC7sPKFRUM/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -878,7 +878,7 @@
      "status": "posted",
      "id": "2332955314105857",
      "url": "https://facebook.com/reel/2332955314105857/",
-     "views": 2,
+     "views": 5,
      "likes": 1,
      "comments": 0,
      "privacy": ""
@@ -888,7 +888,7 @@
      "id": "17915782644544218",
      "url": "https://www.instagram.com/reel/DfC8OrRihpx/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -1981,6 +1981,12 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/40741675540",
    "events": []
+  },
+  {
+   "at": "2026-10-28T18:12:51Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/40742769164",
+   "events": []
   }
  ],
  "history": [
@@ -2064,8 +2070,8 @@
   },
   {
    "date": "2026-10-28",
-   "youtube": 7242,
-   "facebook": 249,
+   "youtube": 7243,
+   "facebook": 252,
    "instagram": null
   }
  ]
