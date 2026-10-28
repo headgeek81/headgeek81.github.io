@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:35:41Z",
+ "generated_at": "2026-10-28T18:53:18Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -305,7 +305,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "618",
+     "views": "617",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -784,8 +784,8 @@
     },
     "facebook": {
      "status": "posted",
-     "id": "1134749642384016",
-     "url": "https://facebook.com/reel/1134749642384016/",
+     "id": "1423621226626908",
+     "url": "https://facebook.com/reel/1423621226626908/",
      "views": 0,
      "likes": 0,
      "comments": 0,
@@ -830,8 +830,8 @@
     },
     "facebook": {
      "status": "posted",
-     "id": "1534835301786485",
-     "url": "https://facebook.com/reel/1534835301786485/",
+     "id": "923568337356931",
+     "url": "https://facebook.com/reel/923568337356931/",
      "views": 0,
      "likes": 0,
      "comments": 0,
@@ -869,15 +869,15 @@
      "status": "posted",
      "id": "uumJB7SETsA",
      "url": "https://youtu.be/uumJB7SETsA",
-     "views": "104",
+     "views": "123",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
     },
     "facebook": {
      "status": "posted",
-     "id": "1470422198319243",
-     "url": "https://facebook.com/reel/1470422198319243/",
+     "id": "1770922024012547",
+     "url": "https://facebook.com/reel/1770922024012547/",
      "views": 0,
      "likes": 0,
      "comments": 0,
@@ -2042,6 +2042,49 @@
      "detail": ""
     }
    ]
+  },
+  {
+   "at": "2026-10-28T18:52:54Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/40747671193",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "Avengers (and X-Men) Assemble!",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Avengers (and X-Men) Assemble!",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "Double Kill!",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Double Kill!",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "Double Pew Pew",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Double Pew Pew",
+     "detail": ""
+    }
+   ]
   }
  ],
  "history": [
@@ -2125,7 +2168,7 @@
   },
   {
    "date": "2026-10-28",
-   "youtube": 7256,
+   "youtube": 7274,
    "facebook": 209,
    "instagram": null
   }
