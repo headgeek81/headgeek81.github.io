@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-28T17:16:30Z",
+ "generated_at": "2026-10-28T17:57:23Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
   "schedule_days": 5,
-  "caption_style": "plain",
+  "caption_style": "fun",
   "vertical_mode": "stack"
  },
  "queue": {
   "waiting": 24,
   "next": [
-   "She's hacking it!",
    "WTF",
-   "That'll do",
    "Phasmophobia With some friends Join and  Chat",
-   "Why you naked?"
+   "Why you naked?",
+   "Get outta my bedroom!",
+   "Sunglasses at Night"
   ]
  },
  "clips": [
@@ -107,7 +107,7 @@
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #StillWakestheDeep #GamingCommunity #GameplayClips"
    },
    "tiktok": {
-    "video_url": ""
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/OddBlitheButterSaltBae-6HVof_6KVWSWkDx7.mp4"
    }
   },
   {
@@ -368,10 +368,10 @@
     "instagram": {
      "status": "posted",
      "id": "17972611758075726",
-     "url": "https://www.instagram.com/reel/DfAWQPijDct/",
-     "views": "n/a",
-     "likes": 2,
-     "comments": 0,
+     "url": "",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     }
    },
@@ -869,7 +869,7 @@
      "status": "posted",
      "id": "uumJB7SETsA",
      "url": "https://youtu.be/uumJB7SETsA",
-     "views": "90",
+     "views": "91",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -878,7 +878,7 @@
      "status": "posted",
      "id": "2332955314105857",
      "url": "https://facebook.com/reel/2332955314105857/",
-     "views": 1,
+     "views": 2,
      "likes": 1,
      "comments": 0,
      "privacy": ""
@@ -888,7 +888,7 @@
      "id": "17915782644544218",
      "url": "https://www.instagram.com/reel/DfC8OrRihpx/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -1956,6 +1956,19 @@
      "detail": "for Nov 02, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-28T17:57:00Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/40740079396",
+   "events": [
+    {
+     "kind": "posted",
+     "platform": "tiktok video",
+     "title": "THE BEACONS HAVE BEEN LIT",
+     "detail": "re-made"
+    }
+   ]
   }
  ],
  "history": [
@@ -2039,8 +2052,8 @@
   },
   {
    "date": "2026-10-28",
-   "youtube": 7241,
-   "facebook": 248,
+   "youtube": 7242,
+   "facebook": 249,
    "instagram": null
   }
  ]
