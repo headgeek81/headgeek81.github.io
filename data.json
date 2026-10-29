@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:53:18Z",
+ "generated_at": "2026-10-29T17:29:42Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 24,
+  "waiting": 23,
   "next": [
-   "WTF",
    "Phasmophobia With some friends Join and  Chat",
    "Why you naked?",
    "Get outta my bedroom!",
-   "Sunglasses at Night"
+   "Sunglasses at Night",
+   "He was just sitting there in the dark?!"
   ]
  },
  "clips": [
@@ -305,7 +305,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "617",
+     "views": "618",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -777,7 +777,7 @@
      "status": "posted",
      "id": "mpi8_ByPgbc",
      "url": "https://youtu.be/mpi8_ByPgbc",
-     "views": "510",
+     "views": "511",
      "likes": "11",
      "comments": "0",
      "privacy": "public"
@@ -786,7 +786,7 @@
      "status": "posted",
      "id": "1423621226626908",
      "url": "https://facebook.com/reel/1423621226626908/",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -796,7 +796,7 @@
      "id": "18128693260885141",
      "url": "https://www.instagram.com/reel/DfC7sPKFRUM/",
      "views": "n/a",
-     "likes": 2,
+     "likes": 6,
      "comments": 0,
      "privacy": ""
     }
@@ -823,8 +823,8 @@
      "status": "posted",
      "id": "WDJR3nA5qII",
      "url": "https://youtu.be/WDJR3nA5qII",
-     "views": "110",
-     "likes": "2",
+     "views": "318",
+     "likes": "5",
      "comments": "0",
      "privacy": "public"
     },
@@ -832,7 +832,7 @@
      "status": "posted",
      "id": "923568337356931",
      "url": "https://facebook.com/reel/923568337356931/",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -842,7 +842,7 @@
      "id": "18174583336460237",
      "url": "https://www.instagram.com/reel/DfAYSnYlZob/",
      "views": "n/a",
-     "likes": 4,
+     "likes": 5,
      "comments": 0,
      "privacy": ""
     }
@@ -869,16 +869,16 @@
      "status": "posted",
      "id": "uumJB7SETsA",
      "url": "https://youtu.be/uumJB7SETsA",
-     "views": "123",
-     "likes": "0",
-     "comments": "0",
+     "views": "1227",
+     "likes": "14",
+     "comments": "6",
      "privacy": "public"
     },
     "facebook": {
      "status": "posted",
      "id": "1770922024012547",
      "url": "https://facebook.com/reel/1770922024012547/",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -888,7 +888,7 @@
      "id": "17915782644544218",
      "url": "https://www.instagram.com/reel/DfC8OrRihpx/",
      "views": "n/a",
-     "likes": 2,
+     "likes": 6,
      "comments": 0,
      "privacy": ""
     }
@@ -912,33 +912,38 @@
    "slot": "2026-10-29T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "Aak1Ts6OK1g",
      "url": "https://youtu.be/Aak1Ts6OK1g",
-     "views": "0",
+     "views": "16",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
      "status": "posted",
-     "id": "4863752810521763",
-     "url": "https://facebook.com/reel/4863752810521763/",
+     "id": "2207235576892716",
+     "url": "https://facebook.com/reel/2207235576892716/",
      "views": 0,
      "likes": 0,
      "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "17866187637686561",
+     "url": "",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "Girl Power | Gaming #Shorts",
-    "fb": "Girl Power (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Girl Power (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Girl Power (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "Chaos level: maximum \ud83d\ude02 Girl Power (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Chaos level: maximum \ud83d\ude02 Girl Power (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Chaos level: maximum \ud83d\ude02 Girl Power (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -962,13 +967,8 @@
      "privacy": "private"
     },
     "facebook": {
-     "status": "posted",
-     "id": "1340055748081698",
-     "url": "https://facebook.com/reel/1340055748081698/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "status": "waiting",
+     "error": ""
     },
     "instagram": {
      "status": "waiting",
@@ -1003,13 +1003,8 @@
      "privacy": "private"
     },
     "facebook": {
-     "status": "posted",
-     "id": "2163659187869380",
-     "url": "https://facebook.com/reel/2163659187869380/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "status": "waiting",
+     "error": ""
     },
     "instagram": {
      "status": "waiting",
@@ -1044,13 +1039,8 @@
      "privacy": "private"
     },
     "facebook": {
-     "status": "posted",
-     "id": "1798785168120423",
-     "url": "https://facebook.com/reel/1798785168120423/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "privacy": "NOT live on Facebook yet (still unpublished)"
+     "status": "waiting",
+     "error": ""
     },
     "instagram": {
      "status": "waiting",
@@ -1102,6 +1092,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/WiseTalentedApeEleGiggle-fdLm9cFRZ8XvW_om.mp4"
+   }
+  },
+  {
+   "id": "CarelessRoundBunnyFloof-oz-CwXW_oGAg_emO",
+   "title": "WTF",
+   "game": "PRAGMATA",
+   "at": "2026-11-03T17:00:00Z",
+   "slot": "2026-11-03T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "KS8LsrQrrKo",
+     "url": "https://youtu.be/KS8LsrQrrKo",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "WTF | PRAGMATA #Shorts",
+    "fb": "I will not be taking questions about this \ud83d\udc80 WTF (PRAGMATA)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "I will not be taking questions about this \ud83d\udc80 WTF (PRAGMATA)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "I will not be taking questions about this \ud83d\udc80 WTF (PRAGMATA)\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #PRAGMATA #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/CarelessRoundBunnyFloof-oz-CwXW_oGAg_emO.mp4"
    }
   }
  ],
@@ -2085,6 +2111,61 @@
      "detail": ""
     }
    ]
+  },
+  {
+   "at": "2026-10-29T17:29:09Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/40918875601",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "Girl Power",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Girl Power",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "instagram story",
+     "title": "Girl Power",
+     "detail": "Instagram could not process the story: {'id': '18108868061523426', 'status_code': 'ERROR'}"
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Girl Power",
+     "detail": ""
+    },
+    {
+     "kind": "moved",
+     "platform": "facebook",
+     "title": "Hiding Behind My Jell-O",
+     "detail": "will post on Oct 30 instead of being scheduled ahead"
+    },
+    {
+     "kind": "moved",
+     "platform": "facebook",
+     "title": "We are Venom (apparently)",
+     "detail": "will post on Oct 31 instead of being scheduled ahead"
+    },
+    {
+     "kind": "moved",
+     "platform": "facebook",
+     "title": "Why You Being So Weird",
+     "detail": "will post on Nov 01 instead of being scheduled ahead"
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "WTF",
+     "detail": "for Nov 03, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -2170,6 +2251,12 @@
    "date": "2026-10-28",
    "youtube": 7274,
    "facebook": 209,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-29",
+   "youtube": 8604,
+   "facebook": 212,
    "instagram": null
   }
  ]
