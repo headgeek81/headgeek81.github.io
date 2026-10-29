@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:29:42Z",
+ "generated_at": "2026-10-29T17:34:25Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -915,7 +915,7 @@
      "status": "posted",
      "id": "Aak1Ts6OK1g",
      "url": "https://youtu.be/Aak1Ts6OK1g",
-     "views": "16",
+     "views": "20",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -2255,7 +2255,7 @@
   },
   {
    "date": "2026-10-29",
-   "youtube": 8604,
+   "youtube": 8608,
    "facebook": 212,
    "instagram": null
   }
