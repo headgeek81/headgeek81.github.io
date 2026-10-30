@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:34:25Z",
+ "generated_at": "2026-10-30T17:10:40Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 23,
+  "waiting": 29,
   "next": [
-   "Phasmophobia With some friends Join and  Chat",
-   "Why you naked?",
-   "Get outta my bedroom!",
-   "Sunglasses at Night",
-   "He was just sitting there in the dark?!"
+   "She can hack those now #PRAGMATA",
+   "She's Hacking It! #PRAGMATA",
+   "That'll Do #PRAGMATA",
+   "WHAT IS THAT #PRAGMATA",
+   "We are NOT alone here #PRAGMATA"
   ]
  },
  "clips": [
@@ -278,7 +278,7 @@
      "id": "18109261814340363",
      "url": "https://www.instagram.com/reel/Dew42IsDLVu/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -305,7 +305,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "618",
+     "views": "621",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -777,7 +777,7 @@
      "status": "posted",
      "id": "mpi8_ByPgbc",
      "url": "https://youtu.be/mpi8_ByPgbc",
-     "views": "511",
+     "views": "512",
      "likes": "11",
      "comments": "0",
      "privacy": "public"
@@ -785,10 +785,10 @@
     "facebook": {
      "status": "posted",
      "id": "1423621226626908",
-     "url": "https://facebook.com/reel/1423621226626908/",
-     "views": 1,
-     "likes": 0,
-     "comments": 0,
+     "url": "https://www.facebook.com/watch/?v=1423621226626908",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     },
     "instagram": {
@@ -823,7 +823,7 @@
      "status": "posted",
      "id": "WDJR3nA5qII",
      "url": "https://youtu.be/WDJR3nA5qII",
-     "views": "318",
+     "views": "317",
      "likes": "5",
      "comments": "0",
      "privacy": "public"
@@ -869,18 +869,18 @@
      "status": "posted",
      "id": "uumJB7SETsA",
      "url": "https://youtu.be/uumJB7SETsA",
-     "views": "1227",
-     "likes": "14",
-     "comments": "6",
+     "views": "1272",
+     "likes": "15",
+     "comments": "7",
      "privacy": "public"
     },
     "facebook": {
      "status": "posted",
      "id": "1770922024012547",
-     "url": "https://facebook.com/reel/1770922024012547/",
-     "views": 1,
-     "likes": 0,
-     "comments": 0,
+     "url": "https://www.facebook.com/watch/?v=1770922024012547",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     },
     "instagram": {
@@ -915,7 +915,7 @@
      "status": "posted",
      "id": "Aak1Ts6OK1g",
      "url": "https://youtu.be/Aak1Ts6OK1g",
-     "views": "20",
+     "views": "30",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -923,10 +923,10 @@
     "facebook": {
      "status": "posted",
      "id": "2207235576892716",
-     "url": "https://facebook.com/reel/2207235576892716/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
+     "url": "https://www.facebook.com/watch/?v=2207235576892716",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     },
     "instagram": {
@@ -958,28 +958,38 @@
    "slot": "2026-10-30T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "8OwwqL29Kjo",
      "url": "https://youtu.be/8OwwqL29Kjo",
-     "views": "0",
+     "views": "18",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "28972059819112460",
+     "url": "https://facebook.com/reel/28972059819112460/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18131787604692698",
+     "url": "https://www.instagram.com/reel/DfIErN9kwEr/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "Hiding Behind My Jell-O | Gaming #Shorts",
-    "fb": "Hiding Behind My Jell-O (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Hiding Behind My Jell-O (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Hiding Behind My Jell-O (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "This did NOT go how I planned \ud83d\ude05 Hiding Behind My Jell-O (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "This did NOT go how I planned \ud83d\ude05 Hiding Behind My Jell-O (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "This did NOT go how I planned \ud83d\ude05 Hiding Behind My Jell-O (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -1128,6 +1138,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/CarelessRoundBunnyFloof-oz-CwXW_oGAg_emO.mp4"
+   }
+  },
+  {
+   "id": "up_165b2ce730",
+   "title": "Giant Bot Jump Scare #PRAGMATA",
+   "game": "Gaming",
+   "at": "2026-11-04T17:00:00Z",
+   "slot": "2026-11-04T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "UhIpBysmdWE",
+     "url": "https://youtu.be/UhIpBysmdWE",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Giant Bot Jump Scare #PRAGMATA | Gaming #Shorts",
+    "fb": "This did NOT go how I planned \ud83d\ude05 Giant Bot Jump Scare #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "This did NOT go how I planned \ud83d\ude05 Giant Bot Jump Scare #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "This did NOT go how I planned \ud83d\ude05 Giant Bot Jump Scare #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_165b2ce730.mp4"
    }
   }
  ],
@@ -2166,6 +2212,43 @@
      "detail": "for Nov 03, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-30T17:10:15Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/41094839505",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "Hiding Behind My Jell-O",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Hiding Behind My Jell-O",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Hiding Behind My Jell-O",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Hiding Behind My Jell-O",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "Giant Bot Jump Scare #PRAGMATA",
+     "detail": "for Nov 04, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -2257,6 +2340,12 @@
    "date": "2026-10-29",
    "youtube": 8608,
    "facebook": 212,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-30",
+   "youtube": 8684,
+   "facebook": 210,
    "instagram": null
   }
  ]
