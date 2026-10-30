@@ -330,17 +330,17 @@ function viewRuns(){
       '<div class="r">'+(r.url?'<a class="btn" href="'+esc(r.url)+'" target="_blank" rel="noopener">View log</a>':"")+'</div></div>'}).join("")+'</div>';
 }
 function viewTikTok(){
-  var done=store("hg-tt-done")||[],cl=derive().clips.filter(function(c){return c.tiktok&&(c.tiktok.video_url||c.captions&&(c.captions.tt||c.captions.fb))});
+  var done=store("hg-tt-done")||[],cl=derive().clips.filter(function(c){return c.tiktok&&(c.tiktok.video_url||c.captions&&c.captions.tt)});
   cl.sort(function(a,b){return new Date(a.slot||a.at||0)-new Date(b.slot||b.at||0)});
   var todo=cl.filter(function(c){return done.indexOf(c.id)<0}).length;
-  var h=banner()+'<div class="banner"><span><b>'+todo+' video'+(todo===1?"":"s")+' waiting to post.</b> Download the video, then post it to TikTok Studio and to Facebook (Business Suite). Paste the matching caption, and add the TikTok pinned comment after it goes live. "Mark posted" is saved in this browser only.</span></div>';
-  if(!cl.length)return h+'<div class="empty"><b>No post kits yet</b>Each run adds one here with the video, TikTok and Facebook captions and the pinned comment.</div>';
+  var h=banner()+'<div class="banner"><span><b>'+todo+' video'+(todo===1?"":"s")+' waiting to post.</b> Download, upload in TikTok Studio, paste the caption, then add the pinned comment after it goes live. "Mark posted" is saved in this browser only.</span></div>';
+  if(!cl.length)return h+'<div class="empty"><b>No TikTok packages yet</b>Each run adds one here with the video, caption and pinned comment.</div>';
   return h+'<div class="list">'+cl.map(function(c){
     var t=c.tiktok||{},cap=(c.captions||{}),isDone=done.indexOf(c.id)>=0;
     return'<div class="item'+(isDone?" done":"")+'"><div class="l"><div class="title">'+esc(c.title)+'</div><div class="sub">'+esc(c.game||"")+(c.slot?' / '+esc(dday(c.slot)):"")+'</div>'+
-      (cap.tt?'<div class="sub" style="margin-top:8px">TikTok caption</div><pre class="box">'+esc(cap.tt)+'</pre>':"")+(cap.fb?'<div class="sub">Facebook caption</div><pre class="box">'+esc(cap.fb)+'</pre>':"")+(cap.tt_comment?'<div class="sub">Pinned comment</div><pre class="box">'+esc(cap.tt_comment)+'</pre>':"")+'</div>'+
+      (cap.tt?'<pre class="box" style="margin-top:8px">'+esc(cap.tt)+'</pre>':"")+(cap.tt_comment?'<div class="sub">Pinned comment</div><pre class="box">'+esc(cap.tt_comment)+'</pre>':"")+'</div>'+
       '<div class="r" style="align-self:flex-start">'+(t.video_url?'<a class="btn primary" href="'+esc(t.video_url)+'" target="_blank" rel="noopener">Download video</a>':'<span class="pill waiting"><i>…</i>Video expired</span>')+
-      (cap.tt?'<button type="button" class="btn" data-copy="'+esc(cap.tt)+'">Copy TikTok caption</button>':"")+(cap.fb?'<button type="button" class="btn" data-copy="'+esc(cap.fb)+'">Copy Facebook caption</button>':"")+(cap.tt_comment?'<button type="button" class="btn" data-copy="'+esc(cap.tt_comment)+'">Copy comment</button>':"")+
+      (cap.tt?'<button type="button" class="btn" data-copy="'+esc(cap.tt)+'">Copy caption</button>':"")+(cap.tt_comment?'<button type="button" class="btn" data-copy="'+esc(cap.tt_comment)+'">Copy comment</button>':"")+
       '<button type="button" class="btn" data-done="'+esc(c.id)+'">'+(isDone?"Undo":"Mark posted")+'</button></div></div>'}).join("")+'</div>';
 }
 function viewGoLive(){
