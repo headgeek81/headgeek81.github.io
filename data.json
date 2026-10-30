@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:10:40Z",
+ "generated_at": "2026-10-30T17:41:05Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -969,10 +969,10 @@
     "facebook": {
      "status": "posted",
      "id": "28972059819112460",
-     "url": "https://facebook.com/reel/28972059819112460/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
+     "url": "https://www.facebook.com/watch/?v=28972059819112460",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     },
     "instagram": {
@@ -1115,10 +1115,10 @@
      "status": "scheduled",
      "id": "KS8LsrQrrKo",
      "url": "https://youtu.be/KS8LsrQrrKo",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "waiting",
@@ -1151,10 +1151,10 @@
      "status": "scheduled",
      "id": "UhIpBysmdWE",
      "url": "https://youtu.be/UhIpBysmdWE",
-     "views": "0",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "private"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "waiting",
@@ -2249,6 +2249,12 @@
      "detail": "for Nov 04, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-10-30T17:40:26Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/41100393632",
+   "events": []
   }
  ],
  "history": [
