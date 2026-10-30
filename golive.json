@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:51:51Z",
+ "generated_at": "2026-10-30T23:55:37Z",
  "checks": [
   {
    "at": "2026-10-16T20:48:46Z",
@@ -42,6 +42,14 @@
    "live": true,
    "title": "We\"ll stream for food. Join the Fun",
    "game": "PRAGMATA",
+   "facebook": "posted",
+   "instagram": "posted"
+  },
+  {
+   "at": "2026-10-30T23:55:37Z",
+   "live": true,
+   "title": "Brand New Horror For All Hallows Eve",
+   "game": "Scotophobia",
    "facebook": "posted",
    "instagram": "posted"
   }
