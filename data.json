@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:41:05Z",
+ "generated_at": "2026-10-31T17:13:13Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 29,
+  "waiting": 33,
   "next": [
-   "She can hack those now #PRAGMATA",
    "She's Hacking It! #PRAGMATA",
    "That'll Do #PRAGMATA",
    "WHAT IS THAT #PRAGMATA",
-   "We are NOT alone here #PRAGMATA"
+   "We are NOT alone here #PRAGMATA",
+   "What the heck is that #PRAGMATA"
   ]
  },
  "clips": [
@@ -29,7 +29,7 @@
      "status": "posted",
      "id": "evVTu6q9PkI",
      "url": "https://youtu.be/evVTu6q9PkI",
-     "views": "8",
+     "views": "9",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -823,7 +823,7 @@
      "status": "posted",
      "id": "WDJR3nA5qII",
      "url": "https://youtu.be/WDJR3nA5qII",
-     "views": "317",
+     "views": "318",
      "likes": "5",
      "comments": "0",
      "privacy": "public"
@@ -869,7 +869,7 @@
      "status": "posted",
      "id": "uumJB7SETsA",
      "url": "https://youtu.be/uumJB7SETsA",
-     "views": "1272",
+     "views": "1281",
      "likes": "15",
      "comments": "7",
      "privacy": "public"
@@ -961,7 +961,7 @@
      "status": "posted",
      "id": "8OwwqL29Kjo",
      "url": "https://youtu.be/8OwwqL29Kjo",
-     "views": "18",
+     "views": "35",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -1004,28 +1004,38 @@
    "slot": "2026-10-31T16:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "Lr9Dt_K7LnI",
      "url": "https://youtu.be/Lr9Dt_K7LnI",
-     "views": "0",
+     "views": "2",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1805567417419372",
+     "url": "https://facebook.com/reel/1805567417419372/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18121814543058283",
+     "url": "https://www.instagram.com/reel/DfKpiQdk3Sm/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "We are Venom (apparently) | Gaming #Shorts",
-    "fb": "We are Venom (apparently) (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "We are Venom (apparently) (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "We are Venom (apparently) (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "Absolute mayhem \ud83d\udd25 We are Venom (apparently) (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Absolute mayhem \ud83d\udd25 We are Venom (apparently) (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Absolute mayhem \ud83d\udd25 We are Venom (apparently) (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -1174,6 +1184,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_165b2ce730.mp4"
+   }
+  },
+  {
+   "id": "up_4384b5387f",
+   "title": "She can hack those now #PRAGMATA",
+   "game": "Gaming",
+   "at": "2026-11-05T17:00:00Z",
+   "slot": "2026-11-05T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "mQuBZVP2MYU",
+     "url": "https://youtu.be/mQuBZVP2MYU",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "She can hack those now #PRAGMATA | Gaming #Shorts",
+    "fb": "This did NOT go how I planned \ud83d\ude05 She can hack those now #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "This did NOT go how I planned \ud83d\ude05 She can hack those now #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "This did NOT go how I planned \ud83d\ude05 She can hack those now #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_4384b5387f.mp4"
    }
   }
  ],
@@ -2255,6 +2301,43 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/41100393632",
    "events": []
+  },
+  {
+   "at": "2026-10-31T17:12:45Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/41221731731",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "We are Venom (apparently)",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "We are Venom (apparently)",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "instagram story",
+     "title": "We are Venom (apparently)",
+     "detail": "Instagram could not process the story: {'id': '18109115024523426', 'status_code': 'ERROR'}"
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "We are Venom (apparently)",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "She can hack those now #PRAGMATA",
+     "detail": "for Nov 05, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -2351,6 +2434,12 @@
   {
    "date": "2026-10-30",
    "youtube": 8684,
+   "facebook": 210,
+   "instagram": null
+  },
+  {
+   "date": "2026-10-31",
+   "youtube": 8714,
    "facebook": 210,
    "instagram": null
   }
