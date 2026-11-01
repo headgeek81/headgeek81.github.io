@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T17:13:13Z",
+ "generated_at": "2026-11-01T17:49:10Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 33,
+  "waiting": 32,
   "next": [
-   "She's Hacking It! #PRAGMATA",
    "That'll Do #PRAGMATA",
    "WHAT IS THAT #PRAGMATA",
    "We are NOT alone here #PRAGMATA",
-   "What the heck is that #PRAGMATA"
+   "What the heck is that #PRAGMATA",
+   "Peekaboo"
   ]
  },
  "clips": [
@@ -869,7 +869,7 @@
      "status": "posted",
      "id": "uumJB7SETsA",
      "url": "https://youtu.be/uumJB7SETsA",
-     "views": "1281",
+     "views": "1283",
      "likes": "15",
      "comments": "7",
      "privacy": "public"
@@ -915,8 +915,8 @@
      "status": "posted",
      "id": "Aak1Ts6OK1g",
      "url": "https://youtu.be/Aak1Ts6OK1g",
-     "views": "30",
-     "likes": "0",
+     "views": "33",
+     "likes": "1",
      "comments": "0",
      "privacy": "public"
     },
@@ -961,7 +961,7 @@
      "status": "posted",
      "id": "8OwwqL29Kjo",
      "url": "https://youtu.be/8OwwqL29Kjo",
-     "views": "35",
+     "views": "42",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -1007,8 +1007,8 @@
      "status": "posted",
      "id": "Lr9Dt_K7LnI",
      "url": "https://youtu.be/Lr9Dt_K7LnI",
-     "views": "2",
-     "likes": "0",
+     "views": "24",
+     "likes": "2",
      "comments": "0",
      "privacy": "public"
     },
@@ -1050,28 +1050,38 @@
    "slot": "2026-11-01T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "uMCTyR-PVj8",
      "url": "https://youtu.be/uMCTyR-PVj8",
-     "views": "0",
+     "views": "50",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1147354301051865",
+     "url": "https://facebook.com/reel/1147354301051865/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "17885050566522788",
+     "url": "https://www.instagram.com/reel/DfNS4HOAQCO/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "Why You Being So Weird | Gaming #Shorts",
-    "fb": "Why You Being So Weird (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Why You Being So Weird (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Why You Being So Weird (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "I will not be taking questions about this \ud83d\udc80 Why You Being So Weird (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "I will not be taking questions about this \ud83d\udc80 Why You Being So Weird (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "I will not be taking questions about this \ud83d\udc80 Why You Being So Weird (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -1220,6 +1230,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_4384b5387f.mp4"
+   }
+  },
+  {
+   "id": "up_eb418b426a",
+   "title": "She's Hacking It! #PRAGMATA",
+   "game": "Gaming",
+   "at": "2026-11-06T17:00:00Z",
+   "slot": "2026-11-06T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "Bjwi_6YDWh8",
+     "url": "https://youtu.be/Bjwi_6YDWh8",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "She's Hacking It! #PRAGMATA | Gaming #Shorts",
+    "fb": "Absolute mayhem \ud83d\udd25 She's Hacking It! #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Absolute mayhem \ud83d\udd25 She's Hacking It! #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Absolute mayhem \ud83d\udd25 She's Hacking It! #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_eb418b426a.mp4"
    }
   }
  ],
@@ -2338,6 +2384,43 @@
      "detail": "for Nov 05, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-11-01T17:48:34Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/41332555767",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "Why You Being So Weird",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Why You Being So Weird",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "Why You Being So Weird",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Why You Being So Weird",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "She's Hacking It! #PRAGMATA",
+     "detail": "for Nov 06, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -2440,6 +2523,12 @@
   {
    "date": "2026-10-31",
    "youtube": 8714,
+   "facebook": 210,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-01",
+   "youtube": 8798,
    "facebook": 210,
    "instagram": null
   }
