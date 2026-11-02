@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T17:49:10Z",
+ "generated_at": "2026-11-02T17:23:51Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 32,
+  "waiting": 33,
   "next": [
-   "That'll Do #PRAGMATA",
    "WHAT IS THAT #PRAGMATA",
    "We are NOT alone here #PRAGMATA",
    "What the heck is that #PRAGMATA",
-   "Peekaboo"
+   "Peekaboo",
+   "Why is my house changing??"
   ]
  },
  "clips": [
@@ -593,7 +593,7 @@
      "status": "posted",
      "id": "3-S984I4Q_M",
      "url": "https://youtu.be/3-S984I4Q_M",
-     "views": "1308",
+     "views": "1310",
      "likes": "23",
      "comments": "0",
      "privacy": "public"
@@ -961,7 +961,7 @@
      "status": "posted",
      "id": "8OwwqL29Kjo",
      "url": "https://youtu.be/8OwwqL29Kjo",
-     "views": "42",
+     "views": "43",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -1007,8 +1007,8 @@
      "status": "posted",
      "id": "Lr9Dt_K7LnI",
      "url": "https://youtu.be/Lr9Dt_K7LnI",
-     "views": "24",
-     "likes": "2",
+     "views": "28",
+     "likes": "3",
      "comments": "0",
      "privacy": "public"
     },
@@ -1016,7 +1016,7 @@
      "status": "posted",
      "id": "1805567417419372",
      "url": "https://facebook.com/reel/1805567417419372/",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1053,8 +1053,8 @@
      "status": "posted",
      "id": "uMCTyR-PVj8",
      "url": "https://youtu.be/uMCTyR-PVj8",
-     "views": "50",
-     "likes": "0",
+     "views": "1198",
+     "likes": "9",
      "comments": "0",
      "privacy": "public"
     },
@@ -1062,7 +1062,7 @@
      "status": "posted",
      "id": "1147354301051865",
      "url": "https://facebook.com/reel/1147354301051865/",
-     "views": 0,
+     "views": 3,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1072,7 +1072,7 @@
      "id": "17885050566522788",
      "url": "https://www.instagram.com/reel/DfNS4HOAQCO/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 3,
      "comments": 0,
      "privacy": ""
     }
@@ -1096,28 +1096,38 @@
    "slot": "2026-11-02T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "H78M3Yzb2Pk",
      "url": "https://youtu.be/H78M3Yzb2Pk",
-     "views": "0",
-     "likes": "0",
+     "views": "17",
+     "likes": "1",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1933372784696410",
+     "url": "https://facebook.com/reel/1933372784696410/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "17956153518322659",
+     "url": "https://www.instagram.com/reel/DfP09T0Ca6c/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "What the heck was that | PRAGMATA #Shorts",
-    "fb": "What the heck was that (PRAGMATA)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "What the heck was that (PRAGMATA)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "What the heck was that (PRAGMATA)\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "This did NOT go how I planned \ud83d\ude05 What the heck was that (PRAGMATA)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "This did NOT go how I planned \ud83d\ude05 What the heck was that (PRAGMATA)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "This did NOT go how I planned \ud83d\ude05 What the heck was that (PRAGMATA)\n#PRAGMATA #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #PRAGMATA #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -1266,6 +1276,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_eb418b426a.mp4"
+   }
+  },
+  {
+   "id": "up_402b3a89e6",
+   "title": "That'll Do #PRAGMATA",
+   "game": "Gaming",
+   "at": "2026-11-07T17:00:00Z",
+   "slot": "2026-11-07T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "tXdyf7ddi5g",
+     "url": "https://youtu.be/tXdyf7ddi5g",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "That'll Do #PRAGMATA | Gaming #Shorts",
+    "fb": "Chaos level: maximum \ud83d\ude02 That'll Do #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Chaos level: maximum \ud83d\ude02 That'll Do #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Chaos level: maximum \ud83d\ude02 That'll Do #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_402b3a89e6.mp4"
    }
   }
  ],
@@ -2421,6 +2467,43 @@
      "detail": "for Nov 06, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-11-02T17:23:35Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/41489576327",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "What the heck was that",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "What the heck was that",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "What the heck was that",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "What the heck was that",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "That'll Do #PRAGMATA",
+     "detail": "for Nov 07, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -2530,6 +2613,12 @@
    "date": "2026-11-01",
    "youtube": 8798,
    "facebook": 210,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-02",
+   "youtube": 9970,
+   "facebook": 214,
    "instagram": null
   }
  ]
