@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T21:03:53Z",
+ "generated_at": "2026-11-03T17:21:45Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -10,11 +10,11 @@
  "queue": {
   "waiting": 33,
   "next": [
-   "WHAT IS THAT #PRAGMATA",
    "We are NOT alone here #PRAGMATA",
    "What the heck is that #PRAGMATA",
    "WHY GUY",
-   "Peekaboo"
+   "Peekaboo",
+   "Why is my house changing??"
   ]
  },
  "clips": [
@@ -121,7 +121,7 @@
      "status": "posted",
      "id": "__L47-MwAUY",
      "url": "https://youtu.be/__L47-MwAUY",
-     "views": "1184",
+     "views": "1185",
      "likes": "10",
      "comments": "1",
      "privacy": "public"
@@ -1053,7 +1053,7 @@
      "status": "posted",
      "id": "uMCTyR-PVj8",
      "url": "https://youtu.be/uMCTyR-PVj8",
-     "views": "1199",
+     "views": "1225",
      "likes": "9",
      "comments": "0",
      "privacy": "public"
@@ -1099,8 +1099,8 @@
      "status": "posted",
      "id": "H78M3Yzb2Pk",
      "url": "https://youtu.be/H78M3Yzb2Pk",
-     "views": "58",
-     "likes": "3",
+     "views": "103",
+     "likes": "4",
      "comments": "0",
      "privacy": "public"
     },
@@ -1108,7 +1108,7 @@
      "status": "posted",
      "id": "1933372784696410",
      "url": "https://facebook.com/reel/1933372784696410/",
-     "views": 0,
+     "views": 7,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1142,7 +1142,7 @@
    "slot": "2026-11-03T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "KS8LsrQrrKo",
      "url": "https://youtu.be/KS8LsrQrrKo",
      "views": null,
@@ -1151,12 +1151,22 @@
      "privacy": ""
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1690893005882193",
+     "url": "https://facebook.com/reel/1690893005882193/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18451639177130878",
+     "url": "https://www.instagram.com/reel/DfSZj2yjnKI/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -1312,6 +1322,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_402b3a89e6.mp4"
+   }
+  },
+  {
+   "id": "up_8e1566a1a0",
+   "title": "WHAT IS THAT #PRAGMATA",
+   "game": "Gaming",
+   "at": "2026-11-08T17:00:00Z",
+   "slot": "2026-11-08T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "Qqdlbdf1cK0",
+     "url": "https://youtu.be/Qqdlbdf1cK0",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "WHAT IS THAT #PRAGMATA | Gaming #Shorts",
+    "fb": "This did NOT go how I planned \ud83d\ude05 WHAT IS THAT #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "This did NOT go how I planned \ud83d\ude05 WHAT IS THAT #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "This did NOT go how I planned \ud83d\ude05 WHAT IS THAT #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_8e1566a1a0.mp4"
    }
   }
  ],
@@ -2516,6 +2562,43 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/41524595309",
    "events": []
+  },
+  {
+   "at": "2026-11-03T17:21:27Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/41682173751",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "WTF",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "WTF",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "WTF",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "WTF",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "WHAT IS THAT #PRAGMATA",
+     "detail": "for Nov 08, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -2631,6 +2714,12 @@
    "date": "2026-11-02",
    "youtube": 10012,
    "facebook": 214,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-03",
+   "youtube": 10084,
+   "facebook": 221,
    "instagram": null
   }
  ]
