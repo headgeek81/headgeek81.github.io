@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T17:56:33Z",
+ "generated_at": "2026-11-04T17:27:40Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 33,
+  "waiting": 32,
   "next": [
-   "We are NOT alone here #PRAGMATA",
    "What the heck is that #PRAGMATA",
    "WHY GUY",
    "Peekaboo",
-   "Why is my house changing??"
+   "Why is my house changing??",
+   "Die Already"
   ]
  },
  "clips": [
@@ -32,7 +32,7 @@
      "views": "9",
      "likes": "0",
      "comments": "0",
-     "privacy": "public"
+     "privacy": "private"
     },
     "facebook": {
      "status": "posted",
@@ -78,7 +78,7 @@
      "views": "1",
      "likes": "0",
      "comments": "0",
-     "privacy": "public"
+     "privacy": "private"
     },
     "facebook": {
      "status": "posted",
@@ -547,7 +547,7 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "1384",
+     "views": "1385",
      "likes": "19",
      "comments": "0",
      "privacy": "public"
@@ -1053,7 +1053,7 @@
      "status": "posted",
      "id": "uMCTyR-PVj8",
      "url": "https://youtu.be/uMCTyR-PVj8",
-     "views": "1225",
+     "views": "1227",
      "likes": "9",
      "comments": "0",
      "privacy": "public"
@@ -1099,7 +1099,7 @@
      "status": "posted",
      "id": "H78M3Yzb2Pk",
      "url": "https://youtu.be/H78M3Yzb2Pk",
-     "views": "103",
+     "views": "106",
      "likes": "4",
      "comments": "0",
      "privacy": "public"
@@ -1154,8 +1154,8 @@
      "status": "posted",
      "id": "1690893005882193",
      "url": "https://facebook.com/reel/1690893005882193/",
-     "views": 0,
-     "likes": 0,
+     "views": 43,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
@@ -1188,7 +1188,7 @@
    "slot": "2026-11-04T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "UhIpBysmdWE",
      "url": "https://youtu.be/UhIpBysmdWE",
      "views": null,
@@ -1197,12 +1197,22 @@
      "privacy": ""
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1988850091810173",
+     "url": "https://facebook.com/reel/1988850091810173/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18003993158808883",
+     "url": "https://www.instagram.com/reel/DfU-mdRiMJx/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
@@ -1358,6 +1368,42 @@
    },
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_8e1566a1a0.mp4"
+   }
+  },
+  {
+   "id": "up_843dae8d29",
+   "title": "We are NOT alone here #PRAGMATA",
+   "game": "Gaming",
+   "at": "2026-11-09T17:00:00Z",
+   "slot": "2026-11-09T17:00:00Z",
+   "platforms": {
+    "youtube": {
+     "status": "scheduled",
+     "id": "MHANTlQJ2aQ",
+     "url": "https://youtu.be/MHANTlQJ2aQ",
+     "views": "0",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "private"
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "We are NOT alone here #PRAGMATA | Gaming #Shorts",
+    "fb": "Chaos level: maximum \ud83d\ude02 We are NOT alone here #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Chaos level: maximum \ud83d\ude02 We are NOT alone here #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Chaos level: maximum \ud83d\ude02 We are NOT alone here #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_843dae8d29.mp4"
    }
   }
  ],
@@ -2605,6 +2651,43 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/41688763738",
    "events": []
+  },
+  {
+   "at": "2026-11-04T17:27:15Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/41875232381",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "Giant Bot Jump Scare #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "Giant Bot Jump Scare #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "instagram story",
+     "title": "Giant Bot Jump Scare #PRAGMATA",
+     "detail": "Instagram could not process the story: {'id': '18109628468523426', 'status_code': 'ERROR'}"
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "Giant Bot Jump Scare #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "scheduled",
+     "platform": "youtube",
+     "title": "We are NOT alone here #PRAGMATA",
+     "detail": "for Nov 09, 12:00 PM ET"
+    }
+   ]
   }
  ],
  "history": [
@@ -2726,6 +2809,12 @@
    "date": "2026-11-03",
    "youtube": 10084,
    "facebook": 221,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-04",
+   "youtube": 10090,
+   "facebook": 264,
    "instagram": null
   }
  ]
