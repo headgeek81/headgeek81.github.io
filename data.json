@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:42:48Z",
+ "generated_at": "2026-11-05T18:37:53Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -305,7 +305,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "623",
+     "views": "624",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -1237,7 +1237,7 @@
      "status": "posted",
      "id": "mQuBZVP2MYU",
      "url": "https://youtu.be/mQuBZVP2MYU",
-     "views": "7",
+     "views": "6",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -1256,7 +1256,7 @@
      "id": "18160842802460438",
      "url": "https://www.instagram.com/reel/DfXlAnCAKlt/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -2777,6 +2777,12 @@
      "detail": "for Nov 10, 12:00 PM ET"
     }
    ]
+  },
+  {
+   "at": "2026-11-05T18:37:31Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42079573094",
+   "events": []
   }
  ],
  "history": [
