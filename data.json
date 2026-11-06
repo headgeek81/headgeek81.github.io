@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:37:53Z",
+ "generated_at": "2026-11-06T18:00:41Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,14 +8,8 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 31,
-  "next": [
-   "Die Already",
-   "Whatta Face",
-   "WHY",
-   "Phasmophobia With some friends Join and  Chat",
-   "Why you naked?"
-  ]
+  "waiting": 0,
+  "next": []
  },
  "clips": [
   {
@@ -213,7 +207,7 @@
      "status": "posted",
      "id": "ipkZFMFiV7M",
      "url": "https://youtu.be/ipkZFMFiV7M",
-     "views": "197",
+     "views": "195",
      "likes": "3",
      "comments": "0",
      "privacy": "public"
@@ -305,7 +299,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "624",
+     "views": "626",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -547,7 +541,7 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "1386",
+     "views": "1387",
      "likes": "19",
      "comments": "0",
      "privacy": "public"
@@ -731,7 +725,7 @@
      "status": "posted",
      "id": "a5eUymyL_ls",
      "url": "https://youtu.be/a5eUymyL_ls",
-     "views": "215",
+     "views": "216",
      "likes": "1",
      "comments": "0",
      "privacy": "public"
@@ -1099,7 +1093,7 @@
      "status": "posted",
      "id": "H78M3Yzb2Pk",
      "url": "https://youtu.be/H78M3Yzb2Pk",
-     "views": "107",
+     "views": "108",
      "likes": "4",
      "comments": "0",
      "privacy": "public"
@@ -1237,18 +1231,18 @@
      "status": "posted",
      "id": "mQuBZVP2MYU",
      "url": "https://youtu.be/mQuBZVP2MYU",
-     "views": "6",
-     "likes": "0",
-     "comments": "0",
-     "privacy": "public"
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "privacy": ""
     },
     "facebook": {
      "status": "posted",
      "id": "1672209434333783",
-     "url": "https://facebook.com/reel/1672209434333783/",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
+     "url": "https://www.facebook.com/watch/?v=1672209434333783",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     },
     "instagram": {
@@ -1256,7 +1250,7 @@
      "id": "18160842802460438",
      "url": "https://www.instagram.com/reel/DfXlAnCAKlt/",
      "views": "n/a",
-     "likes": 2,
+     "likes": 7,
      "comments": 0,
      "privacy": ""
     }
@@ -1280,28 +1274,38 @@
    "slot": "2026-11-06T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "Bjwi_6YDWh8",
      "url": "https://youtu.be/Bjwi_6YDWh8",
-     "views": "0",
-     "likes": "0",
+     "views": "6",
+     "likes": "1",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1640401217547363",
+     "url": "https://facebook.com/reel/1640401217547363/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "17929201764429798",
+     "url": "https://www.instagram.com/reel/DfaMeJBjQsw/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "She's Hacking It! #PRAGMATA | Gaming #Shorts",
-    "fb": "Absolute mayhem \ud83d\udd25 She's Hacking It! #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Absolute mayhem \ud83d\udd25 She's Hacking It! #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Absolute mayhem \ud83d\udd25 She's Hacking It! #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "Welcome to my worst decision of the day \ud83e\udd21 She's Hacking It! #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Welcome to my worst decision of the day \ud83e\udd21 She's Hacking It! #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Welcome to my worst decision of the day \ud83e\udd21 She's Hacking It! #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -2783,6 +2787,37 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/42079573094",
    "events": []
+  },
+  {
+   "at": "2026-11-06T18:00:16Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42265605336",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "She's Hacking It! #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "She's Hacking It! #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "She's Hacking It! #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "She's Hacking It! #PRAGMATA",
+     "detail": ""
+    }
+   ]
   }
  ],
  "history": [
@@ -2915,6 +2950,12 @@
   {
    "date": "2026-11-05",
    "youtube": 10109,
+   "facebook": 265,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-06",
+   "youtube": 10112,
    "facebook": 265,
    "instagram": null
   }
