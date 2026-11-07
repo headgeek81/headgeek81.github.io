@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T18:00:41Z",
+ "generated_at": "2026-11-07T17:50:15Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -299,7 +299,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "626",
+     "views": "627",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -541,7 +541,7 @@
      "status": "posted",
      "id": "Ikr7gBkadc0",
      "url": "https://youtu.be/Ikr7gBkadc0",
-     "views": "1387",
+     "views": "1388",
      "likes": "19",
      "comments": "0",
      "privacy": "public"
@@ -1277,8 +1277,8 @@
      "status": "posted",
      "id": "Bjwi_6YDWh8",
      "url": "https://youtu.be/Bjwi_6YDWh8",
-     "views": "6",
-     "likes": "1",
+     "views": "128",
+     "likes": "2",
      "comments": "0",
      "privacy": "public"
     },
@@ -1286,7 +1286,7 @@
      "status": "posted",
      "id": "1640401217547363",
      "url": "https://facebook.com/reel/1640401217547363/",
-     "views": 0,
+     "views": 2,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1296,7 +1296,7 @@
      "id": "17929201764429798",
      "url": "https://www.instagram.com/reel/DfaMeJBjQsw/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 9,
      "comments": 0,
      "privacy": ""
     }
@@ -1320,28 +1320,38 @@
    "slot": "2026-11-07T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "tXdyf7ddi5g",
      "url": "https://youtu.be/tXdyf7ddi5g",
-     "views": "0",
-     "likes": "0",
+     "views": "168",
+     "likes": "5",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1877353696597513",
+     "url": "https://facebook.com/reel/1877353696597513/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18100373879551780",
+     "url": "https://www.instagram.com/reel/DfcwBDlkdah/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "That'll Do #PRAGMATA | Gaming #Shorts",
-    "fb": "Chaos level: maximum \ud83d\ude02 That'll Do #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Chaos level: maximum \ud83d\ude02 That'll Do #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Chaos level: maximum \ud83d\ude02 That'll Do #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "Zero plan, full send \ud83d\ude80 That'll Do #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Zero plan, full send \ud83d\ude80 That'll Do #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Zero plan, full send \ud83d\ude80 That'll Do #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -2818,6 +2828,37 @@
      "detail": ""
     }
    ]
+  },
+  {
+   "at": "2026-11-07T17:49:54Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42397531776",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "That'll Do #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "That'll Do #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "That'll Do #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "That'll Do #PRAGMATA",
+     "detail": ""
+    }
+   ]
   }
  ],
  "history": [
@@ -2957,6 +2998,12 @@
    "date": "2026-11-06",
    "youtube": 10112,
    "facebook": 265,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-07",
+   "youtube": 10404,
+   "facebook": 267,
    "instagram": null
   }
  ]
