@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T17:50:15Z",
+ "generated_at": "2026-11-08T17:47:37Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -299,7 +299,7 @@
      "status": "posted",
      "id": "OsEUG11EXHQ",
      "url": "https://youtu.be/OsEUG11EXHQ",
-     "views": "627",
+     "views": "628",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -1277,8 +1277,8 @@
      "status": "posted",
      "id": "Bjwi_6YDWh8",
      "url": "https://youtu.be/Bjwi_6YDWh8",
-     "views": "128",
-     "likes": "2",
+     "views": "360",
+     "likes": "6",
      "comments": "0",
      "privacy": "public"
     },
@@ -1323,8 +1323,8 @@
      "status": "posted",
      "id": "tXdyf7ddi5g",
      "url": "https://youtu.be/tXdyf7ddi5g",
-     "views": "168",
-     "likes": "5",
+     "views": "491",
+     "likes": "6",
      "comments": "0",
      "privacy": "public"
     },
@@ -1332,7 +1332,7 @@
      "status": "posted",
      "id": "1877353696597513",
      "url": "https://facebook.com/reel/1877353696597513/",
-     "views": 0,
+     "views": 2,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1342,7 +1342,7 @@
      "id": "18100373879551780",
      "url": "https://www.instagram.com/reel/DfcwBDlkdah/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     }
@@ -1366,28 +1366,38 @@
    "slot": "2026-11-08T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "Qqdlbdf1cK0",
      "url": "https://youtu.be/Qqdlbdf1cK0",
-     "views": "0",
+     "views": "1",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1148095634417314",
+     "url": "https://facebook.com/reel/1148095634417314/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "17977680567153439",
+     "url": "https://www.instagram.com/reel/DffUmJjDZ3i/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "WHAT IS THAT #PRAGMATA | Gaming #Shorts",
-    "fb": "This did NOT go how I planned \ud83d\ude05 WHAT IS THAT #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "This did NOT go how I planned \ud83d\ude05 WHAT IS THAT #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "This did NOT go how I planned \ud83d\ude05 WHAT IS THAT #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "Not my finest moment, definitely my loudest \ud83d\udce3 WHAT IS THAT #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Not my finest moment, definitely my loudest \ud83d\udce3 WHAT IS THAT #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Not my finest moment, definitely my loudest \ud83d\udce3 WHAT IS THAT #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -2859,6 +2869,37 @@
      "detail": ""
     }
    ]
+  },
+  {
+   "at": "2026-11-08T17:47:04Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42506219483",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "WHAT IS THAT #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "WHAT IS THAT #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "WHAT IS THAT #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "WHAT IS THAT #PRAGMATA",
+     "detail": ""
+    }
+   ]
   }
  ],
  "history": [
@@ -3004,6 +3045,12 @@
    "date": "2026-11-07",
    "youtube": 10404,
    "facebook": 267,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-08",
+   "youtube": 10961,
+   "facebook": 269,
    "instagram": null
   }
  ]
