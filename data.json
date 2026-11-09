@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T17:40:08Z",
+ "generated_at": "2026-11-09T18:01:14Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -1415,7 +1415,7 @@
      "status": "posted",
      "id": "MHANTlQJ2aQ",
      "url": "https://youtu.be/MHANTlQJ2aQ",
-     "views": "3",
+     "views": "0",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -1488,43 +1488,6 @@
   }
  ],
  "runs": [
-  {
-   "at": "2026-10-14T18:18:22Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38613852965",
-   "events": [
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
-     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "WTF",
-     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "My boss is a monster (literally)",
-     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Gimme the key",
-     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Might need new underwear now",
-     "detail": "Could not download the clip (RuntimeError); it may have been deleted on Twitch."
-    }
-   ]
-  },
   {
    "at": "2026-10-14T18:35:13Z",
    "dry_run": false,
@@ -2892,6 +2855,12 @@
      "detail": ""
     }
    ]
+  },
+  {
+   "at": "2026-11-09T18:00:39Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42669880985",
+   "events": []
   }
  ],
  "history": [
@@ -3047,7 +3016,7 @@
   },
   {
    "date": "2026-11-09",
-   "youtube": 10982,
+   "youtube": 10979,
    "facebook": 227,
    "instagram": null
   }
