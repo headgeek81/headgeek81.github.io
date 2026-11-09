@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T17:47:37Z",
+ "generated_at": "2026-11-09T17:40:08Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -1110,10 +1110,10 @@
     "instagram": {
      "status": "posted",
      "id": "17956153518322659",
-     "url": "https://www.instagram.com/reel/DfP09T0Ca6c/",
-     "views": "n/a",
-     "likes": 2,
-     "comments": 0,
+     "url": "",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     }
    },
@@ -1147,10 +1147,10 @@
     "facebook": {
      "status": "posted",
      "id": "1690893005882193",
-     "url": "https://facebook.com/reel/1690893005882193/",
-     "views": 43,
-     "likes": 1,
-     "comments": 0,
+     "url": "https://www.facebook.com/watch/?v=1690893005882193",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     },
     "instagram": {
@@ -1277,7 +1277,7 @@
      "status": "posted",
      "id": "Bjwi_6YDWh8",
      "url": "https://youtu.be/Bjwi_6YDWh8",
-     "views": "360",
+     "views": "367",
      "likes": "6",
      "comments": "0",
      "privacy": "public"
@@ -1323,7 +1323,7 @@
      "status": "posted",
      "id": "tXdyf7ddi5g",
      "url": "https://youtu.be/tXdyf7ddi5g",
-     "views": "491",
+     "views": "502",
      "likes": "6",
      "comments": "0",
      "privacy": "public"
@@ -1378,7 +1378,7 @@
      "status": "posted",
      "id": "1148095634417314",
      "url": "https://facebook.com/reel/1148095634417314/",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1388,7 +1388,7 @@
      "id": "17977680567153439",
      "url": "https://www.instagram.com/reel/DffUmJjDZ3i/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 8,
      "comments": 0,
      "privacy": ""
     }
@@ -1412,28 +1412,38 @@
    "slot": "2026-11-09T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "MHANTlQJ2aQ",
      "url": "https://youtu.be/MHANTlQJ2aQ",
-     "views": "0",
+     "views": "3",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1769853084100436",
+     "url": "https://facebook.com/reel/1769853084100436/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "17916423603515594",
+     "url": "https://www.instagram.com/reel/Dfh4FwWESoi/",
+     "views": "n/a",
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "We are NOT alone here #PRAGMATA | Gaming #Shorts",
-    "fb": "Chaos level: maximum \ud83d\ude02 We are NOT alone here #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Chaos level: maximum \ud83d\ude02 We are NOT alone here #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Chaos level: maximum \ud83d\ude02 We are NOT alone here #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "Well, that escalated quickly \ud83d\udcc8 We are NOT alone here #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Well, that escalated quickly \ud83d\udcc8 We are NOT alone here #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Well, that escalated quickly \ud83d\udcc8 We are NOT alone here #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -1478,55 +1488,6 @@
   }
  ],
  "runs": [
-  {
-   "at": "2026-10-14T17:14:24Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38604070413",
-   "events": [
-    {
-     "kind": "due",
-     "platform": "instagram",
-     "title": "Watch Yo Profanity",
-     "detail": ""
-    },
-    {
-     "kind": "due",
-     "platform": "instagram",
-     "title": "Spawn campers!",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "instagram",
-     "title": "THE BEACONS HAVE BEEN LIT",
-     "detail": ""
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "Gimme the key",
-     "detail": "for Oct 18, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "Gimme the key",
-     "detail": "for Oct 18, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "Might need new underwear now",
-     "detail": "for Oct 19, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "Might need new underwear now",
-     "detail": "for Oct 19, 12:00 PM ET"
-    }
-   ]
-  },
   {
    "at": "2026-10-14T18:18:22Z",
    "dry_run": false,
@@ -2900,6 +2861,37 @@
      "detail": ""
     }
    ]
+  },
+  {
+   "at": "2026-11-09T17:39:25Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42664050098",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "We are NOT alone here #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "We are NOT alone here #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "failed",
+     "platform": "instagram story",
+     "title": "We are NOT alone here #PRAGMATA",
+     "detail": "Instagram could not process the story: {'id': '18110230988523426', 'status_code': 'ERROR'}"
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "We are NOT alone here #PRAGMATA",
+     "detail": ""
+    }
+   ]
   }
  ],
  "history": [
@@ -3051,6 +3043,12 @@
    "date": "2026-11-08",
    "youtube": 10961,
    "facebook": 269,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-09",
+   "youtube": 10982,
+   "facebook": 227,
    "instagram": null
   }
  ]
