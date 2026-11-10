@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T17:14:27Z",
+ "generated_at": "2026-11-10T17:54:10Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -1461,8 +1461,8 @@
      "status": "posted",
      "id": "n-IgY0kq8nY",
      "url": "https://youtu.be/n-IgY0kq8nY",
-     "views": "36",
-     "likes": "0",
+     "views": "127",
+     "likes": "1",
      "comments": "0",
      "privacy": "public"
     },
@@ -1498,73 +1498,6 @@
   }
  ],
  "runs": [
-  {
-   "at": "2026-10-14T19:04:41Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38619904568",
-   "events": [
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "WHAT ARE THOSE",
-     "detail": "for Oct 15, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "WHAT ARE THOSE",
-     "detail": "for Oct 15, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "Ew Gross",
-     "detail": "for Oct 16, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "Ew Gross",
-     "detail": "for Oct 16, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "It's eating my face!!",
-     "detail": "for Oct 17, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "It's eating my face!!",
-     "detail": "for Oct 17, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "Not the bootyhole lady \ud83d\ude2b",
-     "detail": "for Oct 18, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "Not the bootyhole lady \ud83d\ude2b",
-     "detail": "for Oct 18, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "I DIE",
-     "detail": "for Oct 19, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "I DIE",
-     "detail": "for Oct 19, 12:00 PM ET"
-    }
-   ]
-  },
   {
    "at": "2026-10-15T19:30:19Z",
    "dry_run": false,
@@ -2871,6 +2804,12 @@
      "detail": ""
     }
    ]
+  },
+  {
+   "at": "2026-11-10T17:53:26Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42869297070",
+   "events": []
   }
  ],
  "history": [
@@ -3032,7 +2971,7 @@
   },
   {
    "date": "2026-11-10",
-   "youtube": 11026,
+   "youtube": 11117,
    "facebook": 228,
    "instagram": null
   }
