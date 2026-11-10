@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T18:01:14Z",
+ "generated_at": "2026-11-10T17:14:27Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -1323,7 +1323,7 @@
      "status": "posted",
      "id": "tXdyf7ddi5g",
      "url": "https://youtu.be/tXdyf7ddi5g",
-     "views": "502",
+     "views": "503",
      "likes": "6",
      "comments": "0",
      "privacy": "public"
@@ -1415,7 +1415,7 @@
      "status": "posted",
      "id": "MHANTlQJ2aQ",
      "url": "https://youtu.be/MHANTlQJ2aQ",
-     "views": "0",
+     "views": "10",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -1424,7 +1424,7 @@
      "status": "posted",
      "id": "1769853084100436",
      "url": "https://facebook.com/reel/1769853084100436/",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1434,7 +1434,7 @@
      "id": "17916423603515594",
      "url": "https://www.instagram.com/reel/Dfh4FwWESoi/",
      "views": "n/a",
-     "likes": 0,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -1458,28 +1458,38 @@
    "slot": "2026-11-10T17:00:00Z",
    "platforms": {
     "youtube": {
-     "status": "scheduled",
+     "status": "posted",
      "id": "n-IgY0kq8nY",
      "url": "https://youtu.be/n-IgY0kq8nY",
-     "views": "0",
+     "views": "36",
      "likes": "0",
      "comments": "0",
-     "privacy": "private"
+     "privacy": "public"
     },
     "facebook": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "1007736054958099",
+     "url": "https://facebook.com/reel/1007736054958099/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
     },
     "instagram": {
-     "status": "waiting",
-     "error": ""
+     "status": "posted",
+     "id": "18213332416366860",
+     "url": "https://www.instagram.com/reel/DffLMb7Ddzd/",
+     "views": "n/a",
+     "likes": 1,
+     "comments": 0,
+     "privacy": ""
     }
    },
    "captions": {
     "yt_title": "What the heck is that #PRAGMATA | Gaming #Shorts",
-    "fb": "Chaos level: maximum \ud83d\ude02 What the heck is that #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "ig": "Chaos level: maximum \ud83d\ude02 What the heck is that #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
-    "tt": "Chaos level: maximum \ud83d\ude02 What the heck is that #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "That went sideways in record time \ud83d\udef9 What the heck is that #PRAGMATA (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "That went sideways in record time \ud83d\udef9 What the heck is that #PRAGMATA (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "That went sideways in record time \ud83d\udef9 What the heck is that #PRAGMATA (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
    },
    "tiktok": {
@@ -1488,43 +1498,6 @@
   }
  ],
  "runs": [
-  {
-   "at": "2026-10-14T18:35:13Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38615479704",
-   "events": [
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Hello??",
-     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "BY THE POWER OF GRAYSKULL",
-     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "HOW RUDE",
-     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "He's just standing there, menacingly!",
-     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Really",
-     "detail": "profanity check failed: open() got an unexpected keyword argument 'metadata_errors'"
-    }
-   ]
-  },
   {
    "at": "2026-10-14T19:04:41Z",
    "dry_run": false,
@@ -2861,6 +2834,43 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/42669880985",
    "events": []
+  },
+  {
+   "at": "2026-11-10T17:14:00Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/42861927826",
+   "events": [
+    {
+     "kind": "due",
+     "platform": "facebook",
+     "title": "What the heck is that #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "skipped",
+     "platform": "instagram",
+     "title": "What the heck is that #PRAGMATA",
+     "detail": "already posted within 30 days"
+    },
+    {
+     "kind": "due",
+     "platform": "instagram",
+     "title": "What the heck is that #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram story",
+     "title": "What the heck is that #PRAGMATA",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook story",
+     "title": "What the heck is that #PRAGMATA",
+     "detail": ""
+    }
+   ]
   }
  ],
  "history": [
@@ -3018,6 +3028,12 @@
    "date": "2026-11-09",
    "youtube": 10979,
    "facebook": 227,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-10",
+   "youtube": 11026,
+   "facebook": 228,
    "instagram": null
   }
  ]
