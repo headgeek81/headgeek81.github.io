@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T17:36:27Z",
+ "generated_at": "2026-11-11T18:00:51Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -1499,43 +1499,6 @@
  ],
  "runs": [
   {
-   "at": "2026-10-16T16:58:55Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38935064354",
-   "events": [
-    {
-     "kind": "failed",
-     "platform": "instagram",
-     "title": "Ew Gross",
-     "detail": "400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
-    },
-    {
-     "kind": "posted",
-     "platform": "facebook story",
-     "title": "Ew Gross",
-     "detail": ""
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
-     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "WTF",
-     "detail": "for Oct 21, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "WTF",
-     "detail": "for Oct 21, 12:00 PM ET"
-    }
-   ]
-  },
-  {
    "at": "2026-10-17T16:58:43Z",
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/39050805122",
@@ -2784,6 +2747,12 @@
    "at": "2026-11-11T17:36:06Z",
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/43066312089",
+   "events": []
+  },
+  {
+   "at": "2026-11-11T18:00:23Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/43073265140",
    "events": []
   }
  ],
