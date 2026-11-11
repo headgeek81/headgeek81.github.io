@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T17:54:10Z",
+ "generated_at": "2026-11-11T17:36:27Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -1296,7 +1296,7 @@
      "id": "17929201764429798",
      "url": "https://www.instagram.com/reel/DfaMeJBjQsw/",
      "views": "n/a",
-     "likes": 9,
+     "likes": 10,
      "comments": 0,
      "privacy": ""
     }
@@ -1332,7 +1332,7 @@
      "status": "posted",
      "id": "1877353696597513",
      "url": "https://facebook.com/reel/1877353696597513/",
-     "views": 2,
+     "views": 3,
      "likes": 0,
      "comments": 0,
      "privacy": ""
@@ -1342,7 +1342,7 @@
      "id": "18100373879551780",
      "url": "https://www.instagram.com/reel/DfcwBDlkdah/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -1378,8 +1378,8 @@
      "status": "posted",
      "id": "1148095634417314",
      "url": "https://facebook.com/reel/1148095634417314/",
-     "views": 1,
-     "likes": 0,
+     "views": 2,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
@@ -1416,7 +1416,7 @@
      "id": "MHANTlQJ2aQ",
      "url": "https://youtu.be/MHANTlQJ2aQ",
      "views": "10",
-     "likes": "0",
+     "likes": "1",
      "comments": "0",
      "privacy": "public"
     },
@@ -1434,7 +1434,7 @@
      "id": "17916423603515594",
      "url": "https://www.instagram.com/reel/Dfh4FwWESoi/",
      "views": "n/a",
-     "likes": 2,
+     "likes": 3,
      "comments": 0,
      "privacy": ""
     }
@@ -1461,8 +1461,8 @@
      "status": "posted",
      "id": "n-IgY0kq8nY",
      "url": "https://youtu.be/n-IgY0kq8nY",
-     "views": "127",
-     "likes": "1",
+     "views": "920",
+     "likes": "10",
      "comments": "0",
      "privacy": "public"
     },
@@ -1470,8 +1470,8 @@
      "status": "posted",
      "id": "1007736054958099",
      "url": "https://facebook.com/reel/1007736054958099/",
-     "views": 0,
-     "likes": 0,
+     "views": 18,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
@@ -1480,7 +1480,7 @@
      "id": "18213332416366860",
      "url": "https://www.instagram.com/reel/DffLMb7Ddzd/",
      "views": "n/a",
-     "likes": 1,
+     "likes": 2,
      "comments": 0,
      "privacy": ""
     }
@@ -1498,37 +1498,6 @@
   }
  ],
  "runs": [
-  {
-   "at": "2026-10-15T19:30:19Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/38793643224",
-   "events": [
-    {
-     "kind": "due",
-     "platform": "instagram",
-     "title": "WHAT ARE THOSE",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "instagram story",
-     "title": "WHAT ARE THOSE",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "facebook story",
-     "title": "WHAT ARE THOSE",
-     "detail": ""
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
-     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
-    }
-   ]
-  },
   {
    "at": "2026-10-16T16:58:55Z",
    "dry_run": false,
@@ -2810,6 +2779,12 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/42869297070",
    "events": []
+  },
+  {
+   "at": "2026-11-11T17:36:06Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/43066312089",
+   "events": []
   }
  ],
  "history": [
@@ -2973,6 +2948,12 @@
    "date": "2026-11-10",
    "youtube": 11117,
    "facebook": 228,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-11",
+   "youtube": 11910,
+   "facebook": 248,
    "instagram": null
   }
  ]
