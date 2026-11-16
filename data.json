@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-11T18:00:51Z",
+ "generated_at": "2026-11-16T15:49:40Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
-  "schedule_days": 5,
+  "schedule_days": 0,
   "caption_style": "fun",
   "vertical_mode": "stack"
  },
@@ -345,7 +345,7 @@
      "status": "posted",
      "id": "IgVuaM197yg",
      "url": "https://youtu.be/IgVuaM197yg",
-     "views": "115",
+     "views": "117",
      "likes": "1",
      "comments": "0",
      "privacy": "public"
@@ -817,7 +817,7 @@
      "status": "posted",
      "id": "WDJR3nA5qII",
      "url": "https://youtu.be/WDJR3nA5qII",
-     "views": "318",
+     "views": "319",
      "likes": "5",
      "comments": "0",
      "privacy": "public"
@@ -1286,8 +1286,8 @@
      "status": "posted",
      "id": "1640401217547363",
      "url": "https://facebook.com/reel/1640401217547363/",
-     "views": 2,
-     "likes": 0,
+     "views": 3,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
@@ -1323,7 +1323,7 @@
      "status": "posted",
      "id": "tXdyf7ddi5g",
      "url": "https://youtu.be/tXdyf7ddi5g",
-     "views": "503",
+     "views": "504",
      "likes": "6",
      "comments": "0",
      "privacy": "public"
@@ -1369,7 +1369,7 @@
      "status": "posted",
      "id": "Qqdlbdf1cK0",
      "url": "https://youtu.be/Qqdlbdf1cK0",
-     "views": "1",
+     "views": "2",
      "likes": "0",
      "comments": "0",
      "privacy": "public"
@@ -1415,7 +1415,7 @@
      "status": "posted",
      "id": "MHANTlQJ2aQ",
      "url": "https://youtu.be/MHANTlQJ2aQ",
-     "views": "10",
+     "views": "14",
      "likes": "1",
      "comments": "0",
      "privacy": "public"
@@ -1424,8 +1424,8 @@
      "status": "posted",
      "id": "1769853084100436",
      "url": "https://facebook.com/reel/1769853084100436/",
-     "views": 1,
-     "likes": 0,
+     "views": 2,
+     "likes": 1,
      "comments": 0,
      "privacy": ""
     },
@@ -1461,7 +1461,7 @@
      "status": "posted",
      "id": "n-IgY0kq8nY",
      "url": "https://youtu.be/n-IgY0kq8nY",
-     "views": "920",
+     "views": "998",
      "likes": "10",
      "comments": "0",
      "privacy": "public"
@@ -1469,10 +1469,10 @@
     "facebook": {
      "status": "posted",
      "id": "1007736054958099",
-     "url": "https://facebook.com/reel/1007736054958099/",
-     "views": 18,
-     "likes": 1,
-     "comments": 0,
+     "url": "https://www.facebook.com/watch/?v=1007736054958099",
+     "views": null,
+     "likes": null,
+     "comments": null,
      "privacy": ""
     },
     "instagram": {
@@ -2923,6 +2923,12 @@
    "date": "2026-11-11",
    "youtube": 11910,
    "facebook": 248,
+   "instagram": null
+  },
+  {
+   "date": "2026-11-16",
+   "youtube": 11997,
+   "facebook": 232,
    "instagram": null
   }
  ]
