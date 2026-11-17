@@ -151,7 +151,7 @@ footer{color:var(--ink-3);font-size:12px;margin-top:8px}
 var ET="America/New_York";
 var PLAT=[{k:"youtube",n:"YouTube",c:"var(--s1)"},{k:"facebook",n:"Facebook",c:"var(--s2)"},{k:"instagram",n:"Instagram",c:"var(--s3)"}];
 var STATUS={posted:["✓","Posted"],scheduled:["◷","Scheduled"],waiting:["…","Waiting"],failed:["!","Failed"]};
-var TABS=[["overview","Overview"],["clips","Clips"],["schedule","Schedule"],["runs","Runs"],["tiktok","Post kit"],["golive","Go live"]];
+var TABS=[["overview","Overview"],["clips","Clips"],["schedule","Schedule"],["runs","Runs"],["tiktok","Video Kits"],["golive","Go live"]];
 var D=null, G=null, state={tab:"overview",filter:"all",sort:"new",q:"",open:{}};
 
 function $(s,r){return (r||document).querySelector(s)}
@@ -334,7 +334,7 @@ function viewTikTok(){
   cl.sort(function(a,b){return new Date(b.slot||b.at||0)-new Date(a.slot||a.at||0)});
   var todo=cl.filter(function(c){return done.indexOf(c.id)<0}).length;
   var h=banner()+'<div class="banner"><span><b>'+todo+' kit'+(todo===1?"":"s")+' waiting to post.</b> Download the video, post it on Facebook, Instagram and TikTok with the captions below, then add the first comment. "Mark posted" is saved in this browser only.</span></div>';
-  if(!cl.length)return h+'<div class="empty"><b>No post kits yet</b>Each day ClipBot adds one here with the video, captions and comments.</div>';
+  if(!cl.length)return h+'<div class="empty"><b>No video kits yet</b>Each day ClipBot adds one here with the video, captions and comments.</div>';
   return h+'<div class="list">'+cl.map(function(c){
     var t=c.tiktok||{},cap=(c.captions||{}),isDone=done.indexOf(c.id)>=0;
     var blocks=[["Instagram caption",cap.ig],["Facebook caption",cap.fb],["Facebook and Instagram first comment",cap.fb_comment],["TikTok caption",cap.tt],["TikTok pinned comment",cap.tt_comment]].filter(function(x){return x[1]});
