@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T01:13:31Z",
+ "generated_at": "2026-11-17T01:57:16Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,10 +8,8 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 1,
-  "next": [
-   "GTA VI Prep Road to Affiliate HELP a MAN out"
-  ]
+  "waiting": 0,
+  "next": []
  },
  "clips": [
   {
@@ -1530,64 +1528,41 @@
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_8063f1d0b6.mp4"
    }
+  },
+  {
+   "id": "RoughPoliteLobsterDancingBanana-ukkFDhraOO9G54hz",
+   "title": "GTA VI Prep Road to Affiliate HELP a MAN out",
+   "game": "Grand Theft Auto V",
+   "at": "2026-11-17T01:56:51Z",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "waiting",
+     "error": ""
+    },
+    "facebook": {
+     "status": "waiting",
+     "error": ""
+    },
+    "instagram": {
+     "status": "waiting",
+     "error": ""
+    }
+   },
+   "captions": {
+    "yt_title": "GTA VI Prep Road to Affiliate HELP a MAN out | Grand Theft Auto V #Shorts",
+    "fb": "I regret nothing, mostly \ud83d\ude08 GTA VI Prep Road to Affiliate HELP a MAN out (Grand Theft Auto V)\nNot our usual horror, but the same chaos. Horror is still the main event on Twitch.\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#GrandTheftAutoV #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "I regret nothing, mostly \ud83d\ude08 GTA VI Prep Road to Affiliate HELP a MAN out (Grand Theft Auto V)\nNot our usual horror, but the same chaos. Horror is still the main event on Twitch.\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#GrandTheftAutoV #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "I regret nothing, mostly \ud83d\ude08 GTA VI Prep Road to Affiliate HELP a MAN out (Grand Theft Auto V)\nNot our usual horror, but the same chaos. Horror is still the main event on Twitch.\n#GrandTheftAutoV #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #GrandTheftAutoV #GamingCommunity #GameplayClips",
+    "fb_comment": "Be honest, would you have survived this? Tell me below \ud83d\udc47"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/RoughPoliteLobsterDancingBanana-ukkFDhraOO9G54hz.mp4"
+   }
   }
  ],
  "runs": [
-  {
-   "at": "2026-10-17T16:58:43Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39050805122",
-   "events": [
-    {
-     "kind": "due",
-     "platform": "instagram",
-     "title": "Ew Gross",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "instagram story",
-     "title": "Ew Gross",
-     "detail": ""
-    },
-    {
-     "kind": "due",
-     "platform": "instagram",
-     "title": "It's eating my face!!",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "instagram story",
-     "title": "It's eating my face!!",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "facebook story",
-     "title": "It's eating my face!!",
-     "detail": ""
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
-     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "My boss is a monster (literally)",
-     "detail": "for Oct 22, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "My boss is a monster (literally)",
-     "detail": "for Oct 22, 12:00 PM ET"
-    }
-   ]
-  },
   {
    "at": "2026-10-18T16:55:05Z",
    "dry_run": false,
@@ -2789,6 +2764,19 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/43073265140",
    "events": []
+  },
+  {
+   "at": "2026-11-17T01:56:51Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/43998966014",
+   "events": [
+    {
+     "kind": "posted",
+     "platform": "post kit",
+     "title": "GTA VI Prep Road to Affiliate HELP a MAN out",
+     "detail": "ready for you to post"
+    }
+   ]
   }
  ],
  "history": [
