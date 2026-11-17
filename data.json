@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:33:28Z",
+ "generated_at": "2026-11-17T00:20:03Z",
  "sample": false,
  "settings": {
   "post_hour_et": 12,
@@ -8,13 +8,13 @@
   "vertical_mode": "stack"
  },
  "queue": {
-  "waiting": 12,
+  "waiting": 11,
   "next": [
-   "Elevator Jump Scare",
    "Ghost Ran Right Past Me \ud83d\ude31",
    "He got me",
    "He's just standing there, menacingly!",
-   "I'm just trying to do the dishes"
+   "I'm just trying to do the dishes",
+   "Mega Kobe Throw"
   ]
  },
  "clips": [
@@ -1501,64 +1501,55 @@
    "tiktok": {
     "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_8063f1d0b6.mp4"
    }
+  },
+  {
+   "id": "up_ebcc2320fd",
+   "title": "Elevator Jump Scare",
+   "game": "Gaming",
+   "at": "2026-11-17T00:19:11Z",
+   "slot": "",
+   "platforms": {
+    "youtube": {
+     "status": "posted",
+     "id": "W_YwuVORF9M",
+     "url": "https://youtu.be/W_YwuVORF9M",
+     "views": "69",
+     "likes": "0",
+     "comments": "0",
+     "privacy": "public"
+    },
+    "facebook": {
+     "status": "posted",
+     "id": "987221120648537",
+     "url": "https://facebook.com/reel/987221120648537/",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "privacy": ""
+    },
+    "instagram": {
+     "status": "posted",
+     "id": "18084231845711927",
+     "url": "https://www.instagram.com/reel/DfU8PwCkhyM/",
+     "views": "n/a",
+     "likes": 2,
+     "comments": 0,
+     "privacy": ""
+    }
+   },
+   "captions": {
+    "yt_title": "Elevator Jump Scare | Gaming #Shorts",
+    "fb": "Nobody asked for this and yet here we are \ud83c\udfae Elevator Jump Scare (Gaming)\n\nCome hang out LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "ig": "Nobody asked for this and yet here we are \ud83c\udfae Elevator Jump Scare (Gaming)\n\nWatch me play LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "Nobody asked for this and yet here we are \ud83c\udfae Elevator Jump Scare (Gaming)\n#Gaming #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #Gaming #GamingCommunity #GameplayClips"
+   },
+   "tiktok": {
+    "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/up_ebcc2320fd.mp4"
+   }
   }
  ],
  "runs": [
-  {
-   "at": "2026-10-17T16:58:43Z",
-   "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/39050805122",
-   "events": [
-    {
-     "kind": "due",
-     "platform": "instagram",
-     "title": "Ew Gross",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "instagram story",
-     "title": "Ew Gross",
-     "detail": ""
-    },
-    {
-     "kind": "due",
-     "platform": "instagram",
-     "title": "It's eating my face!!",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "instagram story",
-     "title": "It's eating my face!!",
-     "detail": ""
-    },
-    {
-     "kind": "posted",
-     "platform": "facebook story",
-     "title": "It's eating my face!!",
-     "detail": ""
-    },
-    {
-     "kind": "failed",
-     "platform": "download",
-     "title": "Drawing near the end HOPEFULLY come watch me freak out!!!",
-     "detail": "profanity check failed: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "youtube",
-     "title": "My boss is a monster (literally)",
-     "detail": "for Oct 22, 12:00 PM ET"
-    },
-    {
-     "kind": "scheduled",
-     "platform": "facebook",
-     "title": "My boss is a monster (literally)",
-     "detail": "for Oct 22, 12:00 PM ET"
-    }
-   ]
-  },
   {
    "at": "2026-10-18T16:55:05Z",
    "dry_run": false,
@@ -2760,6 +2751,43 @@
    "dry_run": false,
    "url": "https://github.com/headgeek81/ClipBot/actions/runs/43073265140",
    "events": []
+  },
+  {
+   "at": "2026-11-17T00:19:21Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/43985860725",
+   "events": [
+    {
+     "kind": "skipped",
+     "platform": "youtube",
+     "title": "Elevator Jump Scare",
+     "detail": "already posted within 30 days"
+    },
+    {
+     "kind": "posted",
+     "platform": "youtube",
+     "title": "Elevator Jump Scare",
+     "detail": ""
+    },
+    {
+     "kind": "posted",
+     "platform": "facebook",
+     "title": "Elevator Jump Scare",
+     "detail": ""
+    },
+    {
+     "kind": "skipped",
+     "platform": "instagram",
+     "title": "Elevator Jump Scare",
+     "detail": "already posted within 30 days"
+    },
+    {
+     "kind": "posted",
+     "platform": "instagram",
+     "title": "Elevator Jump Scare",
+     "detail": ""
+    }
+   ]
   }
  ],
  "history": [
@@ -2933,7 +2961,7 @@
   },
   {
    "date": "2026-11-16",
-   "youtube": 11997,
+   "youtube": 12066,
    "facebook": 232,
    "instagram": null
   }
