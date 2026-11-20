@@ -141,7 +141,7 @@ footer{color:var(--ink-3);font-size:12px;margin-top:8px}
     <div class="tabs" role="tablist" id="tabs"></div>
   </div>
   <main id="main"></main>
-  <footer>Numbers are read from YouTube, Facebook and Instagram each time ClipBot runs, so they are as fresh as the last run. Instagram views stay blank unless Instagram insights are enabled.</footer>
+  <footer>ClipBot checks Twitch, TikTok and your accounts once a day. "Mark done" buttons are saved in this browser only.</footer>
 </div>
 <noscript>This dashboard needs JavaScript.</noscript>
 
@@ -149,239 +149,170 @@ footer{color:var(--ink-3);font-size:12px;margin-top:8px}
 (function(){
 "use strict";
 var ET="America/New_York";
-var PLAT=[{k:"youtube",n:"YouTube",c:"var(--s1)"},{k:"facebook",n:"Facebook",c:"var(--s2)"},{k:"instagram",n:"Instagram",c:"var(--s3)"}];
-var STATUS={posted:["✓","Posted"],scheduled:["◷","Scheduled"],waiting:["…","Waiting"],failed:["!","Failed"]};
-var TABS=[["overview","Overview"],["clips","Clips"],["schedule","Schedule"],["runs","Runs"],["tiktok","TikTok"],["golive","Go live"]];
-var D=null, G=null, state={tab:"overview",filter:"all",sort:"new",q:"",open:{}};
-
+var TABS=[["overview","Overview"],["clips","Clips"],["schedule","Schedule"],["tiktok","TikTok"],["golive","Go live"]];
+var D=null,G=null,state={tab:"overview",filter:"all",q:"",open:{}};
 function $(s,r){return (r||document).querySelector(s)}
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(iso,o){try{return new Date(iso).toLocaleString("en-US",Object.assign({timeZone:ET},o))}catch(e){return ""}}
 function dt(iso){return iso?fmt(iso,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET":"-"}
-function dday(iso){return iso?fmt(iso,{month:"short",day:"numeric"}):"-"}
-function num(v){return typeof v==="number"&&isFinite(v)?v:(v!=null&&v!==""&&!isNaN(+v)?+v:null)}
-function nf(v){v=num(v);return v==null?"n/a":v>=10000?(v/1000).toFixed(v>=100000?0:1)+"k":v.toLocaleString("en-US")}
+function dday(iso){return iso?fmt(iso,{weekday:"short",month:"short",day:"numeric"}):"-"}
 function ago(iso){var m=Math.round((Date.now()-new Date(iso))/60000);if(m<1)return"just now";if(m<60)return m+" min ago";var h=Math.round(m/60);if(h<48)return h+" hr ago";return Math.round(h/24)+" days ago"}
-function pill(st){var s=STATUS[st]||STATUS.waiting;return '<span class="pill '+esc(st)+'"><i aria-hidden="true">'+s[0]+'</i>'+s[1]+'</span>'}
-function clipViews(c){var t=0,any=false;PLAT.forEach(function(p){var v=num(((c.platforms||{})[p.k]||{}).views);if(v!=null){t+=v;any=true}});return any?t:null}
+function pill(cls,sym,txt){return '<span class="pill '+cls+'"><i aria-hidden="true">'+sym+'</i>'+esc(txt)+'</span>'}
 function copy(text,btn){
   function ok(){var o=btn.textContent;btn.textContent="Copied";setTimeout(function(){btn.textContent=o},1200)}
   function fb(){var t=document.createElement("textarea");t.value=text;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{document.execCommand("copy");ok()}catch(e){btn.textContent="Select and copy"}document.body.removeChild(t)}
   try{navigator.clipboard.writeText(text).then(ok,fb)}catch(e){fb()}
 }
 function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||"null");localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
+function flagged(k,id){return (store(k)||[]).indexOf(id)>=0}
+function toggle(k,id){var a=store(k)||[],i=a.indexOf(id);if(i<0)a.push(id);else a.splice(i,1);store(k,a)}
 
-/* ---------- derived numbers ---------- */
-function derive(){
-  var clips=(D.clips||[]).slice();
-  var live=0,sched=0,bad=0,views=0,per={youtube:null,facebook:null,instagram:null};
-  clips.forEach(function(c){
-    var any=false;
-    PLAT.forEach(function(p){var x=(c.platforms||{})[p.k]||{};
-      if(x.status==="posted"){any=true}
-      if(x.status==="scheduled"){sched++}
-      if(x.status==="failed"){bad++}
-      var v=num(x.views);if(v!=null){per[p.k]=(per[p.k]||0)+v;views+=v}
-    });
-    if(any)live++;
+function clips(){return (D.clips||[]).slice()}
+function isFuture(c){return c.slot&&new Date(c.slot)>Date.now()-12*3600*1000}
+function srcName(s){return {twitch:"Twitch clip",old:"Older Twitch clip",mine:"my_clips",tiktok:"From TikTok"}[s]||s}
+function attention(){
+  var a=[];
+  clips().forEach(function(c){
+    if(c.yt_error)a.push("YouTube scheduling failed for \""+c.title+"\": "+c.yt_error);
+    else if(!c.yt_id)a.push("\""+c.title+"\" is not scheduled on YouTube. Post it by hand.");
+    if(isFuture(c)&&!c.video_url)a.push("The video for \""+c.title+"\" is not on this dashboard. Get it from the run's Artifacts.");
   });
-  var now=Date.now();
-  var upcoming=clips.filter(function(c){return c.slot&&new Date(c.slot)>now}).sort(function(a,b){return new Date(a.slot)-new Date(b.slot)});
-  return {clips:clips,live:live,sched:sched,bad:bad,views:views,per:per,upcoming:upcoming};
+  (D.tiktok_posted||[]).forEach(function(t){if(t.status==="needs_download")a.push("TikTok video \""+(t.title||t.id)+"\" needs to be downloaded by hand and posted elsewhere.")});
+  var r=(D.runs||[]).filter(function(x){return !x.dry_run}).slice(-1)[0];
+  if(r)(r.events||[]).forEach(function(e){if(e.kind==="failed")a.push(e.text)});
+  return a;
 }
 
-/* ---------- charts ---------- */
-function niceMax(v){if(v<=0)return 10;var p=Math.pow(10,Math.floor(Math.log10(v))),n=v/p;return (n<=1?1:n<=2?2:n<=5?5:10)*p}
-function lineChart(host,hist,asTable){
-  var pts=(hist||[]).filter(function(h){return h&&h.date});
-  if(!pts.length){host.innerHTML='<div class="empty"><b>No history yet</b>The chart fills in after ClipBot has run a few times.</div>';return}
-  if(asTable){
-    host.innerHTML='<div class="tablebox"><table style="min-width:420px"><thead><tr><th>Date</th>'+PLAT.map(function(p){return'<th class="num">'+p.n+'</th>'}).join("")+'</tr></thead><tbody>'+
-      pts.slice().reverse().map(function(h){return'<tr><td>'+esc(h.date)+'</td>'+PLAT.map(function(p){return'<td class="num">'+nf(h[p.k])+'</td>'}).join("")+'</tr>'}).join("")+'</tbody></table></div>';return}
-  var W=Math.max(300,host.clientWidth||640),H=250,m={l:46,r:(W<520?58:124),t:10,b:28},iw=W-m.l-m.r,ih=H-m.t-m.b;
-  var max=0;pts.forEach(function(h){PLAT.forEach(function(p){var v=num(h[p.k]);if(v!=null&&v>max)max=v})});
-  var ym=niceMax(max),n=pts.length;
-  var X=function(i){return m.l+(n===1?iw/2:iw*i/(n-1))},Y=function(v){return m.t+ih-ih*v/ym};
-  var s='<svg role="img" aria-label="Total views by platform over time" width="'+W+'" height="'+H+'" viewBox="0 0 '+W+' '+H+'">';
-  for(var t=0;t<=4;t++){var v=ym*t/4,y=Y(v);s+='<line class="gridline" x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+y+'" y2="'+y+'"/><text x="'+(m.l-8)+'" y="'+(y+4)+'" text-anchor="end">'+nf(v)+'</text>'}
-  var step=Math.max(1,Math.ceil(n/6));
-  pts.forEach(function(h,i){if(i%step===0||i===n-1){s+='<text x="'+X(i)+'" y="'+(H-8)+'" text-anchor="middle">'+esc(h.date.slice(5))+'</text>'}});
-  var ends=[];
-  PLAT.forEach(function(p){
-    var d="",pen=false,last=null;
-    pts.forEach(function(h,i){var v=num(h[p.k]);if(v==null){pen=false;return}d+=(pen?"L":"M")+X(i).toFixed(1)+" "+Y(v).toFixed(1)+" ";pen=true;last=[i,v]});
-    if(d)s+='<path d="'+d+'" fill="none" stroke="'+p.c+'" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
-    pts.forEach(function(h,i){var v=num(h[p.k]);if(v!=null&&(n<=14||i===n-1))s+='<circle cx="'+X(i)+'" cy="'+Y(v)+'" r="4" fill="'+p.c+'" stroke="var(--surface)" stroke-width="2"/>'});
-    if(last)ends.push({p:p,y:Y(last[1]),v:last[1]});
-  });
-  ends.sort(function(a,b){return a.y-b.y});
-  for(var i=1;i<ends.length;i++){if(ends[i].y-ends[i-1].y<14)ends[i].y=ends[i-1].y+14}
-  ends.forEach(function(e){s+='<text x="'+(W-m.r+10)+'" y="'+(e.y+4)+'" style="fill:var(--ink-2)">'+(W<520?'':e.p.n+' ')+nf(e.v)+'</text>'});
-  s+='<line id="xh" x1="0" x2="0" y1="'+m.t+'" y2="'+(m.t+ih)+'" stroke="var(--ink-3)" stroke-dasharray="3 3" visibility="hidden"/><rect id="ov" x="'+m.l+'" y="'+m.t+'" width="'+iw+'" height="'+ih+'" fill="transparent"/></svg><div class="tipbox" id="tip" hidden></div>';
-  host.innerHTML=s;
-  var svg=$("svg",host),tip=$("#tip",host),xh=$("#xh",host);
-  function move(ev){
-    var r=svg.getBoundingClientRect(),px=ev.clientX-r.left,i=n===1?0:Math.round((px-m.l)/iw*(n-1));
-    i=Math.max(0,Math.min(n-1,i));var h=pts[i];
-    xh.setAttribute("x1",X(i));xh.setAttribute("x2",X(i));xh.setAttribute("visibility","visible");
-    tip.hidden=false;
-    tip.innerHTML='<b>'+esc(h.date)+'</b>'+PLAT.map(function(p){return'<div><span class="sw" style="background:'+p.c+'"></span>'+p.n+': '+nf(h[p.k])+'</div>'}).join("");
-    var tx=X(i)+14;if(tx+170>W)tx=X(i)-174;tip.style.left=tx+"px";tip.style.top="8px";
-  }
-  function leave(){tip.hidden=true;xh.setAttribute("visibility","hidden")}
-  var ov=$("#ov",host);ov.addEventListener("pointermove",move);ov.addEventListener("pointerdown",move);ov.addEventListener("pointerleave",leave);
-}
-function topBars(host,clips){
-  var rows=clips.map(function(c){return{c:c,v:clipViews(c)}}).filter(function(x){return x.v!=null}).sort(function(a,b){return b.v-a.v}).slice(0,8);
-  if(!rows.length){host.innerHTML='<div class="empty"><b>No view counts yet</b>They appear after the first run that can read them.</div>';return}
-  var max=rows[0].v||1;
-  host.innerHTML='<div class="bars">'+rows.map(function(r){
-    return'<div class="barrow" title="'+esc(r.c.title)+': '+r.v+' views"><div class="name">'+esc(r.c.title)+'</div><div class="track"><div class="fill" style="width:'+Math.max(1,r.v/max*100)+'%"></div></div><div class="val">'+nf(r.v)+'</div></div>'}).join("")+'</div>';
-}
-
-/* ---------- tabs ---------- */
-function banner(){
-  var b="";
-  if(D.sample)b+='<div class="banner sample"><b>Sample data.</b><span>This is an example of what you will see. Your real posts appear after the next ClipBot run.</span></div>';
-  else if(D.generated_at&&(Date.now()-new Date(D.generated_at))>30*3600*1000)b+='<div class="banner warn"><b>Data is '+esc(ago(D.generated_at).replace(" ago",""))+' old.</b><span>ClipBot normally runs once a day. Check the Actions tab on GitHub if this keeps growing.</span></div>';
-  return b;
-}
+/* ---------- Overview ---------- */
 function viewOverview(){
-  var d=derive(),next=d.upcoming[0],last=(D.runs||[]).filter(function(r){return !r.dry_run}).slice(-1)[0];
-  var attention=d.clips.filter(function(c){return PLAT.some(function(p){return((c.platforms||{})[p.k]||{}).status==="failed"})});
-  var h=banner();
-  h+='<section class="stats" aria-label="Summary">'+
-    '<div class="stat"><div class="k">Clips posted</div><div class="v">'+d.live+'</div><div class="s">live on at least one platform</div></div>'+
-    '<div class="stat"><div class="k">Scheduled</div><div class="v">'+d.upcoming.length+'</div><div class="s">'+(next?'next: '+dday(next.slot)+', '+esc(next.title):'nothing queued yet')+'</div></div>'+
-    '<div class="stat"><div class="k">Total views</div><div class="v">'+nf(d.views)+'</div><div class="s">YouTube '+nf(d.per.youtube)+' / Facebook '+nf(d.per.facebook)+' / Instagram '+nf(d.per.instagram)+'</div></div>'+
-    '<div class="stat"><div class="k">Last run</div><div class="v" style="font-size:1.35rem">'+(last?esc(ago(last.at)):"no runs yet")+'</div><div class="s">'+(last?esc(dt(last.at)):"")+'</div></div>'+
-  '</section>';
-  if(attention.length){
-    h+='<section class="card"><header><h2>Needs attention</h2><span class="muted">'+attention.length+' clip'+(attention.length>1?'s':'')+' with a failed post</span></header><div class="list">'+attention.map(function(c){
-      return'<div class="item"><div class="l"><div class="title">'+esc(c.title)+'</div>'+PLAT.map(function(p){var x=(c.platforms||{})[p.k]||{};return x.status==="failed"?'<div class="err" style="margin-top:6px"><b>'+p.n+':</b> '+esc(x.error||"Failed, will retry on the next run.")+'</div>':""}).join("")+'</div></div>'}).join("")+'</div></section>';
-  }
-  h+='<div class="cols"><section class="card"><header><h2>Views by platform</h2><button class="btn" id="tbl" type="button">'+(state.asTable?"Show chart":"Show table")+'</button></header>'+
-     '<div class="legend">'+PLAT.map(function(p){return'<span><span class="sw" style="background:'+p.c+'"></span>'+p.n+'</span>'}).join("")+'</div><div class="chartwrap" id="line"></div></section>'+
-     '<section class="card"><header><h2>Top clips</h2><span class="muted">by total views</span></header><div id="bars"></div></section></div>';
-  return h;
-}
-function after_overview(){
-  var d=derive();lineChart($("#line"),D.history,state.asTable);topBars($("#bars"),d.clips);
-  var t=$("#tbl");if(t)t.onclick=function(){state.asTable=!state.asTable;render()};
-}
-function platCell(c,p){
-  var x=(c.platforms||{})[p.k]||{status:"waiting"};
-  var l=x.url?'<a href="'+esc(x.url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">open</a>':"";
-  var stats=(x.status==="posted"||x.status==="scheduled")&&(num(x.views)!=null||num(x.likes)!=null)?'<div class="cellv">'+nf(x.views)+' views / '+nf(x.likes)+' likes / '+nf(x.comments)+' comments</div>':"";
-  var when=x.status==="scheduled"&&c.slot?'<div class="cellv">'+esc(dday(c.slot))+'</div>':"";
-  return pill(x.status)+(x.privacy&&x.status==="posted"&&x.privacy!=="public"?' <span class="sub">'+esc(x.privacy)+'</span>':"")+stats+when+(l?'<div class="sub">'+l+'</div>':"");
-}
-function viewClips(){
-  var d=derive(),rows=d.clips.filter(function(c){
-    var st=PLAT.map(function(p){return((c.platforms||{})[p.k]||{}).status});
-    if(state.filter==="posted"&&st.indexOf("posted")<0)return false;
-    if(state.filter==="scheduled"&&st.indexOf("scheduled")<0)return false;
-    if(state.filter==="failed"&&st.indexOf("failed")<0)return false;
-    if(state.q&&((c.title||"")+" "+(c.game||"")).toLowerCase().indexOf(state.q.toLowerCase())<0)return false;
-    return true;
-  });
-  rows.sort(function(a,b){
-    if(state.sort==="views")return (clipViews(b)||0)-(clipViews(a)||0);
-    return new Date(b.slot||b.at||0)-new Date(a.slot||a.at||0);
-  });
-  var h=banner()+'<div><div class="tools-row"><input type="search" id="q" placeholder="Search clips or games" value="'+esc(state.q)+'" aria-label="Search clips">'+
-    '<div class="chips" role="group" aria-label="Filter">'+["all","posted","scheduled","failed"].map(function(f){return'<button type="button" class="chip" data-f="'+f+'" aria-pressed="'+(state.filter===f)+'">'+f[0].toUpperCase()+f.slice(1)+'</button>'}).join("")+'</div>'+
-    '<select id="sort" aria-label="Sort"><option value="new"'+(state.sort==="new"?" selected":"")+'>Newest first</option><option value="views"'+(state.sort==="views"?" selected":"")+'>Most views</option></select></div>';
-  if(!rows.length)return h+'<div class="empty"><b>No clips match</b>'+(d.clips.length?"Try a different filter or search.":"Clips show up here after ClipBot posts or schedules them.")+'</div></div>';
-  h+='<div class="tablebox"><table><thead><tr><th>Date</th><th>Clip</th>'+PLAT.map(function(p){return'<th><span class="sw" style="background:'+p.c+'"></span>'+p.n+'</th>'}).join("")+'<th class="num">Views</th></tr></thead><tbody>';
-  rows.forEach(function(c){
-    var open=state.open[c.id];
-    h+='<tr class="row" data-id="'+esc(c.id)+'" tabindex="0" aria-expanded="'+!!open+'"><td class="mono">'+esc(dday(c.slot||c.at))+'</td><td><div class="title">'+esc(c.title)+'</div><div class="sub">'+esc(c.game||"")+'</div></td>'+
-      PLAT.map(function(p){return'<td>'+platCell(c,p)+'</td>'}).join("")+'<td class="num mono">'+nf(clipViews(c))+'</td></tr>';
-    if(open){
-      var cap=c.captions||{};
-      h+='<tr class="detail"><td colspan="6"><div class="detail-grid">'+
-        [["YouTube title",cap.yt_title],["Facebook caption",cap.fb],["Instagram caption",cap.ig],["TikTok caption",cap.tt]].filter(function(x){return x[1]}).map(function(x,i){
-          return'<div><h4>'+x[0]+'</h4><pre class="box">'+esc(x[1])+'</pre><button type="button" class="btn" data-copy="'+esc(x[1])+'">Copy</button></div>'}).join("")+
-        '</div>'+PLAT.map(function(p){var x=(c.platforms||{})[p.k]||{};return x.error?'<div class="err" style="margin-top:10px"><b>'+p.n+':</b> '+esc(x.error)+'</div>':""}).join("")+'</td></tr>';
-    }
-  });
-  return h+'</tbody></table></div><p class="sub">Click a clip to see its captions and any errors.</p></div>';
-}
-function viewSchedule(){
-  var d=derive(),q=D.queue||{},s=D.settings||{};
-  var h=banner()+'<section class="card"><header><h2>Coming up</h2><span class="muted">'+(s.schedule_days?s.schedule_days+' days ahead, '+(s.post_hour_et||12)+':00 ET':'')+'</span></header>';
-  if(!d.upcoming.length)h+='<div class="empty"><b>Nothing scheduled</b>ClipBot fills the next days on its next run, as long as it has clips to post.</div>';
-  else h+='<div class="list">'+d.upcoming.map(function(c){return'<div class="item"><div class="l"><div class="title">'+esc(c.title)+'</div><div class="sub">'+esc(c.game||"")+'</div></div><div class="r"><span class="mono">'+esc(dt(c.slot))+'</span>'+
-    PLAT.map(function(p){var x=(c.platforms||{})[p.k]||{};return'<span class="pill '+(x.status==="scheduled"?"scheduled":x.status||"waiting")+'"><span class="sw" style="background:'+p.c+';margin:0"></span>'+(p.k==="instagram"&&x.status!=="posted"?"posts on the day":(STATUS[x.status]||STATUS.waiting)[1])+'</span>'}).join("")+'</div></div>'}).join("")+'</div>';
-  h+='</section><section class="card"><header><h2>Waiting in the queue</h2><span class="muted">'+(q.waiting!=null?q.waiting+' clips not yet used':'')+'</span></header>';
-  h+=(q.next&&q.next.length)?'<ol style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px">'+q.next.map(function(t){return'<li>'+esc(t)+'</li>'}).join("")+'</ol><p class="sub">Next in line, picked by newest first, then most views.</p>':'<div class="empty"><b>Queue unknown</b>This fills in after the next run.</div>';
+  var cl=clips(),up=cl.filter(isFuture),att=attention();
+  var kitsLeft=cl.filter(function(c){return c.source!=="tiktok"&&!flagged("hg-tt-done",c.id)&&(isFuture(c)||!c.slot)}).length;
+  var metaLeft=up.filter(function(c){return !flagged("hg-meta-done",c.id)}).length;
+  var h='<div class="banner"><span>Fresh start as of <b>'+esc(D.since||"today")+'</b>. Everything below is from ClipBot v3.</span></div>';
+  h+='<div class="stats">'+
+    '<div class="stat"><div class="k">Scheduled on YouTube</div><div class="v">'+up.filter(function(c){return c.yt_id}).length+'</div><div class="s">going out on the days shown</div></div>'+
+    '<div class="stat"><div class="k">To schedule on Meta</div><div class="v">'+metaLeft+'</div><div class="s">Facebook and Instagram, by hand</div></div>'+
+    '<div class="stat"><div class="k">TikTok kits to post</div><div class="v">'+kitsLeft+'</div><div class="s">video, caption and comment ready</div></div>'+
+    '<div class="stat"><div class="k">Needs attention</div><div class="v">'+att.length+'</div><div class="s">'+(att.length?"see below":"all clear")+'</div></div></div>';
+  if(att.length)h+='<section class="card"><header><h2>Needs attention</h2></header><div class="list">'+att.map(function(a){return'<div class="err">'+esc(a)+'</div>'}).join("")+'</div></section>';
+  var runs=(D.runs||[]).slice(-5).reverse();
+  h+='<section class="card"><header><h2>Runs</h2><span class="muted">last 5</span></header>';
+  if(!runs.length)h+='<div class="empty"><b>No runs yet</b>Each ClipBot run shows here with anything that went wrong.</div>';
+  else h+='<div class="list">'+runs.map(function(r){
+    var ev=r.events||[],bad=ev.filter(function(e){return e.kind==="failed"||e.kind==="warning"||e.kind==="attention"});
+    var made=ev.filter(function(e){return e.kind==="kit"}).length;
+    var sum=r.dry_run?"Preview only, nothing made":(made?made+" video"+(made===1?"":"s")+" made":"Nothing new to make");
+    return'<div class="item"><div class="l"><div class="title">'+esc(dt(r.at))+' <span class="sub">'+esc(ago(r.at))+'</span></div><div>'+esc(sum)+'</div>'+
+      (ev.length?'<ul class="events">'+ev.map(function(e){var bad2=e.kind==="failed";return'<li>'+pill(bad2?"failed":e.kind==="warning"||e.kind==="attention"?"waiting":"posted",bad2?"!":e.kind==="warning"||e.kind==="attention"?"…":"✓",e.kind)+'<span>'+esc(e.text)+'</span></li>'}).join("")+'</ul>':"")+
+      '</div><div class="r">'+(bad.length?pill("failed","!",bad.length+" issue"+(bad.length===1?"":"s")):pill("posted","✓","No errors"))+(r.url?'<a class="btn" href="'+esc(r.url)+'" target="_blank" rel="noopener">View log</a>':"")+'</div></div>'}).join("")+'</div>';
+  h+='</section>';
+  h+='<section class="card"><header><h2>Next up</h2></header>';
+  h+=up.length?'<div class="list">'+up.slice(0,5).map(function(c){return'<div class="item"><div class="l"><div class="title">'+esc(c.title)+'</div><div class="sub">'+esc(c.game||"")+'</div></div><div class="r"><span class="mono">'+esc(dday(c.slot))+'</span></div></div>'}).join("")+'</div>':'<div class="empty"><b>Nothing scheduled</b>ClipBot adds clips on its next daily run.</div>';
   return h+'</section>';
 }
-function viewRuns(){
-  var runs=(D.runs||[]).slice().reverse();
-  var h=banner();
-  if(!runs.length)return h+'<div class="empty"><b>No runs recorded yet</b>Each ClipBot run adds a line here with what it posted, scheduled and any errors.</div>';
-  return h+'<div class="list">'+runs.map(function(r){
-    var ev=r.events||[],bad=ev.filter(function(e){return e.kind==="failed"}).length,posted=ev.filter(function(e){return e.kind==="posted"||e.kind==="due"}).length,sch=ev.filter(function(e){return e.kind==="scheduled"}).length;
-    var summ=r.dry_run?"Preview only, nothing posted":(posted+sch+bad===0?"Nothing to post":[posted?posted+" posted":"",sch?sch+" scheduled":"",bad?bad+" failed":""].filter(Boolean).join(", "));
-    return'<div class="item"><div class="l"><div class="title">'+esc(dt(r.at))+'</div><div class="sub">'+esc(ago(r.at))+'</div><div style="margin-top:6px">'+esc(summ)+'</div>'+
-      (ev.length?'<ul class="events">'+ev.map(function(e){return'<li>'+pill(e.kind==="failed"?"failed":e.kind==="scheduled"?"scheduled":"posted")+'<span>'+esc((e.platform||"")+" "+(e.title||"")+(e.detail?" - "+e.detail:""))+'</span></li>'}).join("")+'</ul>':"")+'</div>'+
-      '<div class="r">'+(r.url?'<a class="btn" href="'+esc(r.url)+'" target="_blank" rel="noopener">View log</a>':"")+'</div></div>'}).join("")+'</div>';
+
+/* ---------- Clips ---------- */
+function viewClips(){
+  var q=state.q.toLowerCase(),cl=clips().filter(function(c){
+    if(q&&(c.title+" "+(c.game||"")).toLowerCase().indexOf(q)<0)return false;
+    if(state.filter==="scheduled")return isFuture(c);
+    if(state.filter==="out")return !isFuture(c);
+    if(state.filter==="failed")return !!c.yt_error||!c.yt_id;
+    return true}).sort(function(a,b){return new Date(b.slot||b.made||0)-new Date(a.slot||a.made||0)});
+  var h='<div class="tools-row"><input type="search" id="q" placeholder="Search clips or games" value="'+esc(state.q)+'" aria-label="Search clips"><div class="chips" role="group" aria-label="Filter">'+
+    [["all","All"],["scheduled","Scheduled"],["out","Went out"],["failed","Problems"]].map(function(f){return'<button type="button" class="chip" data-f="'+f[0]+'" aria-pressed="'+(state.filter===f[0])+'">'+f[1]+'</button>'}).join("")+'</div></div>';
+  if(!cl.length)return h+'<div class="empty"><b>No clips yet</b>Clips show up here after ClipBot makes them.</div>';
+  h+='<div class="tablebox"><table><thead><tr><th>Day</th><th>Clip</th><th>From</th><th>YouTube</th><th>Title on video</th></tr></thead><tbody>';
+  cl.forEach(function(c){
+    var cap={always:"Shown the whole video",popup:"Shown for 5 seconds",none:"None (stream title or has its own)"}[c.caption_mode]||"";
+    h+='<tr class="row" data-id="'+esc(c.id)+'" tabindex="0" aria-expanded="'+!!state.open[c.id]+'"><td class="mono">'+esc(dday(c.slot||c.made))+'</td><td><div class="title">'+esc(c.title)+'</div><div class="sub">'+esc(c.game||"")+'</div></td><td>'+esc(srcName(c.source))+'</td><td>'+
+      (c.yt_error?pill("failed","!","Failed"):c.yt_id?'<a href="'+esc(c.yt_url)+'" target="_blank" rel="noopener">'+(isFuture(c)?"Scheduled":"Posted")+'</a>':pill("waiting","…","Not scheduled"))+'</td><td>'+esc(cap)+'</td></tr>';
+    if(state.open[c.id]){
+      var k=c.captions||{};
+      h+='<tr class="detail"><td colspan="5"><div class="detail-grid">'+[["YouTube title",k.yt_title],["YouTube description",k.yt_desc],["Facebook caption",k.fb],["Instagram caption",k.ig],["TikTok caption",k.tt]].filter(function(x){return x[1]}).map(function(x){
+        return'<div><h4>'+x[0]+'</h4><pre class="box">'+esc(x[1])+'</pre><button type="button" class="btn" data-copy="'+esc(x[1])+'">Copy</button></div>'}).join("")+'</div>'+(c.yt_error?'<div class="err" style="margin-top:10px"><b>YouTube:</b> '+esc(c.yt_error)+'</div>':"")+'</td></tr>';
+    }
+  });
+  return h+'</tbody></table></div><p class="sub">Click a clip to see its captions.</p>';
 }
+
+/* ---------- Schedule (Facebook and Instagram kit) ---------- */
+function metaCard(c){
+  var k=c.captions||{},done=flagged("hg-meta-done",c.id);
+  return'<div class="card'+(done?" done":"")+'"><header><div><h3>'+esc(c.title)+'</h3><div class="sub">'+esc(c.game||"")+' / '+esc(srcName(c.source))+'</div></div><div><span class="mono"><b>'+esc(dday(c.slot))+', 12:00 PM ET</b></span></div></header>'+
+    '<div class="detail-grid"><div><h4>YouTube</h4>'+(c.yt_error?pill("failed","!","Failed"):c.yt_id?pill("scheduled","◷","Scheduled")+' <a href="'+esc(c.yt_url)+'" target="_blank" rel="noopener">open</a>':pill("waiting","…","Not scheduled"))+'</div>'+
+    '<div><h4>Business Suite checklist</h4><div class="sub" style="line-height:1.7">☐ Post to Facebook and Instagram: both checked<br>☐ Share to story: on<br>☐ Schedule for '+esc(dday(c.slot))+' at 12:00 PM</div></div></div>'+
+    '<div class="detail-grid" style="margin-top:12px">'+[["Facebook caption",k.fb],["Instagram caption",k.ig],["First comment (Facebook and Instagram)",k.fb_comment]].filter(function(x){return x[1]}).map(function(x){
+      return'<div><h4>'+x[0]+'</h4><pre class="box">'+esc(x[1])+'</pre><button type="button" class="btn" data-copy="'+esc(x[1])+'">Copy</button></div>'}).join("")+'</div>'+
+    '<div class="tools-row" style="margin:14px 0 0">'+(c.video_url?'<a class="btn primary" href="'+esc(c.video_url)+'" target="_blank" rel="noopener">Download video</a>':'<span class="pill waiting"><i>…</i>Video expired</span>')+
+    '<button type="button" class="btn" data-meta="'+esc(c.id)+'">'+(done?"Undo":"Mark scheduled on Meta")+'</button></div></div>';
+}
+function viewSchedule(){
+  var up=clips().filter(isFuture).sort(function(a,b){return new Date(a.slot)-new Date(b.slot)});
+  var h='<div class="banner"><span><b>Facebook and Instagram are scheduled by hand</b> (Meta does not let ClipBot do it). Download the video, paste the caption, check both boxes and Share to story, and pick the date shown.</span></div>';
+  if(!up.length)return h+'<div class="empty"><b>Nothing scheduled</b>ClipBot fills the next free days on its daily run.</div>';
+  return h+up.map(metaCard).join("");
+}
+
+/* ---------- TikTok ---------- */
 function viewTikTok(){
-  var done=store("hg-tt-done")||[],cl=derive().clips.filter(function(c){return c.tiktok&&(c.tiktok.video_url||c.captions&&c.captions.tt)});
-  cl.sort(function(a,b){return new Date(a.slot||a.at||0)-new Date(b.slot||b.at||0)});
-  var todo=cl.filter(function(c){return done.indexOf(c.id)<0}).length;
-  var h=banner()+'<div class="banner"><span><b>'+todo+' video'+(todo===1?"":"s")+' waiting to post.</b> Download, upload in TikTok Studio, paste the caption, then add the pinned comment after it goes live. "Mark posted" is saved in this browser only.</span></div>';
-  if(!cl.length)return h+'<div class="empty"><b>No TikTok packages yet</b>Each run adds one here with the video, caption and pinned comment.</div>';
-  return h+'<div class="list">'+cl.map(function(c){
-    var t=c.tiktok||{},cap=(c.captions||{}),isDone=done.indexOf(c.id)>=0;
-    return'<div class="item'+(isDone?" done":"")+'"><div class="l"><div class="title">'+esc(c.title)+'</div><div class="sub">'+esc(c.game||"")+(c.slot?' / '+esc(dday(c.slot)):"")+'</div>'+
-      (cap.tt?'<pre class="box" style="margin-top:8px">'+esc(cap.tt)+'</pre>':"")+(cap.tt_comment?'<div class="sub">Pinned comment</div><pre class="box">'+esc(cap.tt_comment)+'</pre>':"")+'</div>'+
-      '<div class="r" style="align-self:flex-start">'+(t.video_url?'<a class="btn primary" href="'+esc(t.video_url)+'" target="_blank" rel="noopener">Download video</a>':'<span class="pill waiting"><i>…</i>Video expired</span>')+
-      (cap.tt?'<button type="button" class="btn" data-copy="'+esc(cap.tt)+'">Copy caption</button>':"")+(cap.tt_comment?'<button type="button" class="btn" data-copy="'+esc(cap.tt_comment)+'">Copy comment</button>':"")+
-      '<button type="button" class="btn" data-done="'+esc(c.id)+'">'+(isDone?"Undo":"Mark posted")+'</button></div></div>'}).join("")+'</div>';
+  var cl=clips().filter(function(c){return c.source!=="tiktok"}).sort(function(a,b){return new Date(b.slot||b.made||0)-new Date(a.slot||a.made||0)});
+  var left=cl.filter(function(c){return !flagged("hg-tt-done",c.id)}).length;
+  var h='<div class="banner"><span><b>'+left+' video'+(left===1?"":"s")+' waiting for TikTok.</b> Download, upload in TikTok Studio, paste the caption, then add the comment after it goes live.</span></div>';
+  if(!cl.length)h+='<div class="empty"><b>No TikTok kits yet</b>Each video ClipBot makes gets a kit here.</div>';
+  else h+='<div class="list">'+cl.map(function(c){
+    var k=c.captions||{},done=flagged("hg-tt-done",c.id);
+    return'<div class="item'+(done?" done":"")+'"><div class="l"><div class="title">'+esc(c.title)+'</div><div class="sub">'+esc(c.game||"")+' / '+esc(dday(c.slot||c.made))+'</div>'+
+      '<div class="detail-grid" style="margin-top:8px">'+[["TikTok caption",k.tt],["Pinned comment",k.tt_comment],["Tags",k.tags]].filter(function(x){return x[1]}).map(function(x){return'<div><h4>'+x[0]+'</h4><pre class="box">'+esc(x[1])+'</pre><button type="button" class="btn" data-copy="'+esc(x[1])+'">Copy</button></div>'}).join("")+'</div></div>'+
+      '<div class="r" style="align-self:flex-start">'+(c.video_url?'<a class="btn primary" href="'+esc(c.video_url)+'" target="_blank" rel="noopener">Download video</a>':'<span class="pill waiting"><i>…</i>Video expired</span>')+
+      '<button type="button" class="btn" data-tt="'+esc(c.id)+'">'+(done?"Undo":"Mark posted")+'</button></div></div>'}).join("")+'</div>';
+  var tp=D.tiktok_posted||[];
+  h+='<section class="card" style="margin-top:22px"><header><h2>Posted on TikTok directly</h2><span class="muted">checked daily</span></header>';
+  if(!tp.length)h+='<div class="empty"><b>Nothing seen yet</b>New videos on your TikTok page show up here. ClipBot queues them for YouTube and Meta.</div>';
+  else h+='<div class="list">'+tp.map(function(t){
+    var st={queued:["scheduled","◷","Queued for YouTube and Meta"],from_kit:["posted","✓","From a ClipBot kit"],needs_download:["failed","!","Download it by hand, then post elsewhere"],new:["waiting","…","New"]}[t.status]||["waiting","…",t.status];
+    var inItems=clips().some(function(c){return c.id==="tt_"+t.id});
+    if(t.status==="queued"&&inItems)st=["posted","✓","Added to the schedule"];
+    return'<div class="item"><div class="l"><div class="title">'+esc(t.title||t.id)+'</div><div class="sub">'+esc(dday(t.at))+'</div></div><div class="r">'+pill(st[0],st[1],st[2])+'<a class="btn" href="'+esc(t.url)+'" target="_blank" rel="noopener">Open on TikTok</a></div></div>'}).join("")+'</div>';
+  return h+'</section>';
 }
+
+/* ---------- Go live ---------- */
 function viewGoLive(){
-  var h=banner();
   var ch=((G&&G.checks)||[]).slice().reverse();
-  if(!ch.length)return h+'<div class="empty"><b>No checks recorded yet</b>GoLive checks Twitch on Friday, Sunday and Monday evenings. Each check appears here.</div>';
-  return h+'<div class="list">'+ch.map(function(c){return'<div class="item"><div class="l"><div class="title">'+esc(dt(c.at))+'</div><div class="sub">'+(c.live?'Live: '+esc(c.title||"")+(c.game?' ('+esc(c.game)+')':""):'Offline, nothing posted')+'</div></div>'+
-    (c.live?'<div class="r"><span class="pill '+(c.facebook==="posted"?"posted":c.facebook==="failed"?"failed":"waiting")+'"><i>'+(c.facebook==="posted"?"✓":c.facebook==="failed"?"!":"…")+'</i>Facebook '+esc(c.facebook||"")+'</span><span class="pill '+(c.instagram==="posted"?"posted":c.instagram==="failed"?"failed":"waiting")+'"><i>'+(c.instagram==="posted"?"✓":c.instagram==="failed"?"!":"…")+'</i>Instagram '+esc(c.instagram||"")+'</span></div>':"")+'</div>'}).join("")+'</div>';
+  if(!ch.length)return'<div class="empty"><b>No checks recorded yet</b>GoLive checks Twitch every few minutes. Each stream it announces appears here.</div>';
+  function p(v,n){return'<span class="pill '+(v==="posted"?"posted":v==="failed"?"failed":"waiting")+'"><i>'+(v==="posted"?"✓":v==="failed"?"!":"…")+'</i>'+n+' '+esc(v||"")+'</span>'}
+  return'<div class="list">'+ch.map(function(c){return'<div class="item"><div class="l"><div class="title">'+esc(dt(c.at))+'</div><div class="sub">'+(c.live?'Live: '+esc(c.title||"")+(c.game?' ('+esc(c.game)+')':""):'Offline, nothing posted')+'</div></div>'+
+    (c.live?'<div class="r">'+p(c.facebook,"Facebook")+p(c.instagram,"Instagram")+'</div>':"")+'</div>'}).join("")+'</div>';
 }
 
 /* ---------- shell ---------- */
 function tabsHtml(){
-  var d=D?derive():null;
+  var att=D?attention().length:0;
   $("#tabs").innerHTML=TABS.map(function(t){
-    var extra="";
-    if(d&&t[0]==="clips"&&d.bad)extra='<span class="count alert">'+d.bad+'</span>';
-    if(d&&t[0]==="schedule")extra='<span class="count">'+d.upcoming.length+'</span>';
+    var extra=(D&&t[0]==="overview"&&att)?'<span class="count alert">'+att+'</span>':"";
+    if(D&&t[0]==="schedule")extra='<span class="count">'+clips().filter(isFuture).length+'</span>';
     return'<button class="tab" role="tab" type="button" data-tab="'+t[0]+'" aria-selected="'+(state.tab===t[0])+'">'+t[1]+extra+'</button>'}).join("");
 }
 function render(){
   tabsHtml();
   var main=$("#main");
-  if(!D){main.innerHTML='<div class="empty"><b>No data yet</b>ClipBot has not published a data.json file. After its next run with the dashboard turned on, this page fills in.</div>';return}
-  var v={overview:viewOverview,clips:viewClips,schedule:viewSchedule,runs:viewRuns,tiktok:viewTikTok,golive:viewGoLive}[state.tab];
-  main.innerHTML=v();
-  if(state.tab==="overview")after_overview();
+  if(state.tab==="golive"){main.innerHTML=viewGoLive();return}
+  if(!D){main.innerHTML='<div class="empty"><b>No data yet</b>ClipBot has not published data.json. It appears after the next ClipBot run.</div>';return}
+  main.innerHTML={overview:viewOverview,clips:viewClips,schedule:viewSchedule,tiktok:viewTikTok}[state.tab]();
   $("#updated").textContent=D.generated_at?"Updated "+dt(D.generated_at)+" ("+ago(D.generated_at)+")":"";
 }
 document.addEventListener("click",function(e){
   var t=e.target.closest("[data-tab]");if(t){state.tab=t.dataset.tab;try{history.replaceState(null,"","#"+state.tab)}catch(x){}render();return}
   var f=e.target.closest("[data-f]");if(f){state.filter=f.dataset.f;render();return}
   var c=e.target.closest("[data-copy]");if(c){copy(c.dataset.copy,c);return}
-  var dn=e.target.closest("[data-done]");if(dn){var a=store("hg-tt-done")||[],i=a.indexOf(dn.dataset.done);if(i<0)a.push(dn.dataset.done);else a.splice(i,1);store("hg-tt-done",a);render();return}
+  var m=e.target.closest("[data-meta]");if(m){toggle("hg-meta-done",m.dataset.meta);render();return}
+  var tt=e.target.closest("[data-tt]");if(tt){toggle("hg-tt-done",tt.dataset.tt);render();return}
   var r=e.target.closest("tr.row");if(r&&!e.target.closest("a")){state.open[r.dataset.id]=!state.open[r.dataset.id];render()}
 });
 document.addEventListener("keydown",function(e){if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches("tr.row")){e.preventDefault();e.target.click()}});
 document.addEventListener("input",function(e){if(e.target.id==="q"){state.q=e.target.value;var p=e.target.selectionStart;render();var q=$("#q");if(q){q.focus();try{q.setSelectionRange(p,p)}catch(x){}}}});
-document.addEventListener("change",function(e){if(e.target.id==="sort"){state.sort=e.target.value;render()}});
-$("#theme").addEventListener("click",function(){var r=document.documentElement,dark=getComputedStyle(r).getPropertyValue("--bg").trim()==="#121014";r.setAttribute("data-theme",dark?"light":"dark");render()});
-var rt;window.addEventListener("resize",function(){clearTimeout(rt);rt=setTimeout(function(){if(D&&state.tab==="overview")render()},150)});
-
+$("#theme").addEventListener("click",function(){var r=document.documentElement,dark=getComputedStyle(r).getPropertyValue("--bg").trim()==="#121014";r.setAttribute("data-theme",dark?"light":"dark")});
 var h0=(location.hash||"").replace("#","");if(TABS.some(function(t){return t[0]===h0}))state.tab=h0;
 function load(u){return fetch(u+"?t="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
 Promise.all([load("data.json"),load("golive.json")]).then(function(r){D=r[0];G=r[1];render()});
