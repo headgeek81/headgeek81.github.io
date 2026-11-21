@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T23:08:04Z",
+ "generated_at": "2026-11-21T00:01:45Z",
  "since": "2026-11-20",
  "build": "Nov 19 build v3 (fresh rebuild)",
  "clips": [
@@ -9,11 +9,11 @@
    "game": "Grand Theft Auto V",
    "source": "twitch",
    "origin_url": "https://www.twitch.tv/headgeek81/clip/RoughPoliteLobsterDancingBanana-ukkFDhraOO9G54hz",
-   "made": "2026-11-20T23:07:59Z",
-   "slot": "2026-11-21T17:00:00Z",
+   "made": "2026-11-21T00:01:38Z",
+   "slot": "2026-11-22T17:00:00Z",
    "caption_mode": "none",
-   "yt_id": "Trk3acxPI9g",
-   "yt_url": "https://youtu.be/Trk3acxPI9g",
+   "yt_id": "4DsIPlbLnW4",
+   "yt_url": "https://youtu.be/4DsIPlbLnW4",
    "yt_error": "",
    "captions": {
     "yt_title": "GTA VI Prep Road to Affiliate HELP a MAN out | Grand Theft Auto V #Shorts",
@@ -27,7 +27,7 @@
      "twitch clips",
      "funny gaming moments"
     ],
-    "fb": "GTA VI Prep Road to Affiliate HELP a MAN out (Grand Theft Auto V)\n\nLIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\nFull video on YouTube: https://youtu.be/Trk3acxPI9g\n#GrandTheftAutoV #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "fb": "GTA VI Prep Road to Affiliate HELP a MAN out (Grand Theft Auto V)\n\nLIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\nFull video on YouTube: https://youtu.be/4DsIPlbLnW4\n#GrandTheftAutoV #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "ig": "GTA VI Prep Road to Affiliate HELP a MAN out (Grand Theft Auto V)\n\nCatch me LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#GrandTheftAutoV #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
     "tt": "GTA VI Prep Road to Affiliate HELP a MAN out (Grand Theft Auto V)\n#GrandTheftAutoV #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
     "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #GrandTheftAutoV #GamingCommunity #GameplayClips",
@@ -40,9 +40,9 @@
  "tiktok_posted": [],
  "runs": [
   {
-   "at": "2026-11-20T23:08:04Z",
+   "at": "2026-11-21T00:01:45Z",
    "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/44834105943",
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/44840667470",
    "events": [
     {
      "kind": "warning",
@@ -50,11 +50,11 @@
     },
     {
      "kind": "scheduled",
-     "text": "YouTube: \"GTA VI Prep Road to Affiliate HELP a MAN out\" for Nov 21"
+     "text": "YouTube: \"GTA VI Prep Road to Affiliate HELP a MAN out\" for Nov 22"
     },
     {
      "kind": "kit",
-     "text": "Kit ready: \"GTA VI Prep Road to Affiliate HELP a MAN out\" for Sat Nov 21"
+     "text": "Kit ready: \"GTA VI Prep Road to Affiliate HELP a MAN out\" for Sun Nov 22"
     }
    ]
   }
