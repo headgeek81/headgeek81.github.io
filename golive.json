@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T23:55:37Z",
+ "generated_at": "2026-11-21T20:30:07Z",
  "checks": [
   {
    "at": "2026-10-16T20:48:46Z",
@@ -52,6 +52,10 @@
    "game": "Scotophobia",
    "facebook": "posted",
    "instagram": "posted"
+  },
+  {
+   "at": "2026-11-21T20:30:07Z",
+   "live": false
   }
  ]
 }
