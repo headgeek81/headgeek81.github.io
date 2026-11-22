@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T02:14:44Z",
+ "generated_at": "2026-11-22T02:51:06Z",
  "checks": [
   {
    "at": "2026-10-16T20:48:46Z",
@@ -56,6 +56,14 @@
   {
    "at": "2026-11-22T02:14:44Z",
    "live": false
+  },
+  {
+   "at": "2026-11-22T02:51:06Z",
+   "live": true,
+   "title": "**DROPS** GTA VI Road to Affiliate JOIN",
+   "game": "Grand Theft Auto VI",
+   "facebook": "posted",
+   "instagram": "posted"
   }
  ]
 }
