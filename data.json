@@ -1,16 +1,9 @@
 {
- "generated_at": "2026-11-24T03:22:30Z",
+ "generated_at": "2026-11-24T03:59:44Z",
  "since": "2026-11-23",
  "build": "Nov 19 build v3 (fresh rebuild)",
  "clips": [],
  "tiktok_posted": [
-  {
-   "id": "7711546928512634125",
-   "url": "https://www.tiktok.com/@headgeek81/video/7711546928512634125",
-   "title": "",
-   "at": "2026-11-24T01:40:55Z",
-   "status": "queued"
-  },
   {
    "id": "7711541715672337678",
    "url": "https://www.tiktok.com/@headgeek81/video/7711541715672337678",
@@ -23,7 +16,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7711536593194028301",
    "title": "",
    "at": "2026-11-24T01:00:54Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7711531502772751630",
@@ -44,7 +37,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7710626095137049870",
    "title": "Stealth Mode - Failed \ud83d\ude05 At least I got to knock out some rednecks Catch me live on Fri/Sun/Mon at 7pm est to grab some exclusive drops! twitch.tv/headgeek81",
    "at": "2026-11-23T17:10:00Z",
-   "status": "needs_download"
+   "status": "queued"
   },
   {
    "id": "7711168940881349902",
@@ -61,18 +54,11 @@
    "status": "queued"
   },
   {
-   "id": "7711158633236663566",
-   "url": "https://www.tiktok.com/@headgeek81/video/7711158633236663566",
-   "title": "",
-   "at": "2026-11-23T00:34:13Z",
-   "status": "queued"
-  },
-  {
    "id": "7711153476276882702",
    "url": "https://www.tiktok.com/@headgeek81/video/7711153476276882702",
    "title": "",
    "at": "2026-11-23T00:14:13Z",
-   "status": "needs_download"
+   "status": "queued"
   },
   {
    "id": "7711146990364626207",
@@ -80,13 +66,6 @@
    "title": "Thats how its done | on",
    "at": "2026-11-22T23:48:54Z",
    "status": "from_kit"
-  },
-  {
-   "id": "7710625906645060877",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710625906645060877",
-   "title": "No more stupid sh-t (jk) Catch me live on Fri/Sun/Mon at 7pm est to grab some exclusive drops! twitch.tv/headgeek81",
-   "at": "2026-11-22T17:10:00Z",
-   "status": "queued"
   },
   {
    "id": "7710652934672993567",
@@ -106,27 +85,40 @@
    "id": "7710842061058018573",
    "url": "https://www.tiktok.com/@headgeek81/video/7710842061058018573",
    "title": "",
+   "at": "2026-11-22T04:05:36Z",
+   "status": "queued"
+  },
+  {
+   "id": "7711546928512634125",
+   "url": "https://www.tiktok.com/@headgeek81/video/7711546928512634125",
+   "title": "",
    "at": "",
-   "status": "needs_download"
+   "status": "queued"
+  },
+  {
+   "id": "7711158633236663566",
+   "url": "https://www.tiktok.com/@headgeek81/video/7711158633236663566",
+   "title": "",
+   "at": "",
+   "status": "queued"
+  },
+  {
+   "id": "7710625906645060877",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710625906645060877",
+   "title": "No more stupid sh-t (jk) Catch me live on Fri/Sun/Mon at 7pm est to g...",
+   "at": "",
+   "status": "queued"
   }
  ],
  "runs": [
   {
-   "at": "2026-11-24T03:22:29Z",
+   "at": "2026-11-24T03:59:44Z",
    "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45318769777",
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45323030627",
    "events": [
     {
      "kind": "attention",
-     "text": "TikTok video \"Stealth Mode - Failed \ud83d\ude05 At least I got to knock out some rednecks Catch me live on Fri/Sun/Mon at 7pm est to grab some exclusive drops! twitch.tv/headgeek81\" needs to be downloaded by ha"
-    },
-    {
-     "kind": "attention",
-     "text": "TikTok video \"7711153476276882702\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711153476276882702"
-    },
-    {
-     "kind": "attention",
-     "text": "TikTok video \"7710842061058018573\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710842061058018573"
+     "text": "TikTok video \"7711536593194028301\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711536593194028301"
     },
     {
      "kind": "skipped",
