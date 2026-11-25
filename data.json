@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T04:48:11Z",
- "since": "2026-11-23",
+ "generated_at": "2026-11-25T01:27:36Z",
+ "since": "2026-11-24",
  "build": "Nov 19 build v3 (fresh rebuild)",
  "clips": [],
  "tiktok_posted": [
@@ -23,7 +23,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7711536593194028301",
    "title": "",
    "at": "2026-11-24T01:00:54Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7711531502772751630",
@@ -37,7 +37,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7711526242301873421",
    "title": "",
    "at": "2026-11-24T00:20:52Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7710626095137049870",
@@ -47,18 +47,25 @@
    "status": "queued"
   },
   {
+   "id": "7711168940881349902",
+   "url": "https://www.tiktok.com/@headgeek81/video/7711168940881349902",
+   "title": "",
+   "at": "2026-11-23T01:14:15Z",
+   "status": "queued"
+  },
+  {
    "id": "7711163844135046414",
    "url": "https://www.tiktok.com/@headgeek81/video/7711163844135046414",
    "title": "",
    "at": "2026-11-23T00:54:14Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7711158633236663566",
    "url": "https://www.tiktok.com/@headgeek81/video/7711158633236663566",
    "title": "",
    "at": "2026-11-23T00:34:13Z",
-   "status": "needs_download"
+   "status": "queued"
   },
   {
    "id": "7711153476276882702",
@@ -93,40 +100,37 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7710847237592485133",
    "title": "",
    "at": "2026-11-22T04:25:36Z",
-   "status": "needs_download"
-  },
-  {
-   "id": "7710842061058018573",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710842061058018573",
-   "title": "",
-   "at": "2026-11-22T04:05:36Z",
    "status": "queued"
   },
   {
-   "id": "7711168940881349902",
-   "url": "https://www.tiktok.com/@headgeek81/video/7711168940881349902",
-   "title": "",
+   "id": "7710647709535063309",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710647709535063309",
+   "title": "Be honest, was that my fault? Come hang out live on Twitch: https://t...",
    "at": "",
-   "status": "queued"
+   "status": "from_kit"
   }
  ],
  "runs": [
   {
-   "at": "2026-11-24T04:48:10Z",
+   "at": "2026-11-25T01:27:36Z",
    "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45325336166",
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45525667544",
    "events": [
     {
      "kind": "attention",
-     "text": "TikTok video \"7711158633236663566\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711158633236663566"
+     "text": "TikTok video \"7711536593194028301\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711536593194028301"
+    },
+    {
+     "kind": "attention",
+     "text": "TikTok video \"7711526242301873421\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711526242301873421"
+    },
+    {
+     "kind": "attention",
+     "text": "TikTok video \"7711163844135046414\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711163844135046414"
     },
     {
      "kind": "attention",
      "text": "TikTok video \"7711153476276882702\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711153476276882702"
-    },
-    {
-     "kind": "attention",
-     "text": "TikTok video \"7710847237592485133\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710847237592485133"
     },
     {
      "kind": "skipped",
