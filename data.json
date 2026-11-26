@@ -1,9 +1,23 @@
 {
- "generated_at": "2026-11-25T01:27:36Z",
+ "generated_at": "2026-11-26T01:01:36Z",
  "since": "2026-11-24",
  "build": "Nov 19 build v3 (fresh rebuild)",
  "clips": [],
  "tiktok_posted": [
+  {
+   "id": "7710647996333051150",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710647996333051150",
+   "title": "Bridge Jumping (I lost my front bumper lol) Tried to look cool in Grand Theft Auto VI. Chat has the receipts. Come watch Grand Theft Auto VI get ruined live. Link pinned below.",
+   "at": "2026-11-25T16:50:00Z",
+   "status": "queued"
+  },
+  {
+   "id": "7710655628749901069",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710655628749901069",
+   "title": "Wrecked my bike lol",
+   "at": "2026-11-25T16:20:00Z",
+   "status": "queued"
+  },
   {
    "id": "7711546928512634125",
    "url": "https://www.tiktok.com/@headgeek81/video/7711546928512634125",
@@ -23,21 +37,21 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7711536593194028301",
    "title": "",
    "at": "2026-11-24T01:00:54Z",
-   "status": "needs_download"
+   "status": "queued"
   },
   {
    "id": "7711531502772751630",
    "url": "https://www.tiktok.com/@headgeek81/video/7711531502772751630",
    "title": "",
    "at": "2026-11-24T00:40:53Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7711526242301873421",
    "url": "https://www.tiktok.com/@headgeek81/video/7711526242301873421",
    "title": "",
    "at": "2026-11-24T00:20:52Z",
-   "status": "needs_download"
+   "status": "queued"
   },
   {
    "id": "7710626095137049870",
@@ -103,11 +117,67 @@
    "status": "queued"
   },
   {
+   "id": "7710842061058018573",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710842061058018573",
+   "title": "",
+   "at": "2026-11-22T04:05:36Z",
+   "status": "queued"
+  },
+  {
+   "id": "7710836887505620238",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710836887505620238",
+   "title": "",
+   "at": "2026-11-22T03:45:35Z",
+   "status": "queued"
+  },
+  {
+   "id": "7710831692524702989",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710831692524702989",
+   "title": "",
+   "at": "2026-11-22T03:25:34Z",
+   "status": "queued"
+  },
+  {
+   "id": "7710424287554931981",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710424287554931981",
+   "title": "",
+   "at": "2026-11-21T01:04:30Z",
+   "status": "queued"
+  },
+  {
    "id": "7710647709535063309",
    "url": "https://www.tiktok.com/@headgeek81/video/7710647709535063309",
    "title": "Be honest, was that my fault? Come hang out live on Twitch: https://t...",
    "at": "",
    "status": "from_kit"
+  },
+  {
+   "id": "7710826540971363598",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710826540971363598",
+   "title": "",
+   "at": "",
+   "status": "queued"
+  },
+  {
+   "id": "7709267597816089870",
+   "url": "https://www.tiktok.com/@headgeek81/video/7709267597816089870",
+   "title": "Chat, I need you to witness this \ud83d\udc40 I almost drowned \ud83d\ude05 ...",
+   "at": "",
+   "status": "from_kit"
+  },
+  {
+   "id": "7710419098202688782",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710419098202688782",
+   "title": "",
+   "at": "",
+   "status": "needs_download"
+  },
+  {
+   "id": "7710414014655909133",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710414014655909133",
+   "title": "",
+   "at": "",
+   "status": "queued"
   }
  ],
  "runs": [
@@ -139,6 +209,25 @@
     {
      "kind": "skipped",
      "text": "\"I'm taking your hat\" is already on YouTube (Nov 27)"
+    },
+    {
+     "kind": "info",
+     "text": "Everything is scheduled for the next 14 days, so \"**DROPS** Finally GTA VI should have called off Work\" waits for a later run."
+    }
+   ]
+  },
+  {
+   "at": "2026-11-26T01:01:35Z",
+   "dry_run": false,
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45732603072",
+   "events": [
+    {
+     "kind": "attention",
+     "text": "TikTok video \"7710419098202688782\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710419098202688782"
+    },
+    {
+     "kind": "attention",
+     "text": "TikTok video \"7711531502772751630\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711531502772751630"
     },
     {
      "kind": "info",
