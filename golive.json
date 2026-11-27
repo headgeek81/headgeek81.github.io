@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T16:47:37Z",
+ "generated_at": "2026-11-27T01:42:23Z",
  "checks": [
   {
    "at": "2026-10-16T20:48:46Z",
@@ -112,6 +112,14 @@
   {
    "at": "2026-11-26T16:47:37Z",
    "live": false
+  },
+  {
+   "at": "2026-11-27T01:42:23Z",
+   "live": true,
+   "title": "Early Black Friday Shopping with Lucia DROPS",
+   "game": "Grand Theft Auto VI",
+   "facebook": "posted",
+   "instagram": "posted"
   }
  ]
 }
