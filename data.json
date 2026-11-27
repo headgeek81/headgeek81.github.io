@@ -1,21 +1,14 @@
 {
- "generated_at": "2026-11-27T01:45:49Z",
+ "generated_at": "2026-11-27T02:11:50Z",
  "since": "2026-11-24",
  "build": "Nov 19 build v3 (fresh rebuild)",
  "clips": [],
  "tiktok_posted": [
   {
-   "id": "7712657844935331085",
-   "url": "https://www.tiktok.com/@headgeek81/video/7712657844935331085",
+   "id": "7712663018886139150",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712663018886139150",
    "title": "",
-   "at": "2026-11-27T01:31:50Z",
-   "status": "queued"
-  },
-  {
-   "id": "7712652696548904206",
-   "url": "https://www.tiktok.com/@headgeek81/video/7712652696548904206",
-   "title": "",
-   "at": "2026-11-27T01:11:49Z",
+   "at": "2026-11-27T01:51:50Z",
    "status": "queued"
   },
   {
@@ -30,7 +23,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7710648925174172941",
    "title": "Catch me singing along to the Vice City radio twitch.tv/headgeek81",
    "at": "2026-11-26T16:55:00Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7710647996333051150",
@@ -149,7 +142,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7710836887505620238",
    "title": "",
    "at": "2026-11-22T03:45:35Z",
-   "status": "needs_download"
+   "status": "queued"
   },
   {
    "id": "7710831692524702989",
@@ -159,18 +152,25 @@
    "status": "queued"
   },
   {
-   "id": "7710826540971363598",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710826540971363598",
-   "title": "",
-   "at": "2026-11-22T03:05:33Z",
-   "status": "queued"
-  },
-  {
    "id": "7710647709535063309",
    "url": "https://www.tiktok.com/@headgeek81/video/7710647709535063309",
    "title": "Be honest, was that my fault? Come hang out live on Twitch: https://t...",
    "at": "",
    "status": "from_kit"
+  },
+  {
+   "id": "7712657844935331085",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712657844935331085",
+   "title": "",
+   "at": "",
+   "status": "queued"
+  },
+  {
+   "id": "7712652696548904206",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712652696548904206",
+   "title": "",
+   "at": "",
+   "status": "queued"
   },
   {
    "id": "7710655628749901069",
@@ -217,13 +217,13 @@
    ]
   },
   {
-   "at": "2026-11-27T01:45:49Z",
+   "at": "2026-11-27T02:11:49Z",
    "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45924217328",
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45926692116",
    "events": [
     {
      "kind": "attention",
-     "text": "TikTok video \"7710836887505620238\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710836887505620238"
+     "text": "TikTok video \"Catch me singing along to the Vice City radio twitch.tv/headgeek81\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710648925174172941"
     },
     {
      "kind": "info",
