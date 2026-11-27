@@ -1,15 +1,29 @@
 {
- "generated_at": "2026-11-27T01:02:09Z",
+ "generated_at": "2026-11-27T01:45:49Z",
  "since": "2026-11-24",
  "build": "Nov 19 build v3 (fresh rebuild)",
  "clips": [],
  "tiktok_posted": [
   {
+   "id": "7712657844935331085",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712657844935331085",
+   "title": "",
+   "at": "2026-11-27T01:31:50Z",
+   "status": "queued"
+  },
+  {
+   "id": "7712652696548904206",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712652696548904206",
+   "title": "",
+   "at": "2026-11-27T01:11:49Z",
+   "status": "queued"
+  },
+  {
    "id": "7712647536690924814",
    "url": "https://www.tiktok.com/@headgeek81/video/7712647536690924814",
    "title": "",
    "at": "2026-11-27T00:51:48Z",
-   "status": "needs_download"
+   "status": "queued"
   },
   {
    "id": "7710648925174172941",
@@ -135,6 +149,13 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7710836887505620238",
    "title": "",
    "at": "2026-11-22T03:45:35Z",
+   "status": "needs_download"
+  },
+  {
+   "id": "7710831692524702989",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710831692524702989",
+   "title": "",
+   "at": "2026-11-22T03:25:34Z",
    "status": "queued"
   },
   {
@@ -143,13 +164,6 @@
    "title": "",
    "at": "2026-11-22T03:05:33Z",
    "status": "queued"
-  },
-  {
-   "id": "7709267597816089870",
-   "url": "https://www.tiktok.com/@headgeek81/video/7709267597816089870",
-   "title": "Chat, I need you to witness this \ud83d\udc40 I almost drowned \ud83d\ude05",
-   "at": "2026-11-21T17:35:00Z",
-   "status": "from_kit"
   },
   {
    "id": "7710647709535063309",
@@ -164,20 +178,6 @@
    "title": "Wrecked my bike lol #...",
    "at": "",
    "status": "queued"
-  },
-  {
-   "id": "7710831692524702989",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710831692524702989",
-   "title": "",
-   "at": "",
-   "status": "queued"
-  },
-  {
-   "id": "7710424287554931981",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710424287554931981",
-   "title": "",
-   "at": "",
-   "status": "needs_download"
   }
  ],
  "runs": [
@@ -217,17 +217,13 @@
    ]
   },
   {
-   "at": "2026-11-27T01:02:09Z",
+   "at": "2026-11-27T01:45:49Z",
    "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45920016036",
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45924217328",
    "events": [
     {
      "kind": "attention",
-     "text": "TikTok video \"7712647536690924814\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7712647536690924814"
-    },
-    {
-     "kind": "attention",
-     "text": "TikTok video \"7710424287554931981\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710424287554931981"
+     "text": "TikTok video \"7710836887505620238\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710836887505620238"
     },
     {
      "kind": "info",
