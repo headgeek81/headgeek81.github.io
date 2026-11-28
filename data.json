@@ -1,15 +1,77 @@
 {
- "generated_at": "2026-11-27T02:11:50Z",
+ "generated_at": "2026-11-28T00:35:47Z",
  "since": "2026-11-24",
  "build": "Nov 19 build v3 (fresh rebuild)",
- "clips": [],
+ "clips": [
+  {
+   "id": "IntelligentHeadstrongCockroachArgieB8-Tly38VCxuMvP4dZD",
+   "title": "**DROPS** GTA VI Road to Affiliate JOIN",
+   "game": "Grand Theft Auto VI",
+   "source": "twitch",
+   "origin_url": "https://www.twitch.tv/headgeek81/clip/IntelligentHeadstrongCockroachArgieB8-Tly38VCxuMvP4dZD",
+   "made": "2026-11-28T00:35:43Z",
+   "slot": "2026-12-11T17:00:00Z",
+   "caption_mode": "none",
+   "yt_id": "B_b_S9D3Sac",
+   "yt_url": "https://youtu.be/B_b_S9D3Sac",
+   "yt_error": "",
+   "captions": {
+    "yt_title": "**DROPS** GTA VI Road to Affiliate JOIN | Grand Theft Auto VI #Shorts",
+    "yt_desc": "**DROPS** GTA VI Road to Affiliate JOIN in Grand Theft Auto VI.\n\nWatch me play LIVE on Twitch: https://twitch.tv/headgeek81\nSubscribe for more chaos: youtube.com/@HeadGeek81\n\nHeadGeek81 is a gaming streamer on Twitch. Clips from Grand Theft Auto VI, loud reactions, jump scares and unfiltered live moments. Follow and come hang out: https://twitch.tv/headgeek81\n\n#GrandTheftAutoVI #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity",
+    "yt_tags": [
+     "Grand Theft Auto VI gameplay",
+     "gaming",
+     "twitch streamer",
+     "HeadGeek81",
+     "gaming clips",
+     "twitch clips",
+     "funny gaming moments"
+    ],
+    "fb": "**DROPS** GTA VI Road to Affiliate JOIN (Grand Theft Auto VI)\n\nLIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae\nFull video on YouTube: https://youtu.be/B_b_S9D3Sac\n#GrandTheftAutoVI #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "ig": "**DROPS** GTA VI Road to Affiliate JOIN (Grand Theft Auto VI)\n\nCatch me LIVE on Twitch: twitch.tv/headgeek81 (link in bio) \ud83c\udfae\n#GrandTheftAutoVI #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips",
+    "tt": "**DROPS** GTA VI Road to Affiliate JOIN (Grand Theft Auto VI)\n#GrandTheftAutoVI #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer",
+    "tt_comment": "Catch the full run LIVE on Twitch: twitch.tv/headgeek81 \ud83c\udfae #GrandTheftAutoVI #GamingCommunity #GameplayClips",
+    "fb_comment": "Rate that reaction 1 to 10. Dramatic or justified?",
+    "tags": "#GrandTheftAutoVI #GamingCommunity #GameplayClips #FunnyGaming #PCGaming #GamerLife #HeadGeek81 #TwitchStreamer #GamingClips #LiveStreamer #GamerCommunity #TwitchClips"
+   },
+   "video_url": "https://github.com/headgeek81/headgeek81.github.io/releases/download/tiktok/IntelligentHeadstrongCockroachArgieB8-Tly38VCxuMvP4dZD.mp4"
+  }
+ ],
  "tiktok_posted": [
+  {
+   "id": "7710649638629526798",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710649638629526798",
+   "title": "Just for that, I'm taking your hat",
+   "at": "2026-11-27T17:55:00Z",
+   "status": "from_kit"
+  },
+  {
+   "id": "7712713797349281037",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712713797349281037",
+   "title": "",
+   "at": "2026-11-27T05:08:54Z",
+   "status": "queued"
+  },
   {
    "id": "7712663018886139150",
    "url": "https://www.tiktok.com/@headgeek81/video/7712663018886139150",
    "title": "",
    "at": "2026-11-27T01:51:50Z",
    "status": "queued"
+  },
+  {
+   "id": "7712657844935331085",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712657844935331085",
+   "title": "",
+   "at": "2026-11-27T01:31:50Z",
+   "status": "needs_download"
+  },
+  {
+   "id": "7712652696548904206",
+   "url": "https://www.tiktok.com/@headgeek81/video/7712652696548904206",
+   "title": "",
+   "at": "2026-11-27T01:11:49Z",
+   "status": "needs_download"
   },
   {
    "id": "7712647536690924814",
@@ -33,6 +95,13 @@
    "status": "queued"
   },
   {
+   "id": "7710655628749901069",
+   "url": "https://www.tiktok.com/@headgeek81/video/7710655628749901069",
+   "title": "Wrecked my bike lol",
+   "at": "2026-11-25T16:20:00Z",
+   "status": "queued"
+  },
+  {
    "id": "7711546928512634125",
    "url": "https://www.tiktok.com/@headgeek81/video/7711546928512634125",
    "title": "",
@@ -51,7 +120,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7711536593194028301",
    "title": "",
    "at": "2026-11-24T01:00:54Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7711531502772751630",
@@ -65,7 +134,7 @@
    "url": "https://www.tiktok.com/@headgeek81/video/7711526242301873421",
    "title": "",
    "at": "2026-11-24T00:20:52Z",
-   "status": "queued"
+   "status": "needs_download"
   },
   {
    "id": "7710626095137049870",
@@ -138,46 +207,11 @@
    "status": "queued"
   },
   {
-   "id": "7710836887505620238",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710836887505620238",
-   "title": "",
-   "at": "2026-11-22T03:45:35Z",
-   "status": "queued"
-  },
-  {
-   "id": "7710831692524702989",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710831692524702989",
-   "title": "",
-   "at": "2026-11-22T03:25:34Z",
-   "status": "queued"
-  },
-  {
    "id": "7710647709535063309",
    "url": "https://www.tiktok.com/@headgeek81/video/7710647709535063309",
    "title": "Be honest, was that my fault? Come hang out live on Twitch: https://t...",
    "at": "",
    "status": "from_kit"
-  },
-  {
-   "id": "7712657844935331085",
-   "url": "https://www.tiktok.com/@headgeek81/video/7712657844935331085",
-   "title": "",
-   "at": "",
-   "status": "queued"
-  },
-  {
-   "id": "7712652696548904206",
-   "url": "https://www.tiktok.com/@headgeek81/video/7712652696548904206",
-   "title": "",
-   "at": "",
-   "status": "queued"
-  },
-  {
-   "id": "7710655628749901069",
-   "url": "https://www.tiktok.com/@headgeek81/video/7710655628749901069",
-   "title": "Wrecked my bike lol #...",
-   "at": "",
-   "status": "queued"
   }
  ],
  "runs": [
@@ -217,17 +251,37 @@
    ]
   },
   {
-   "at": "2026-11-27T02:11:49Z",
+   "at": "2026-11-28T00:35:47Z",
    "dry_run": false,
-   "url": "https://github.com/headgeek81/ClipBot/actions/runs/45926692116",
+   "url": "https://github.com/headgeek81/ClipBot/actions/runs/46088456177",
    "events": [
+    {
+     "kind": "attention",
+     "text": "TikTok video \"7712657844935331085\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7712657844935331085"
+    },
+    {
+     "kind": "attention",
+     "text": "TikTok video \"7712652696548904206\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7712652696548904206"
+    },
     {
      "kind": "attention",
      "text": "TikTok video \"Catch me singing along to the Vice City radio twitch.tv/headgeek81\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7710648925174172941"
     },
     {
-     "kind": "info",
-     "text": "Everything is scheduled for the next 14 days, so \"**DROPS** Finally GTA VI should have called off Work\" waits for a later run."
+     "kind": "attention",
+     "text": "TikTok video \"7711536593194028301\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711536593194028301"
+    },
+    {
+     "kind": "attention",
+     "text": "TikTok video \"7711526242301873421\" needs to be downloaded by hand and posted elsewhere: https://www.tiktok.com/@headgeek81/video/7711526242301873421"
+    },
+    {
+     "kind": "scheduled",
+     "text": "YouTube: \"**DROPS** GTA VI Road to Affiliate JOIN\" for Dec 11"
+    },
+    {
+     "kind": "kit",
+     "text": "Kit ready: \"**DROPS** GTA VI Road to Affiliate JOIN\" for Fri Dec 11"
     }
    ]
   }
